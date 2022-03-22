@@ -15,8 +15,6 @@
 |---|---|---|---|---|---|---|---|---|
 |inference_asr_model_valid.acc.ave/dev_sc|583|583|8.1|91.9|0.0|0.0|91.9|91.9|
 |inference_asr_model_valid.acc.ave/test_sc|586|586|7.0|93.0|0.0|0.2|93.2|93.0|
-|with_lm_true/dev_sc|583|583|3.3|96.7|0.0|0.0|96.7|96.7|
-|with_lm_true/test_sc|586|586|2.9|97.1|0.0|0.2|97.3|97.1|
 
 ### CER
 
@@ -24,8 +22,6 @@
 |---|---|---|---|---|---|---|---|---|
 |inference_asr_model_valid.acc.ave/dev_sc|583|7210|69.2|27.5|3.2|1.2|32.0|91.9|
 |inference_asr_model_valid.acc.ave/test_sc|586|6991|67.9|28.6|3.5|1.3|33.4|93.0|
-|with_lm_true/dev_sc|583|7210|61.6|25.5|12.8|1.1|39.5|96.7|
-|with_lm_true/test_sc|586|6991|59.8|27.9|12.3|0.9|41.0|97.1|
 
 ### TER
 
@@ -33,6 +29,4 @@
 |---|---|---|---|---|---|---|---|---|
 |inference_asr_model_valid.acc.ave/dev_sc|583|5812|61.1|32.2|6.7|1.2|40.1|91.9|
 |inference_asr_model_valid.acc.ave/test_sc|586|5699|60.0|33.4|6.6|1.3|41.3|93.0|
-|with_lm_true/dev_sc|583|5812|53.8|30.2|16.0|0.8|47.0|96.7|
-|with_lm_true/test_sc|586|5699|52.3|32.3|15.4|1.0|48.7|97.1|
 
