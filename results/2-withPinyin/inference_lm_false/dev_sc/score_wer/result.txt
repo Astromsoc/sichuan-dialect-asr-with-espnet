@@ -1,0 +1,3593 @@
+
+
+
+                     SYSTEM SUMMARY PERCENTAGES by SPEAKER                      
+
+,------------------------------------------------------------------------------------------------.
+|exp/asr_2_withPinyin_raw_sc_bpe350_sp/inference_asr_model_valid.acc.ave/dev_sc/score_wer/hyp.trn|
+|------------------------------------------------------------------------------------------------|
+|  SPKR     |   # Snt    # Wrd   |  Corr        Sub       Del       Ins         Err      S.Err   |
+|-----------+--------------------+---------------------------------------------------------------|
+|  g0001    |     65        65   |   0.0      100.0       0.0     1115.4      1215.4     100.0   |
+|-----------+--------------------+---------------------------------------------------------------|
+|  g0003    |     68        68   |   0.0      100.0       0.0     1108.8      1208.8     100.0   |
+|-----------+--------------------+---------------------------------------------------------------|
+|  g0007    |     58        58   |   0.0      100.0       0.0     1174.1      1274.1     100.0   |
+|-----------+--------------------+---------------------------------------------------------------|
+|  g0008    |     69        69   |   0.0      100.0       0.0     1152.2      1252.2     100.0   |
+|-----------+--------------------+---------------------------------------------------------------|
+|  g0051    |     67        67   |   0.0      100.0       0.0     1103.0      1203.0     100.0   |
+|-----------+--------------------+---------------------------------------------------------------|
+|  g1100    |     64        64   |   0.0      100.0       0.0     1142.2      1242.2     100.0   |
+|-----------+--------------------+---------------------------------------------------------------|
+|  g1103    |     69        69   |   0.0      100.0       0.0     1102.9      1202.9     100.0   |
+|-----------+--------------------+---------------------------------------------------------------|
+|  g1105    |     54        54   |   0.0      100.0       0.0     1064.8      1164.8     100.0   |
+|-----------+--------------------+---------------------------------------------------------------|
+|  g1106    |     69        69   |   0.0      100.0       0.0     1202.9      1302.9     100.0   |
+|================================================================================================|
+|  Sum/Avg  |    583       583   |   0.0      100.0       0.0     1130.5      1230.5     100.0   |
+|================================================================================================|
+|   Mean    |   64.8      64.8   |   0.0      100.0       0.0     1129.6      1229.6     100.0   |
+|   S.D.    |    5.4       5.4   |   0.0        0.0       0.0      42.2        42.2        0.0   |
+|  Median   |   67.0      67.0   |   0.0      100.0       0.0     1115.4      1215.4     100.0   |
+`------------------------------------------------------------------------------------------------'
+
+
+
+                     SYSTEM SUMMARY PERCENTAGES by SPEAKER                      
+
+,------------------------------------------------------------------------------------------------.
+|exp/asr_2_withPinyin_raw_sc_bpe350_sp/inference_asr_model_valid.acc.ave/dev_sc/score_wer/hyp.trn|
+|------------------------------------------------------------------------------------------------|
+|   SPKR    |  # Snt     # Wrd   |   Corr       Sub        Del        Ins       Err      S.Err   |
+|-----------+--------------------+---------------------------------------------------------------|
+|   g0001   |    65         65   |      0        65          0        725       790         65   |
+|-----------+--------------------+---------------------------------------------------------------|
+|   g0003   |    68         68   |      0        68          0        754       822         68   |
+|-----------+--------------------+---------------------------------------------------------------|
+|   g0007   |    58         58   |      0        58          0        681       739         58   |
+|-----------+--------------------+---------------------------------------------------------------|
+|   g0008   |    69         69   |      0        69          0        795       864         69   |
+|-----------+--------------------+---------------------------------------------------------------|
+|   g0051   |    67         67   |      0        67          0        739       806         67   |
+|-----------+--------------------+---------------------------------------------------------------|
+|   g1100   |    64         64   |      0        64          0        731       795         64   |
+|-----------+--------------------+---------------------------------------------------------------|
+|   g1103   |    69         69   |      0        69          0        761       830         69   |
+|-----------+--------------------+---------------------------------------------------------------|
+|   g1105   |    54         54   |      0        54          0        575       629         54   |
+|-----------+--------------------+---------------------------------------------------------------|
+|   g1106   |    69         69   |      0        69          0        830       899         69   |
+|================================================================================================|
+|   Sum     |   583        583   |      0       583          0       6591      7174        583   |
+|================================================================================================|
+|   Mean    |  64.8       64.8   |    0.0      64.8        0.0      732.3     797.1       64.8   |
+|   S.D.    |   5.4        5.4   |    0.0       5.4        0.0       72.7      77.7        5.4   |
+|  Median   |  67.0       67.0   |    0.0      67.0        0.0      739.0     806.0       67.0   |
+`------------------------------------------------------------------------------------------------'
+
+
+		DUMP OF SYSTEM ALIGNMENT STRUCTURE
+
+System name:   exp/asr_2_withPinyin_raw_sc_bpe350_sp/inference_asr_model_valid.acc.ave/dev_sc/score_wer/hyp.trn
+
+Speakers: 
+    0:  g0001
+    1:  g0003
+    2:  g0007
+    3:  g0008
+    4:  g0051
+    5:  g1100
+    6:  g1103
+    7:  g1105
+    8:  g1106
+
+Speaker sentences   0:  g0001   #utts: 65
+id: (g0001-g0001_0036)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  ** ** *** **** *** *** *** *** **** *** 哪里有小学教学视频下啊 
+HYP:  NA LI YOU XIAO XUE JIA XUE SHI LING XIA A                                 
+Eval: I  I  I   I    I   I   I   I   I    I   S                                 
+
+id: (g0001-g0001_0043)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  *** **** **** ** *** **** **** *** *** ***** ** **** **** 怎样从湖北咸阳市到江苏扬州市 
+HYP:  ZEN YANG CONG FU BAI XIAN YANG SHI DAO JIANG SU YANG ZHOU SHI                                        
+Eval: I   I    I    I  I   I    I    I   I   I     I  I    I    S                                          
+
+id: (g0001-g0001_0047)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  *** **** *** **** *** ** ** ***** **** **** 怎样使用高答的专用水贴 
+HYP:  ZEN YANG SHI YONG GAO DA DE ZHUAN YONG SHUI TI                                
+Eval: I   I    I   I    I   I  I  I     I    I    S                                 
+
+id: (g0001-g0001_0056)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  **** ** **** ** ** ***** *** *** ***** *** 什么样的女生讨男生喜欢 
+HYP:  SHEN ME YANG DE NV SHENG TAO NAN SHENG XIE HUA                               
+Eval: I    I  I    I  I  I     I   I   I     I   S                                 
+
+id: (g0001-g0001_0063)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  *** ** ** *** **** ** **** **** *** **** *** **** **** ** *** *** 内地需要什么条件才能在教堂举行婚礼 
+HYP:  NEI DI XU YAO SHEN ME TIAO JIAN CAI NENG ZAI JIAO TANG JU XIN HUN LI                                                  
+Eval: I   I  I  I   I    I  I    I    I   I    I   I    I    I  I   I   S                                                   
+
+id: (g0001-g0001_0095)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  *** **** ** *** ** ** **** ***** ***** *** **** 怎样把文字图片上传到网上 
+HYP:  ZEN YANG BA WEN ZI TU BIAN SHANG CHUAN DAO WANG SHANG                                
+Eval: I   I    I  I   I  I  I    I     I     I   I    S                                    
+
+id: (g0001-g0001_0121)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  ** **** *** **** ** ***** *** **** ** ** *** ** 午睡后身体长时间乏力怎么办. 
+HYP:  WU SHUI HOU SHEN TI CHANG SHI JIAN FA LI ZEN ME BAN                                      
+Eval: I  I    I   I    I  I     I   I    I  I  I   I  S                                        
+
+id: (g0001-g0001_0136)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  **** *** *** *** **** **** *** ** ** *** ** 电脑磁盘空间太低了怎么办 
+HYP:  DIAN NAO CHI PAN KONG JIAN TAI DI LE ZEN ME BAN                                  
+Eval: I    I   I   I   I    I    I   I  I  I   I  S                                    
+
+id: (g0001-g0001_0161)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  *** ** ** ** ** *** *** **** **** *** 在哪里可以下载电影追捕 
+HYP:  ZAI NA LI KE YI XIA ZAI DIAN YING ZUI BO                                
+Eval: I   I  I  I  I  I   I   I    I    I   S                                 
+
+id: (g0001-g0001_0191)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  *** **** ** ** *** ** ** *** **** *** ** **** ** 国税和地税季度报表是一样的吗 
+HYP:  GUO SHUI HE DI SUI JI DU BAO BIAN SHI YI YANG DE MA                                         
+Eval: I   I    I  I  I   I  I  I   I    I   I  I    I  S                                          
+
+id: (g0001-g0001_0192)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  **** ** **** ** ***** **** *** **** *** 什么样的光电鼠标好用 
+HYP:  SHEN ME YANG DE GUANG DIAN SHU BIAO HAO YONG                           
+Eval: I    I  I    I  I     I    I   I    I   S                              
+
+id: (g0001-g0001_0196)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  *** **** ** ** *** *** *** *** **** ** *** *** *** *** *** 为什么我有时候有小肚子有时候没有 
+HYP:  WEI SHEN ME WO YOU SHI HOU YOU XIAO DU ZHI YOU SHI HOU MEI YOU                                              
+Eval: I   I    I  I  I   I   I   I   I    I  I   I   I   I   I   S                                                
+
+id: (g0001-g0001_0211)
+Scores: (#C #S #D #I) 0 1 0 5
+REF:  *** **** **** ** *** 心绞痛的分类 
+HYP:  XIN JIAO TONG DE FEN LEI                
+Eval: I   I    I    I  I   S                  
+
+id: (g0001-g0001_0217)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  **** **** ** ***** ** ** ** *** **** **** ** *** ** 听关于嫦娥的故事用英语怎么说 
+HYP:  TING GUAN YU CHANG WO DE GU SHI YONG YING YU ZEN ME SHUO                                       
+Eval: I    I    I  I     I  I  I  I   I    I    I  I   I  S                                          
+
+id: (g0001-g0001_0219)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  *** **** ** *** **** *** ** ** **** *** 召唤的使命怎么不能运行 
+HYP:  ZAO HUAN DE SHI MING ZEN ME BU NENG YUN XING                              
+Eval: I   I    I  I   I    I   I  I  I    I   S                                 
+
+id: (g0001-g0001_0220)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  *** ** *** **** ** *** **** ***** ** ** **** 怎么才能得到真正的爱情呢 
+HYP:  ZEN ME CAI NENG DE DAO ZHEN ZHENG DE AI QING NE                                   
+Eval: I   I  I   I    I  I   I    I     I  I  I    S                                    
+
+id: (g0001-g0001_0222)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  ** ** *** ** *** ** **** **** ** **** ** *** ** 哪里有可燃气体浓度检测分析器 
+HYP:  NA LI YOU KE RAN QI TIAN LONG DU JIAN CE FEN XI QI                                         
+Eval: I  I  I   I  I   I  I    I    I  I    I  I   I  S                                          
+
+id: (g0001-g0001_0247)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  *** ** *** **** ** **** **** *** ** ** 给我推荐几首英文歌曲吧 
+HYP:  GEI WO TUI JIAN JI SHOU YING WEN GE QU BA                                
+Eval: I   I  I   I    I  I    I    I   I  I  S                                 
+
+id: (g0001-g0001_0259)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  ** *** ** ** * **** *** ** *** **** 去加拿大选哪个银行好 
+HYP:  QU JIA NA DA A XUAN NEI GE YIN HANG HAO                            
+Eval: I  I   I  I  I I    I   I  I   I    S                              
+
+id: (g0001-g0001_0266)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  *** ** **** **** ** ** *** **** *** *** 哪个网站可以在线查词性 
+HYP:  NEI GE WANG ZHAN KE YI ZAI XIAN CHA CHI XING                              
+Eval: I   I  I    I    I  I  I   I    I   I   S                                 
+
+id: (g0001-g0001_0272)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  *** *** ***** ***** *** ** *** **** *** **** *** ** 买下产房后不是终生拥有的吗 
+HYP:  MAI XIA CHUAN HUANG HOU BU SHI ZONG SHI YONG YOU DE MA                                      
+Eval: I   I   I     I     I   I  I   I    I   I    I   I  S                                       
+
+id: (g0001-g0001_0286)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  *** *** ** ** **** ** **** *** **** *** ** **** ** *** *** ** 在百度里能不能查找到普通的人怎么查 
+HYP:  ZAI BAI DU LI NENG BU NENG CHA ZHAO DAO PU TONG DE REN ZEN ME CHA                                                 
+Eval: I   I   I  I  I    I  I    I   I    I   I  I    I  I   I   I  S                                                   
+
+id: (g0001-g0001_0297)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  *** ** **** *** **** **** ** ** ** **** ** *** **** ***** *** **** 怎么样才能让自已的名字在网上被搜到 
+HYP:  ZEN ME YANG CAI NENG RANG ZI JI DE MING ZI ZAI WANG SHANG BEI SHOU DAO                                                 
+Eval: I   I  I    I   I    I    I  I  I  I    I  I   I    I     I   I    S                                                   
+
+id: (g0001-g0001_0308)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  *** *** *** ** *** ***** *** *** *** *** 是德国的谁向犹太人道歉 
+HYP:  SHI BAI GUI DE SHE XIANG YOU TAI REN DAO QIAN                              
+Eval: I   I   I   I  I   I     I   I   I   I   S                                 
+
+id: (g0001-g0001_0312)
+Scores: (#C #S #D #I) 0 1 0 17
+REF:  *** **** *** ** ** ** ** ** ** **** **** ***** *** **** ***** **** ***** 怎样才可以把自己的网站传到网上共享呢 
+HYP:  ZEN YANG CAI KE YI BA ZI JI DE WANG ZHAN CHUAN DAO WANG SHANG GONG XIANG MEI                                                    
+Eval: I   I    I   I  I  I  I  I  I  I    I    I     I   I    I     I    I     S                                                      
+
+id: (g0001-g0001_0319)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  ** ** **** ***** **** *** ** ** ** *** **** 如何网上免费发布物流公司 
+HYP:  RU HE WANG SHANG MIAN FEI FA BU WU LIU GONG SI                                   
+Eval: I  I  I    I     I    I   I  I  I  I   I    S                                    
+
+id: (g0001-g0001_0328)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  *** *** *** **** **** ***** **** **** ** ** *** ** *** **** ** *** 主板采用三相供电回路设计有什么好处 
+HYP:  ZHU BAN CAI YANG SHAN XIANG GONG DIAN HE LU SHE JI YOU SHEN ME HAO CHU                                                 
+Eval: I   I   I   I    I    I     I    I    I  I  I   I  I   I    I  I   S                                                   
+
+id: (g0001-g0001_0332)
+Scores: (#C #S #D #I) 0 1 0 17
+REF:  ***** *** ** **** *** *** ** *** *** *** ** **** ** *** *** ** *** 总是自动弹出一些讨厌的网页该怎么解决 
+HYP:  ZHONG SHI ZI DONG TAN CHU YI XIE TAO YAN DE WANG YE GAI ZEN ME JIE JUE                                                    
+Eval: I     I   I  I    I   I   I  I   I   I   I  I    I  I   I   I  I   S                                                      
+
+id: (g0001-g0001_0365)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  ** ***** *** *** ** ** ** **** 我想有家自己的店面 
+HYP:  WO XIANG YOU JIA ZI JI DE DIAN MIAN                        
+Eval: I  I     I   I   I  I  I  I    S                           
+
+id: (g0001-g0001_0366)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  ** *** ** **** ** ** *** *** *** 何为凸形坡何谓凹形坡 
+HYP:  HE WEI TU XING PO HE WEI HAO XIN MU                             
+Eval: I  I   I  I    I  I  I   I   I   S                              
+
+id: (g0001-g0001_0371)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  *** **** ** *** **** ** ** *** *** ** ** ** **** 为什么思念一个人是那么的痛苦 
+HYP:  WEI SHEN ME SHI LIAN YI GE REN SHI NA ME DE TONG KU                                         
+Eval: I   I    I  I   I    I  I  I   I   I  I  I  I    S                                          
+
+id: (g0001-g0001_0381)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  ** ** *** ** ** ***** ***** **** ** *** *** *** 一个人的一生中什么时候最穷 
+HYP:  YI GE REN DE YI SHENG ZHONG SHEN ME SHI HOU ZUI QIANG                                   
+Eval: I  I  I   I  I  I     I     I    I  I   I   I   S                                       
+
+id: (g0001-g0001_0384)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  ** **** ** **** ***** *** ** *** 氨水的当量怎么计算 
+HYP:  AN SHUI DE GANG LIANG ZEN ME JIE SUAN                        
+Eval: I  I    I  I    I     I   I  I   S                           
+
+id: (g0001-g0001_0405)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  **** *** **** ** ** ***** ** ** ** **** *** *** 找一些关于各种职业的英文单词 
+HYP:  ZHAO XIE GUAN YU GE ZHONG CI YE DE YING WEN DAN CI                                         
+Eval: I    I   I    I  I  I     I  I  I  I    I   I   S                                          
+
+id: (g0001-g0001_0409)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  ** ***** *** ** *** ** ** **** *** ** *** ***** *** 我想要一份业余工作我是中学生 
+HYP:  WO XIANG YAO YI FEN YE YU GONG ZUO WO SHI ZHONG XUE SHENG                                      
+Eval: I  I     I   I  I   I  I  I    I   I  I   I     I   S                                          
+
+id: (g0001-g0001_0442)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  *** **** *** *** ***** ** ** *** **** *** **** *** *** *** **** 南昌到九江的汽车票价现在到多少了 
+HYP:  NAN TONG DAO JIU JIANG DE QI CHE PIAO JIA XIAN ZAI DAO DUO SHAO LE                                               
+Eval: I   I    I   I   I     I  I  I   I    I   I    I   I   I   I    S                                                
+
+id: (g0001-g0001_0452)
+Scores: (#C #S #D #I) 0 1 0 5
+REF:  *** *** *** ** ** 胚包括子叶吗 
+HYP:  TUI BAO KUO ZI YE MA                 
+Eval: I   I   I   I  I  S                  
+
+id: (g0001-g0001_0453)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  ***** *** ***** *** ** *** **** ** **** ** **** *** **** 想在上海购买苹果手提电脑请教 
+HYP:  XIANG ZAI SHANG HAI GE MAI PING GU SHOU JI DIAN NAO QING JIAO                                       
+Eval: I     I   I     I   I  I   I    I  I    I  I    I   I    S                                          
+
+id: (g0001-g0001_0458)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  ** *** *** ** ** *** **** ** *** 二奶这个词是怎么来的 
+HYP:  ER NAI ZHE GE CI SHI SHEN ME LAI DE                             
+Eval: I  I   I   I  I  I   I    I  I   S                              
+
+id: (g0001-g0001_0474)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  ** **** *** ** ***** ** ** **** ** *** ** *** *** *** **** 七情六欲中的七情和六欲分别指什么 
+HYP:  QI QING LIU YU ZHONG DE QI QING HE LIU YU FEN BIE ZHI SHEN ME                                               
+Eval: I  I    I   I  I     I  I  I    I  I   I  I   I   I   I    S                                                
+
+id: (g0001-g0001_0478)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  **** ** ** *** *** ** *** *** ** **** 汉武帝是怎么夺回的兵权 
+HYP:  HANG WU DI SHI ZEN ME DUO FEI DE BING QUAN                              
+Eval: I    I  I  I   I   I  I   I   I  I    S                                 
+
+id: (g0001-g0001_0488)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  *** *** ** **** *** *** *** *** *** ***** **** **** ** *** *** 是蚊子令人讨厌还是苍蝇更令人讨厌 
+HYP:  SHI WEN ZI LING REN TAO YAN HAI SHI CHANG YING DENG DE REN TAO YAN                                              
+Eval: I   I   I  I    I   I   I   I   I   I     I    I    I  I   I   S                                                
+
+id: (g0001-g0001_0489)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  *** ** *** *** ** ***** **** **** 怎么配置吉祥天外挂 
+HYP:  ZEN ME PEI ZHI JI XIANG TIAN WANG BA                          
+Eval: I   I  I   I   I  I     I    I    S                           
+
+id: (g0001-g0001_0491)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  ***** ***** **** *** *** **** ** **** ** 江上往来人但爱什么美 
+HYP:  JIANG SHANG WANG NEI REN GANG AI SHEN ME MEI                            
+Eval: I     I     I    I   I   I    I  I    I  S                              
+
+id: (g0001-g0001_0501)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  ** ** ** ** ** **** **** *** **** 日语语法的网站指点一下 
+HYP:  RI YU YU FA DE WANG ZHAN ZHI DIAN XIAO                              
+Eval: I  I  I  I  I  I    I    I   I    S                                 
+
+id: (g0001-g0001_0509)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  ** ** ** **** ** ** ***** *** *** *** *** *** ** 自己喜欢的女生学习太好怎么办 
+HYP:  ZI JI XI HUAN DE NV SHENG XUE XIN TAI HAO ZEN ME BAN                                        
+Eval: I  I  I  I    I  I  I     I   I   I   I   I   I  S                                          
+
+id: (g0001-g0001_0523)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  ** ** ** *** *** *** **** *** ** *** *** *** *** *** *** 爱一个人要怎样对她她才会感到幸福 
+HYP:  AI YI GE REN YAO ZEN YANG DUI TA TAI CHE HUI GAN DAO XIN FU                                               
+Eval: I  I  I  I   I   I   I    I   I  I   I   I   I   I   I   S                                                
+
+id: (g0001-g0001_0524)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  *** *** *** ** *** ** *** **** ** *** ** 六个月的孩子怎样补铁和钙 
+HYP:  LIU GUO YUE DE HAI ZI ZEN YANG BU TIE HE GAI                                  
+Eval: I   I   I   I  I   I  I   I    I  I   I  S                                    
+
+id: (g0001-g0001_0527)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  ** ***** *** ** **** *** **** ** **** **** **** 医生说我子宫偏小我能怀孕吗 
+HYP:  YI SHENG ZUO ZI GONG PIN XIAO WO NENG HUAI YUAN MA                                      
+Eval: I  I     I   I  I    I   I    I  I    I    I    S                                       
+
+id: (g0001-g0001_0535)
+Scores: (#C #S #D #I) 0 1 0 5
+REF:  *** ** *** *** ** 冷饮会过期吗 
+HYP:  REN YI HUI GUO QI MA                 
+Eval: I   I  I   I   I  S                  
+
+id: (g0001-g0001_0537)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  **** *** **** *** *** *** *** *** *** *** *** *** *** 请问轻音乐对人都有哪些好处呀 
+HYP:  QING WEN QING YIN YUE DUI REN DOU YOU NEI XIE HAO CHU A                                          
+Eval: I    I   I    I   I   I   I   I   I   I   I   I   I   S                                          
+
+id: (g0001-g0001_0544)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  ** ** ** *** ** ** **** **** 哪里需要特氟隆垫圈 
+HYP:  NA LI XU YAO KE FU LONG DIAN QUAN                        
+Eval: I  I  I  I   I  I  I    I    S                           
+
+id: (g0001-g0001_0563)
+Scores: (#C #S #D #I) 0 1 0 6
+REF:  ** ** *** *** **** *** 如何美白手和腿 
+HYP:  RU HE MEI DAI SHOU HUO TUI                   
+Eval: I  I  I   I   I    I   S                     
+
+id: (g0001-g0001_0568)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  *** **** *** ** *** *** *** *** ** *** *** 泰州和武汉有直达的火车吗 
+HYP:  TAI ZHOU HOU WU HAN YOU ZHI DAI DE HUO CHE MA                                   
+Eval: I   I    I   I  I   I   I   I   I  I   I   S                                    
+
+id: (g0001-g0001_0571)
+Scores: (#C #S #D #I) 0 1 0 4
+REF:  *** **** *** ** 究竟怎么做 
+HYP:  JIU JING ZEN ME ZUO             
+Eval: I   I    I   I  S               
+
+id: (g0001-g0001_0591)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  **** *** *** *** ** *** *** **** *** *** **** 参加应聘的时候应注意些什么 
+HYP:  CHAN JIA YIN PIN DE SHI HOU YING ZHU XIE SHEN ME                                      
+Eval: I    I   I   I   I  I   I   I    I   I   I    S                                       
+
+id: (g0001-g0001_0593)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  ** ** **** *** **** ** ** *** ** 如何消除面部的黑色素 
+HYP:  RU HE XIAO CHU MING BU DE HEI SE SU                             
+Eval: I  I  I    I   I    I  I  I   I  S                              
+
+id: (g0001-g0001_0596)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  **** *** ***** ** *** ** ***** *** ** *** *** **** 从新乡去景德镇怎么坐车方便 
+HYP:  CONG XIN XIANG QU JIN DE ZHENG ZEN ME ZUO CHE FANG BIAN                                    
+Eval: I    I   I     I  I   I  I     I   I  I   I   I    S                                       
+
+id: (g0001-g0001_0616)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  ** **** ** ***** ** *** ** ** ** ****** ***** ** 塔吊起重机是如何安装上去的 
+HYP:  KA DIAO QI ZHONG JI SHI RU HE AN ZHUANG SHANG QU DE                                      
+Eval: I  I    I  I     I  I   I  I  I  I      I     I  S                                       
+
+id: (g0001-g0001_0619)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  *** **** **** ***** ** ** *** **** 南京名城古迹是什么 
+HYP:  NAN JING MING CHENG GU JI SHI SHEN ME                          
+Eval: I   I    I    I     I  I  I   I    S                           
+
+id: (g0001-g0001_0620)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  *** **** ** **** **** ** ** **** *** *** ****** **** 有什么软件可以造出话筒音效 
+HYP:  YOU SHEN ME RUAN JIAN KE YI ZHAO SHU HUA CHUANG YING XIAO                                    
+Eval: I   I    I  I    I    I  I  I    I   I   I      I    S                                       
+
+id: (g0001-g0001_0636)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  **** *** *** **** ** **** *** 献血有什么坏处吗 
+HYP:  XIAN XUE YOU SHEN ME HUAI CHU MA                       
+Eval: I    I   I   I    I  I    I   S                        
+
+id: (g0001-g0001_0678)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  ***** *** *** *** **** **** ** **** ** ***** **** ** 上海退休金领取用哪种办法好 
+HYP:  SHANG HAI TUI XIU JING LING QU YONG NA ZHONG FANG FA HAO                                     
+Eval: I     I   I   I   I    I    I  I    I  I     I    I  S                                       
+
+id: (g0001-g0001_0682)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  *** *** ** *** **** **** ** ** ** **** ** ** ***** *** *** 男孩子会让劝自己喜欢的女生喝酒吗 
+HYP:  NAN HAI ZI HUI RANG QUAN ZI JI XI HUAN DE NV SHENG HUO JIU MA                                               
+Eval: I   I   I  I   I    I    I  I  I  I    I  I  I     I   I   S                                                
+
+id: (g0001-g0001_0689)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  *** **** ** **** **** ** **** ***** ** *** 推荐一首关于战争的诗词 
+HYP:  TUI JIAN YI SHOU GUAN YU ZHAN ZHENG DE SHI CI                                
+Eval: I   I    I  I    I    I  I    I     I  I   S                                 
+
+Speaker sentences   1:  g0003   #utts: 68
+id: (g0003-g0003_0041)
+Scores: (#C #S #D #I) 0 1 0 5
+REF:  ****** **** *** ** *** 传真怎么写的 
+HYP:  CHUANG ZHEN ZEN ME XIE DE                 
+Eval: I      I    I   I  I   S                  
+
+id: (g0003-g0003_0047)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  *** *** *** *** ** **** ** *** 三国时哪国经济最好 
+HYP:  SAN GUO SHI NEI GE JING JI ZUI HAO                         
+Eval: I   I   I   I   I  I    I  I   S                           
+
+id: (g0003-g0003_0084)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  *** *** ** *** *** *** *** *** ***** **** 宝安区有哪些民办中小学 
+HYP:  BAO WAN QU YOU NEI XIE MIN BAN ZHONG XIAO XUE                               
+Eval: I   I   I  I   I   I   I   I   I     I    S                                 
+
+id: (g0003-g0003_0095)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  *** *** ** *** ***** ***** ** *** ** **** *** *** ** *** 人口自然增长率最低的是哪个国家 
+HYP:  REN KOU ZI REN ZHENG ZHANG LV ZUI DI DING SHI NEI GE GUO JIA                                           
+Eval: I   I   I  I   I     I     I  I   I  I    I   I   I  I   S                                             
+
+id: (g0003-g0003_0096)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  *** ** **** ** ** *** ** ***** *** **** ** ** ** ** 怎么让一个实习生在公司里吃的开 
+HYP:  ZEN ME RANG YI GE SHI XI SHENG ZAI GONG SI LI CI DE KAI                                           
+Eval: I   I  I    I  I  I   I  I     I   I    I  I  I  I  S                                             
+
+id: (g0003-g0003_0118)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  **** ** *** *** ** **** ** *** *** 什么是白区什么是苏区 
+HYP:  SHEN ME SHI BEI QU SHEN ME SHI SHU QU                             
+Eval: I    I  I   I   I  I    I  I   I   S                              
+
+id: (g0003-g0003_0119)
+Scores: (#C #S #D #I) 0 1 0 5
+REF:  *** ****** ** ** ** 周庄因何得名 
+HYP:  JIU ZHUANG YI HE DE MING               
+Eval: I   I      I  I  I  S                  
+
+id: (g0003-g0003_0122)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  **** **** ** **** **** **** ** ***** *** **** *** ** ** 杭州的点心工具专卖店在哪啊 
+HYP:  HANG ZHOU DE DIAN XING GONG JU ZHUAN MAI DIAN ZAI NA ER A                                       
+Eval: I    I    I  I    I    I    I  I     I   I    I   I  I  S                                       
+
+id: (g0003-g0003_0124)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  **** ** **** ** **** **** ** ** ** **** *** *** 短发烫了用什么打理效果最好 
+HYP:  DUAN FA TANG LE YONG SHEN ME DA LI XIAO GUO ZUI HAO                                     
+Eval: I    I  I    I  I    I    I  I  I  I    I   I   S                                       
+
+id: (g0003-g0003_0140)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  ** ** *** *** *** **** ** ** ***** ** *** 哪里有下载超级女声复活赛 
+HYP:  NA LI YOU XIA ZAI CHAO JU NV SHENG FU HUO SAI                                  
+Eval: I  I  I   I   I   I    I  I  I     I  I   S                                    
+
+id: (g0003-g0003_0152)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  ** *** **** ** **** *** *** ** 考啥样的证书适合我 
+HYP:  KE SHA YANG DE ZHEN SHU SHI HE WO                          
+Eval: I  I   I    I  I    I   I   I  S                           
+
+id: (g0003-g0003_0156)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** **** ** *** ** *** *** **** ** 国庆的温度是多少热吗 
+HYP:  GUO QING DE WEN DU SHI DUO SHAO RE MA                             
+Eval: I   I    I  I   I  I   I   I    I  S                              
+
+id: (g0003-g0003_0173)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  ** *** *** *** *** **** ** ** ** *** ** ** 盖世太保是什么意思出自哪里 
+HYP:  GE SHI TAI BAO SHI SHEN ME YI SI CHU ZI NA LI                                      
+Eval: I  I   I   I   I   I    I  I  I  I   I  I  S                                       
+
+id: (g0003-g0003_0175)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  ** ** **** *** ** ** *** **** *** *** ** *** *** **** 和女朋友去咖啡厅要注意哪些礼仪 
+HYP:  HE NV PENG YOU QU KA FEI TING YAO ZHU YI NEI XIE MING YI                                            
+Eval: I  I  I    I   I  I  I   I    I   I   I  I   I   I    S                                             
+
+id: (g0003-g0003_0177)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  ** **** **** *** ** *** *** ** *** ** 李小龙到底是怎么死的啊 
+HYP:  NI XIAO LONG DAO DI SHI ZEN ME SHI DE A                                 
+Eval: I  I    I    I   I  I   I   I  I   I  S                                 
+
+id: (g0003-g0003_0189)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  *** **** *** ** *** ** *** ***** ** ** *** *** ** *** *** *** 早晨刷牙会有点想吐的感觉可就是没吐 
+HYP:  ZAO CHEN SUO YA HUI YI DUI XIANG TU DE GAN JUE KE JIU SHI MEI TU                                                  
+Eval: I   I    I   I  I   I  I   I     I  I  I   I   I  I   I   I   S                                                   
+
+id: (g0003-g0003_0210)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  *** **** ** *** **** ** **** ** **** ** 为什么老说系统资源不足 
+HYP:  WEI SHEN ME LAO SHUO XI TONG ZI YUAN BU ZHU                               
+Eval: I   I    I  I   I    I  I    I  I    I  S                                 
+
+id: (g0003-g0003_0257)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** **** **** *** ***** **** ** ** *** 怎样清楚上网后的历史 
+HYP:  ZEN YANG QING CHU SHANG WANG HE DE YIN SHI                            
+Eval: I   I    I    I   I     I    I  I  I   S                              
+
+id: (g0003-g0003_0264)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  *** ** ***** ** **** **** *** *** **** **** 毛衣上的静电该怎样消除 
+HYP:  MAO YI SHANG DE JING DIAN GAI ZEN YANG XIAO CHU                               
+Eval: I   I  I     I  I    I    I   I   I    I    S                                 
+
+id: (g0003-g0003_0266)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  ** **** **** ** **** **** **** *** *** ** **** ** **** *** *** *** 佛山金马电影院豪华大厅的票价是多少啊 
+HYP:  FO SHAN JING MA DIAN YING YUAN HAO HUA KA TING DE PIAO JIA SHI DUO SHAO                                                   
+Eval: I  I    I    I  I    I    I    I   I   I  I    I  I    I   I   I   S                                                      
+
+id: (g0003-g0003_0267)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  *** **** ** **** ** *** **** ** *** ** ** **** 学英语听力有什么好的的工具 
+HYP:  XUE YING YU TING LI YOU SHEN ME HAO DI DE GONG JU                                      
+Eval: I   I    I  I    I  I   I    I  I   I  I  I    S                                       
+
+id: (g0003-g0003_0283)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  *** *** ** *** **** *** ** **** ** *** *** ** ** ** ** ** 汉人和回人相爱真的是罪过吗不可以吗 
+HYP:  HAN REN HE HUI NENG XIA AI ZHEN DE SHI ZHU FU MA BU KE YI MA                                                  
+Eval: I   I   I  I   I    I   I  I    I  I   I   I  I  I  I  I  S                                                   
+
+id: (g0003-g0003_0289)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** ** *** ** *** ** *** *** *** 猪不进去怎么办猜星歌 
+HYP:  ZHU BU JIN QU ZEN ME BAN CAI XIN GE                             
+Eval: I   I  I   I  I   I  I   I   I   S                              
+
+id: (g0003-g0003_0290)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  *** **** ** *** **** *** *** *** ** **** **** ** *** 为什么要说华夏有五千年的文明 
+HYP:  WEI SHEN ME YAO SHUO HUA XIA YOU WU QIAN LIAN DE WEN MING                                       
+Eval: I   I    I  I   I    I   I   I   I  I    I    I  I   S                                          
+
+id: (g0003-g0003_0312)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  *** **** ** **** *** *** ***** *** ** **** *** ** 为什么中国邮政没设电话银行 
+HYP:  WEI SHEN ME ZHOU GUO YOU ZHENG MEI SE DIAN HUA YI A                                       
+Eval: I   I    I  I    I   I   I     I   I  I    I   I  S                                       
+
+id: (g0003-g0003_0315)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  *** ** **** ** ** **** *** *** 怎么关闭远程协助 
+HYP:  ZEN ME GUAN BI WU YUAN CUN XIE ZHU                      
+Eval: I   I  I    I  I  I    I   I   S                        
+
+id: (g0003-g0003_0322)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  *** ** ** ** ** *** *** *** 处女第一次会出血吗 
+HYP:  CHU NV DI YI CI HUI CHU XUE MA                          
+Eval: I   I  I  I  I  I   I   I   S                           
+
+id: (g0003-g0003_0324)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  ** *** *** *** **** *** ** *** *** **** *** 如果内存条坏了该怎样检测 
+HYP:  RU GUO NEI CUN TIAO HUA LE GAI ZEN YANG JIN CE                                   
+Eval: I  I   I   I   I    I   I  I   I   I    I   S                                    
+
+id: (g0003-g0003_0326)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  ** ***** *** **** ** *** *** **** 我想改变一下新形象 
+HYP:  WO XIANG GAI BIAN YI XIA XIN XING XIANG                       
+Eval: I  I     I   I    I  I   I   I    S                           
+
+id: (g0003-g0003_0340)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** ***** *** *** ** ****** ** *** *** 在长沙怎么装宽带最好 
+HYP:  ZAI CHANG SHA ZEN ME ZHUANG AN DAI ZUI HAO                            
+Eval: I   I     I   I   I  I      I  I   I   S                              
+
+id: (g0003-g0003_0342)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  **** **** *** **** ** **** **** ** **** 听听这首歌叫什么名字 
+HYP:  TING TING ZHE SHOU GE JIAO SHEN ME MING ZI                             
+Eval: I    I    I   I    I  I    I    I  I    S                              
+
+id: (g0003-g0003_0357)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  **** *** *** *** **** ** ** **** *** ** 周杰伦又有新的女朋友了吗 
+HYP:  ZHOU JIE LUN YOU XING DE NV PENG YOU LE MA                                   
+Eval: I    I   I   I   I    I  I  I    I   I  S                                    
+
+id: (g0003-g0003_0368)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  *** *** *** *** ** *** ** *** *** *** ** 舌头下面起了个泡泡怎么办 
+HYP:  SHE TOU XIA MEN QI LAI LE PAO PAO ZEN ME BAN                                  
+Eval: I   I   I   I   I  I   I  I   I   I   I  S                                    
+
+id: (g0003-g0003_0372)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  **** ** *** *** *** *** *** *** ***** ***** ** ** **** 加图索为啥老是在场上鼓舞情绪 
+HYP:  JIAO TU SUO WEI SHA LAO SHI ZAI CHANG SHANG GU WU QING XU                                         
+Eval: I    I  I   I   I   I   I   I   I     I     I  I  I    S                                          
+
+id: (g0003-g0003_0382)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  *** ** **** ** ** ** ** *** *** ** **** ** ****** ** ** 在福州哪里可以买到个性服装批发的 
+HYP:  ZAI FU ZHOU NA LI KE YI MAI DAO GE XING FU ZHUANG PI FA DE                                               
+Eval: I   I  I    I  I  I  I  I   I   I  I    I  I      I  I  S                                                
+
+id: (g0003-g0003_0385)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  ** *** ***** *** **** ** *** *** *** 历史上有名的士有哪些 
+HYP:  LI SHI SHANG YOU MING DE SHI YOU NEI XIE                            
+Eval: I  I   I     I   I    I  I   I   I   S                              
+
+id: (g0003-g0003_0388)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  **** *** *** *** *** *** ** *** ** *** ** ** *** *** 请问奖门人这个节目在哪里有下载 
+HYP:  QING WEN JIA MEN REN ZHE GE JIN BU ZAI NA LI YOU XIA ZAI                                           
+Eval: I    I   I   I   I   I   I  I   I  I   I  I  I   I   S                                             
+
+id: (g0003-g0003_0391)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  *** *** *** ** ** **** ** ** **** *** ***** **** ** ** ** 知道怎么把登陆器放到传奇目录里吗 
+HYP:  ZHI DAO ZEN ME BA DENG LU QI FANG DAO CHUAN QING BU LU NV MA                                               
+Eval: I   I   I   I  I  I    I  I  I    I   I     I    I  I  I  S                                                
+
+id: (g0003-g0003_0452)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  *** ** *** ** *** **** ** **** *** **** 猫的尾巴为什么总是动啊 
+HYP:  MAO DE WEI BA WEI SHEN ME ZONG SHI DONG A                                 
+Eval: I   I  I   I  I   I    I  I    I   I    S                                 
+
+id: (g0003-g0003_0453)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  **** *** *** ** *** *** *** ** *** *** 唇色淡紫灰色怎么回事啊 
+HYP:  CHUN SHE DAN ZI HUI SHE ZEN ME HUI SHI A                                 
+Eval: I    I   I   I  I   I   I   I  I   I   S                                 
+
+id: (g0003-g0003_0459)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  ** ** ** *** *** *** *** **** ** *** *** *** **** 第一次约会是怎样的会做些什么 
+HYP:  DI YI CI YUE HUI SHI ZEN YANG DE HUI ZUO XIE SHEN ME                                         
+Eval: I  I  I  I   I   I   I   I    I  I   I   I   I    S                                          
+
+id: (g0003-g0003_0466)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  *** *** **** **** ** ** *** **** *** ** *** ***** ** **** ** *** 做保险公司的内勤都需要掌握什么知识 
+HYP:  ZUO BAO XIAN GONG SI DE NEI QING DOU XU YAO ZHANG WO SHEN ME ZHI SHI                                                 
+Eval: I   I   I    I    I  I  I   I    I   I  I   I     I  I    I  I   S                                                   
+
+id: (g0003-g0003_0467)
+Scores: (#C #S #D #I) 0 1 0 5
+REF:  *** **** **** *** ** 怎样消除疤痕 
+HYP:  ZEN YANG XIAO CHU BA HEN                
+Eval: I   I    I    I   I  S                  
+
+id: (g0003-g0003_0479)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  ** *** *** *** ** **** ***** *** **** ** *** **** ** 喝牛奶能不能长高.什么时间喝好 
+HYP:  HE NIU NAI REN BU NENG ZHANG GAO SHEN ME SHI JIAN HE HAO                                         
+Eval: I  I   I   I   I  I    I     I   I    I  I   I    I  S                                           
+
+id: (g0003-g0003_0496)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  ** *** ***** ** **** *** *** *** ** *** *** *** 热血江湖现在最高级别是多少 
+HYP:  RE XUE JIANG FU XIAN ZAI ZUI GAO JI BIE SHI DUO SHAO                                    
+Eval: I  I   I     I  I    I   I   I   I  I   I   I   S                                       
+
+id: (g0003-g0003_0502)
+Scores: (#C #S #D #I) 0 1 0 6
+REF:  *** *** ** **** *** **** 买哪个显卡更好 
+HYP:  MAI NEI GE XIAN KAO GENG HAO                   
+Eval: I   I   I  I    I   I    S                     
+
+id: (g0003-g0003_0514)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  **** *** *** *** *** **** ** ** 春晚是否是同步播出 
+HYP:  QING WEN SHI FOU SHI TONG BU BO CHU                         
+Eval: I    I   I   I   I   I    I  I  S                           
+
+id: (g0003-g0003_0520)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  *** **** **** ** *** **** ** *** *** ** 治疗脚气有什么好办法吗 
+HYP:  ZHI LIAO JIAO QI YOU SHEN ME HAO BAN FA MA                                
+Eval: I   I    I    I  I   I    I  I   I   I  S                                 
+
+id: (g0003-g0003_0527)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  *** *** *** **** ** ** **** *** **** ** *** *** 最近有什么比较好听的音乐嘞 
+HYP:  ZUI JIN YOU SHEN ME BI JIAO HAO TING DE YIN YUE NE                                      
+Eval: I   I   I   I    I  I  I    I   I    I  I   I   S                                       
+
+id: (g0003-g0003_0550)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  **** ***** *** *** **** ***** *** **** **** **** ** *** *** **** 全中国使用梁锦明姓名的有多少人 
+HYP:  QUAN ZHONG GUO SHI YONG LIANG JIN MING XING MING DI YOU DUO SHAO REN                                           
+Eval: I    I     I   I   I    I     I   I    I    I    I  I   I   I    S                                             
+
+id: (g0003-g0003_0556)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  ** ** *** *** *** ***** *** ** ** **** ** *** **** *** 哪里下载这种汉语词典如下面这种 
+HYP:  NA LI XIA ZAI ZHE ZHONG HAI YU CI DIAN RU XIA MIAN ZHE ZHONG                                         
+Eval: I  I  I   I   I   I     I   I  I  I    I  I   I    I   S                                             
+
+id: (g0003-g0003_0578)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  ** *** ** *** ** *** *** *** **** **** 古代女人例假来时用什么 
+HYP:  GU DAI NV REN LI JIA LAI SHI YONG SHEN ME                                
+Eval: I  I   I  I   I  I   I   I   I    I    S                                 
+
+id: (g0003-g0003_0579)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  ** **** ** ** *** *** ** ** ** 丝绸衣服会染吗哪里有 
+HYP:  SI CHOU YI FU HUI LAN MA NA LI YOU                            
+Eval: I  I    I  I  I   I   I  I  I  S                              
+
+id: (g0003-g0003_0580)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  ** *** *** *** *** *** ***** *** ** *** 古代哪些人被称为替罪羊 
+HYP:  GU DAI NEI XIE REN BEI CHENG WEI TI ZEN YANG                              
+Eval: I  I   I   I   I   I   I     I   I  I   S                                 
+
+id: (g0003-g0003_0594)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  *** ** **** ** ** *** **** ** ***** **** *** *** *** **** **** 在大庆如何考会计证儿请谈谈有关情况 
+HYP:  ZAI DA QING RU HE KAO KUAI JI ZHENG QING KAN TAI YOU GUAN QING KUANG                                               
+Eval: I   I  I    I  I  I   I    I  I     I    I   I   I   I    I    S                                                   
+
+id: (g0003-g0003_0605)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  ** ** *** ** *** *** ** *** *** *** *** *** ** *** 斑马到底是黑底白纹还是白底黑纹 
+HYP:  BA MA DAO DI SHI HEI DI BAI WEI HAI SHI BAI DI HEI WEN                                           
+Eval: I  I  I   I  I   I   I  I   I   I   I   I   I  I   S                                             
+
+id: (g0003-g0003_0615)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  ** ** *** ** *** **** ** *** *** *** 哪里有陆雪敏的视频下载 
+HYP:  NA LI YOU LU XUE MING DE SHI PIN XIA ZAI                               
+Eval: I  I  I   I  I   I    I  I   I   I   S                                 
+
+id: (g0003-g0003_0616)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  ** ***** **** *** *** ***** **** ** **** ** ** ** 我想找下载震荡波冲击波补丁 
+HYP:  WO XIANG ZHAO XIA ZAI ZHENG DONG BO CONG JI BO BU DING                                    
+Eval: I  I     I    I   I   I     I    I  I    I  I  I  S                                       
+
+id: (g0003-g0003_0629)
+Scores: (#C #S #D #I) 0 1 0 18
+REF:  *** **** ** *** ** ** ** **** *** *** *** **** *** *** ** ** *** *** 乐靖宜在第七届世界锦标赛获得几枚金牌 
+HYP:  YUE JING YI ZAI DI QI YI JIAN SHI JIE JIN BIAO SHA HUO DE JI MEI JIN TAI                                                    
+Eval: I   I    I  I   I  I  I  I    I   I   I   I    I   I   I  I  I   I   S                                                      
+
+id: (g0003-g0003_0634)
+Scores: (#C #S #D #I) 0 1 0 6
+REF:  *** ***** *** **** *** ** 下身好胖怎么减 
+HYP:  XIA SHENG HAO PANG ZEN ME JIAN                  
+Eval: I   I     I   I    I   I  S                     
+
+id: (g0003-g0003_0642)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  ** *** ** *** ** *** **** 壁球的规则是什么 
+HYP:  BI QIU DE GUI ZE SHI SHEN ME                       
+Eval: I  I   I  I   I  I   I    S                        
+
+id: (g0003-g0003_0648)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  *** **** ** **** *** *** **** *** *** **** *** ** 为什么电脑反应迟钝总是死机 
+HYP:  WEI SHEN ME DIAN NAO FAN YING CHI DUN ZONG SHI SI JI                                      
+Eval: I   I    I  I    I   I   I    I   I   I    I   I  S                                       
+
+id: (g0003-g0003_0650)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  ** **** ** **** ***** *** *** *** 吴小莉凤凰主持美吗 
+HYP:  WU XIAO LI FENG HUANG ZHU CHI MEI MA                          
+Eval: I  I    I  I    I     I   I   I   S                           
+
+id: (g0003-g0003_0671)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  *** **** ** **** **** **** ** **** 为什么深圳那么多骗子 
+HYP:  WEI SHEN ME SHEN ZHEN LANG BU PIAN ZHI                            
+Eval: I   I    I  I    I    I    I  I    S                              
+
+id: (g0003-g0003_0679)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  ** ***** *** **** *** **** *** *** *** ***** ** 女生怎样才能抓住男生的心 
+HYP:  YU SHENG ZEN YANG CAI NENG ZUO ZHU NAN SHENG DE XING                                 
+Eval: I  I     I   I    I   I    I   I   I   I     I  S                                    
+
+id: (g0003-g0003_0680)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  *** **** ** *** *** **** ***** ** *** **** **** ** *** *** ***** 为什么过时间长了矿泉水里面有沉淀 
+HYP:  WEI SHEN ME GUO SHI JIAN CHANG LE HUA QUAN SHUI LI MEI YOU CHENG DIAN                                             
+Eval: I   I    I  I   I   I    I     I  I   I    I    I  I   I   I     S                                                
+
+id: (g0003-g0003_0681)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  **** ** ** ** *** ***** *** ** *** **** ** ** ** 红色衣服染上黑色怎样可以洗掉 
+HYP:  HONG SE YI FU NAN SHANG HEI SE ZEN YANG KE YI XI DIAO                                       
+Eval: I    I  I  I  I   I     I   I  I   I    I  I  I  S                                          
+
+id: (g0003-g0003_0698)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  **** ** ** **** ** ** ** ** *** **** ** *** *** *** *** ***** 什么地方可以批发到便宜的新海干海产品 
+HYP:  SHEN ME DI FANG KE YI PI FA DAO PIAN DE XIN HAI GAN HAI CHENG PIN                                                    
+Eval: I    I  I  I    I  I  I  I  I   I    I  I   I   I   I   I     S                                                      
+
+Speaker sentences   2:  g0007   #utts: 58
+id: (g0007-g0007_0014)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  *** ** *** **** ** ** ** *** *** *** ** *** ** 家里有红色蚂蚁爬来爬去怎么办 
+HYP:  JIA LI YOU HONG SE MO YI PAO LAI TOU QU ZEN ME BAN                                        
+Eval: I   I  I   I    I  I  I  I   I   I   I  I   I  S                                          
+
+id: (g0007-g0007_0018)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  *** **** ** **** **** *** ** **** *** **** **** ** **** 推荐一款免费的卸载软件绿色的 
+HYP:  TUI JIAN YI KUAN MIAN FEI DE XIAN ZAI RUAN JIAN RU SHUI DE                                         
+Eval: I   I    I  I    I    I   I  I    I   I    I    I  I    S                                          
+
+id: (g0007-g0007_0020)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  *** **** *** *** ** *** ***** *** **** ** 怎样使头发看上去变多哦 
+HYP:  ZEN YANG SHI TOU FA KAN SHANG JIE BIAN DU A                                 
+Eval: I   I    I   I   I  I   I     I   I    I  S                                 
+
+id: (g0007-g0007_0026)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  *** ** **** **** ** ** **** **** *** *** ***** 怎么锻炼可以边减肥边长高 
+HYP:  ZEN ME DUAN LIAN KE YI BIAN JIAN FEI BIE ZHANG GAO                                  
+Eval: I   I  I    I    I  I  I    I    I   I   I     S                                    
+
+id: (g0007-g0007_0033)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  *** ** ** *** *** ** ** **** **** *** 处女膜没有破可能怀孕吗 
+HYP:  CHU NV MO MEI YOU PO KE NENG HUAI YUN MA                                
+Eval: I   I  I  I   I   I  I  I    I    I   S                                 
+
+id: (g0007-g0007_0037)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  *** ** *** *** ** ** ** *** *** ** 处女有在第二次流血的吗 
+HYP:  CHU NV YOU ZAI DI ER CI LIU XIE LE MA                                
+Eval: I   I  I   I   I  I  I  I   I   I  S                                 
+
+id: (g0007-g0007_0046)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  ** ***** ** ** ** *** **** ** *** *** **** ** 紫光输入法为什么老是掉链子 
+HYP:  ZI GUANG SU RU FA WEI SHEN ME LAO SHI DIAO LI ZI                                      
+Eval: I  I     I  I  I  I   I    I  I   I   I    I  S                                       
+
+id: (g0007-g0007_0067)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  **** *** ** **** *** **** **** ** **** **** ** **** 现在比较流行什么电影播放器 
+HYP:  XIAN ZAI BI JIAO LIU XING SHEN ME DIAN YING BO FANG QI                                      
+Eval: I    I   I  I    I   I    I    I  I    I    I  I    S                                       
+
+id: (g0007-g0007_0085)
+Scores: (#C #S #D #I) 0 1 0 17
+REF:  ** ** **** ** ** ** *** *** **** *** ** *** *** **** *** ** ** 一个公司的法人代表是不是只能有一个人 
+HYP:  YI GE GONG SI DE FA REN DAI BIAO SHI BU SHI ZHI NENG YOU YI GE REN                                                    
+Eval: I  I  I    I  I  I  I   I   I    I   I  I   I   I    I   I  I  S                                                      
+
+id: (g0007-g0007_0091)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  **** *** *** ** **** **** ** *** ** 爹老司机用英语怎么说 
+HYP:  DIAN NAO SHI JI YONG YING YU ZEN ME SHUO                           
+Eval: I    I   I   I  I    I    I  I   I  S                              
+
+id: (g0007-g0007_0097)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  ** ** *** ** *** *** **** ** *** ** ** ***** ** 和女人约会有什么节目我想不到 
+HYP:  HE NV REN YU HUI YOU SHEN ME JIE MO WO XIANG BU DAO                                        
+Eval: I  I  I   I  I   I   I    I  I   I  I  I     I  S                                          
+
+id: (g0007-g0007_0109)
+Scores: (#C #S #D #I) 0 1 0 17
+REF:  *** ** ** ** ** **** ** ** *** *** ** ** *** ** ** ** **** 手部皮肤比较黑的话适合不适合涂指甲油 
+HYP:  SHA DU PI FU BI JIAO HE DE HUA SHI HE BU SHI HE TU ZI JIAN YONG                                                   
+Eval: I   I  I  I  I  I    I  I  I   I   I  I  I   I  I  I  I    S                                                      
+
+id: (g0007-g0007_0122)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  **** *** **** *** **** ** *** ** ** 红树林为什么是绿色的 
+HYP:  HONG SHU LING WEI SHEN ME SHI LU SE DE                             
+Eval: I    I   I    I   I    I  I   I  I  S                              
+
+id: (g0007-g0007_0123)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  *** ** **** **** *** *** *** ** ** ** **** ** ** 哪个网站有最新的私服登陆器哦 
+HYP:  NEI GE WANG ZHAN YOU ZUI XIN DE SI FU DENG LU QI A                                          
+Eval: I   I  I    I    I   I   I   I  I  I  I    I  I  S                                          
+
+id: (g0007-g0007_0126)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  **** *** *** ** ** **** *** **** ** ***** ** ** ** **** 电脑开机自动运行的程序如何关闭 
+HYP:  DIAN NAO KAI JI ZI DONG YUN XING DE CHENG XU RU HE GUAN BI                                            
+Eval: I    I   I   I  I  I    I   I    I  I     I  I  I  I    S                                             
+
+id: (g0007-g0007_0140)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  *** *** *** ** ** *** **** **** *** **** 林俊杰的个人网站是什么 
+HYP:  LIN JUN JIE DE GE REN WANG ZHAN SHI SHEN ME                                
+Eval: I   I   I   I  I  I   I    I    I   I    S                                 
+
+id: (g0007-g0007_0148)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  ** ***** **** **** *** ** ** ** ** ** ** **** ** *** **** 我想帮朋友的儿子女儿取个名字姓林的 
+HYP:  WO XIANG BANG PENG YOU DE ER JI NV ER QI MING ZI XIN LING DE                                                  
+Eval: I  I     I    I    I   I  I  I  I  I  I  I    I  I   I    S                                                   
+
+id: (g0007-g0007_0160)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** **** ** *** **** ** *** ** ** 买手机买什么牌子的好 
+HYP:  MAI SHOU JI MAI SHEN ME PAI ZI DE HAO                            
+Eval: I   I    I  I   I    I  I   I  I  S                              
+
+id: (g0007-g0007_0204)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  *** ** **** ** ** *** **** ** *** ** **** 肉痣随便去除真的会癌变的 
+HYP:  LIU ZI SHUI DE QU CHU ZHEN DE HUI AI BIAN MA                                   
+Eval: I   I  I    I  I  I   I    I  I   I  I    S                                    
+
+id: (g0007-g0007_0212)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** **** **** *** ** **** ** *** ** 怎样辨别咖啡的优劣呢 
+HYP:  ZEN YANG BIAN BIE KA SHUI DE YOU LI NE                             
+Eval: I   I    I    I   I  I    I  I   I  S                              
+
+id: (g0007-g0007_0226)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  *** *** *** ** *** ** *** ** **** ** *** ** ** **** *** **** 在知道提出的问题关闭后可以删除掉吗 
+HYP:  ZAI ZHI DAO JI CHU DE WEN TI GUAN BI HOU KE YI SHAN CHU DIAO MA                                                  
+Eval: I   I   I   I  I   I  I   I  I    I  I   I  I  I    I   I    S                                                   
+
+id: (g0007-g0007_0227)
+Scores: (#C #S #D #I) 0 1 0 5
+REF:  ***** *** *** ** **** 上海有机房吗 
+HYP:  SHANG HAI YOU JI FANG MA                 
+Eval: I     I   I   I  I    S                  
+
+id: (g0007-g0007_0238)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  *** *** *** **** ** **** ** 破瓜为什么叫破瓜 
+HYP:  TOU GUA WEI SHEN ME JIAO PO BA                       
+Eval: I   I   I   I    I  I    I  S                        
+
+id: (g0007-g0007_0251)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** **** ** ** ***** *** **** ** ** 为什么我总在昏昏欲睡 
+HYP:  WEI SHEN ME WO ZHONG ZAI HONG GU YU SHUI                           
+Eval: I   I    I  I  I     I   I    I  I  S                              
+
+id: (g0007-g0007_0252)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  *** ** ** **** **** *** ** *** **** **** **** ** ** ** 到哪儿能找到古外明星名字的梵音 
+HYP:  DAO NA ER NENG ZHAO DAO GU WAI MING XING MING ZI DE FA YIN                                           
+Eval: I   I  I  I    I    I   I  I   I    I    I    I  I  I  S                                             
+
+id: (g0007-g0007_0258)
+Scores: (#C #S #D #I) 0 1 0 6
+REF:  *** *** ** *** **** ** 人会发出电波吗 
+HYP:  REN HUI FA CHU DIAN BO MA                    
+Eval: I   I   I  I   I    I  S                     
+
+id: (g0007-g0007_0265)
+Scores: (#C #S #D #I) 0 1 0 17
+REF:  ** *** ** *** ** *** *** **** ** ** *** *** **** *** **** **** *** 附近最便宜的出租房多少钱没有 
+HYP:  HE BEI DA XUE FU JIN ZUI PIAN YI DE CHU ZHU FANG DUO SHAO QIAN MEI YOU                                        
+Eval: I  I   I  I   I  I   I   I    I  I  I   I   I    I   I    I    I   S                                          
+
+id: (g0007-g0007_0285)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** ** **** **** *** *** *** ** **** 买二手电脑要注意什么 
+HYP:  MAI ER SHOU DIAN NAO YAO ZHU YI SHEN ME                             
+Eval: I   I  I    I    I   I   I   I  I    S                              
+
+id: (g0007-g0007_0286)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** **** ** *** ** *** **** *** **** 有什么好歌介绍来听听 
+HYP:  YOU SHEN ME HAO GE JIE SHAO LAI TING TING                           
+Eval: I   I    I  I   I  I   I    I   I    S                              
+
+id: (g0007-g0007_0290)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  *** **** ** ** *** *** ** *** ** *** **** **** ** 为什么我下载了主题文件用不了 
+HYP:  WEI SHEN ME WO XIA ZAI LE ZHU TI WEN JIAN YONG BU LIAO                                       
+Eval: I   I    I  I  I   I   I  I   I  I   I    I    I  S                                          
+
+id: (g0007-g0007_0302)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  ** *** **** ***** *** ** *** **** *** ** *** **** ** *** 安徽工商职业学院是个怎样的学校 
+HYP:  AI HUI GONG SHANG ZHI YI XUE YUAN SHI GE ZEN YANG DE XUE XIAO                                          
+Eval: I  I   I    I     I   I  I   I    I   I  I   I    I  I   S                                             
+
+id: (g0007-g0007_0321)
+Scores: (#C #S #D #I) 0 1 0 17
+REF:  ** ** *** **** **** ** *** ***** *** *** ** ** *** *** *** **** *** 哪里有青春期男生性教育的视频学校有用 
+HYP:  NA LI YOU QING CHUN QI NAN SHENG XIN JIA YU DE SHI PIN XUE XIAO YOU YONG                                                   
+Eval: I  I  I   I    I    I  I   I     I   I   I  I  I   I   I   I    I   S                                                      
+
+id: (g0007-g0007_0335)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  *** **** *** **** ***** ** **** **** *** **** **** 在红楼梦中道拐月是谁命名的 
+HYP:  ZAI HONG LOU MENG ZHONG DA GUAN YUAN ZHI SHUI MING DE                                      
+Eval: I   I    I   I    I     I  I    I    I   I    I    S                                       
+
+id: (g0007-g0007_0346)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** **** ** *** ** ** ** *** ****** 为什么有些猫也会装死 
+HYP:  WEI SHEN ME YOU XI MA YI HUI ZHUANG SHI                            
+Eval: I   I    I  I   I  I  I  I   I      S                              
+
+id: (g0007-g0007_0359)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  **** *** *** ** *** *** *** ** *** ** ** **** ** ** 两只老虎外挂在哪下知道准确地址 
+HYP:  LIAN ZHI LAO HU WAI GUO ZAI NA XIA GE DE ZHUN QU DI ZHI                                           
+Eval: I    I   I   I  I   I   I   I  I   I  I  I    I  I  S                                             
+
+id: (g0007-g0007_0360)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  *** ** **** **** ** ** *** *** **** *** ** *** ** **** 哪个网站可以下载免费的删毒软件 
+HYP:  NEI GE WANG ZHAN KE YI XIA ZAI MIAN FEI DE SHE DU RUAN JIAN                                          
+Eval: I   I  I    I    I  I  I   I   I    I   I  I   I  I    S                                             
+
+id: (g0007-g0007_0373)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  **** ** ** *** ** ** *** **** ** *** **** ** **** ** ** *** 天气预报的播报顺序是按什么顺序播报的 
+HYP:  TIAN QI YI BAO DE BO BAO SONG XU SAN SHEN ME SHUN XU BO BAO DE                                                     
+Eval: I    I  I  I   I  I  I   I    I  I   I    I  I    I  I  I   S                                                      
+
+id: (g0007-g0007_0398)
+Scores: (#C #S #D #I) 0 1 0 17
+REF:  **** *** *** *** **** *** ** **** *** **** **** ** *** ** **** ** ***** 现在哪些工作比较有前景我是一名大专生 
+HYP:  XIAN ZAI NEI XIE GONG ZUO BI JIAO YOU QIAN JING WU SHI YI MING DA ZHUAN SHENG                                                  
+Eval: I    I   I   I   I    I   I  I    I   I    I    I  I   I  I    I  I     S                                                      
+
+id: (g0007-g0007_0415)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  ** **** *** *** **** **** ** ** ** ** ** **** *** 福州哪些网站可以发布二手信息 
+HYP:  FU ZHOU NEI XIE WANG ZHAN KE YI FA BU ER SHOU XIN XI                                         
+Eval: I  I    I   I   I    I    I  I  I  I  I  I    I   S                                          
+
+id: (g0007-g0007_0434)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  **** ** *** **** ** *** ** 什么是教育费附加 
+HYP:  SHEN ME SHI JIAO RU FEI FU JIAO                     
+Eval: I    I  I   I    I  I   I  S                        
+
+id: (g0007-g0007_0450)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  **** ** **** **** *** **** ** ** ** ** *** *** ** 天道酬勤是什么意思我写对了吗 
+HYP:  TIAN DA CHOU QING SHI SHEN ME YI SI WU XIE DUI LE MA                                         
+Eval: I    I  I    I    I   I    I  I  I  I  I   I   I  S                                          
+
+id: (g0007-g0007_0467)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  *** *** *** **** *** ** ** ** ** ** 男人也关心自己的皮肤吗 
+HYP:  NAN REN YAN GUAN XIN ZI JI DE PI FU MA                                
+Eval: I   I   I   I    I   I  I  I  I  I  S                                 
+
+id: (g0007-g0007_0478)
+Scores: (#C #S #D #I) 0 1 0 6
+REF:  ** ** ** *** *** ** 去哪里下载艺术 
+HYP:  QU NA LI XIA ZAI YI SHU                   
+Eval: I  I  I  I   I   I  S                     
+
+id: (g0007-g0007_0480)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  **** *** ** *** *** ** *** **** *** *** ** *** *** **** *** 请问离军事科学院最近的考研点在哪儿 
+HYP:  QING WEN LI JUN SHI KE XUE YUAN ZUI JIN DE KAO YAN DIAN ZAI NA                                                  
+Eval: I    I   I  I   I   I  I   I    I   I   I  I   I   I    I   S                                                   
+
+id: (g0007-g0007_0514)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  ** **** **** ** **** **** **** *** ** **** 大灵通与小灵通哪个较好 
+HYP:  DA LING TONG NV XIAO LING TONG NEI GE JIAO HAO                               
+Eval: I  I    I    I  I    I    I    I   I  I    S                                 
+
+id: (g0007-g0007_0517)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  **** **** *** **** **** ** **** 元宵跟汤圆一样吗 
+HYP:  YUAN XIAO GEN TANG YUAN YI YANG MA                       
+Eval: I    I    I   I    I    I  I    S                        
+
+id: (g0007-g0007_0557)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  *** *** ** *** ** ** *** *** *** ** *** **** 结婚了春节要回老家吗为什么 
+HYP:  JIE HUN LE CUN JI YA HUI LAO JIA MA WEI SHEN ME                                      
+Eval: I   I   I  I   I  I  I   I   I   I  I   I    S                                       
+
+id: (g0007-g0007_0562)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  *** ** *** *** **** **** **** ** 怎么没有天堂票去要 
+HYP:  ZEN ME MEI YOU TIAN TANG PIAO QU YA                          
+Eval: I   I  I   I   I    I    I    I  S                           
+
+id: (g0007-g0007_0577)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  ***** *** *** ** *** ***** *** **** ** *** *** *** 上海市第四中学什么时候开学 
+HYP:  SHANG HAI SHI DI SHI ZHONG XUE SHEN ME SHI HOU KAI XUE                                     
+Eval: I     I   I   I  I   I     I   I    I  I   I   I   S                                       
+
+id: (g0007-g0007_0589)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  *** **** ** **** **** ***** ** ** *** **** ***** ***** ***** 为什么说早上立了秋晚上凉飕飕 
+HYP:  WEI SHEN ME SHUO ZHAO SHANG NI LE QIU GUAN SHANG LIANG SHENG SUO                                        
+Eval: I   I    I  I    I    I     I  I  I   I    I     I     I     S                                          
+
+id: (g0007-g0007_0592)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  ** ** *** **** **** *** **** *** **** **** **** ** *** **** *** 哪里有销售心脑舒通胶囊的经理脑洞 
+HYP:  NA LI YOU XIAO SHOU XIN LANG SHU TONG JIAO LANG DE JIE LING LAO DONG                                             
+Eval: I  I  I   I    I    I   I    I   I    I    I    I  I   I    I   S                                                
+
+id: (g0007-g0007_0599)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  **** ***** **** *** ***** **** *** ** *** **** *** ***** *** ** **** ** 从广州到长隆欢乐世界有专门的公车吗 
+HYP:  CONG GUANG ZHOU DAO CHANG LONG HUA LU SHI JIAN YOU ZHUAN MEN DE GONG CE MA                                                  
+Eval: I    I     I    I   I     I    I   I  I   I    I   I     I   I  I    I  S                                                   
+
+id: (g0007-g0007_0607)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  **** ** ***** **** ** ** *** *** *** **** ** ** *** 网页中切入的视频文件如何下载 
+HYP:  WANG YE ZHONG QIAN RU DE SHI PIN WEN JIAN RU HE XIA ZAI                                        
+Eval: I    I  I     I    I  I  I   I   I   I    I  I  I   S                                          
+
+id: (g0007-g0007_0615)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  *** **** ** **** ** **** ** *** **** *** *** ** 为什么觉得什么事情都没意思 
+HYP:  WEI SHEN ME JIAO DE SHEN ME SHI QING DOU MEI YI SI                                      
+Eval: I   I    I  I    I  I    I  I   I    I   I   I  S                                       
+
+id: (g0007-g0007_0628)
+Scores: (#C #S #D #I) 0 1 0 17
+REF:  *** **** *** ** ** **** ** ***** ** **** ** **** **** **** **** ** **** 北京哪个医院确诊女性乳房疼痛病比较好 
+HYP:  BEI JING NEI GE YI YUAN QU ZHENG LV XING RU FANG TENG TONG BING BI JIAO HAO                                                    
+Eval: I   I    I   I  I  I    I  I     I  I    I  I    I    I    I    I  I    S                                                      
+
+id: (g0007-g0007_0637)
+Scores: (#C #S #D #I) 0 1 0 6
+REF:  **** *** *** **** ** ** 周杰伦抄袭了么 
+HYP:  ZHOU JIE LUN CHAO XI LE MA                    
+Eval: I    I   I   I    I  I  S                     
+
+id: (g0007-g0007_0655)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  *** ** ** **** **** ** *** *** 打了耳洞对耳朵影响 
+HYP:  DAO NA ER DONG DIAN ER DUO YIN XIANG                       
+Eval: I   I  I  I    I    I  I   I   S                           
+
+id: (g0007-g0007_0699)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  ** *** *** *** *** *** *** **** *** **** *** *** *** *** 柯南漫画出到多少画了有没有出啊 
+HYP:  KE NAN MAN HUA CHU DAO DUO SHAO HUA LANG YOU MEI YOU CHU WAN                                           
+Eval: I  I   I   I   I   I   I   I    I   I    I   I   I   I   S                                             
+
+Speaker sentences   3:  g0008   #utts: 69
+id: (g0008-g0008_0005)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  ** ** *** *** ** ** ** *** *** ***** ** ** *** 哪里有哈利波特音乐专辑的下载 
+HYP:  NA LI YOU HAO DE BO TE YIN YUE ZHUAN JI DE XIA ZAI                                        
+Eval: I  I  I   I   I  I  I  I   I   I     I  I  I   S                                          
+
+id: (g0008-g0008_0009)
+Scores: (#C #S #D #I) 0 1 0 17
+REF:  *** ** ** ** **** *** *** *** *** *** *** *** *** ** *** **** *** 在哪可以免费下载漫画好多都不是免费的 
+HYP:  ZAI NA KE YI MIAN FEI XIA ZAI MAN HUA HAO DUO DOU BU SHI MIAN FEI DE                                                     
+Eval: I   I  I  I  I    I   I   I   I   I   I   I   I   I  I   I    I   S                                                      
+
+id: (g0008-g0008_0010)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  *** *** *** ** *** **** *** ** *** **** ** *** ** 白菜甘薯堆放久了为什么会发热 
+HYP:  BEI CAI GAN SU DUI FANG JIU LE WEI SHEN ME HUI FA NE                                         
+Eval: I   I   I   I  I   I    I   I  I   I    I  I   I  S                                          
+
+id: (g0008-g0008_0021)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  **** *** *** **** *** *** ** ** ** 电脑运行较慢如何提速 
+HYP:  DIAN NAO YUN XING JIA MAN RU HE TI SHU                            
+Eval: I    I   I   I    I   I   I  I  I  S                              
+
+id: (g0008-g0008_0024)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  ** ** **** *** *** *** **** ** *** **** 如何鉴别是否真的是水货 
+HYP:  RU HE JIAN BIE SHI FOU ZHEN DE SHI SHUI HUO                               
+Eval: I  I  I    I   I   I   I    I  I   I    S                                 
+
+id: (g0008-g0008_0050)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  **** *** ***** *** ** **** ****** *** *** *** **** **** 现在上海普通装修要多少钱啊 
+HYP:  XIAN ZAI SHANG HAI PU TONG ZHUANG XIU YAO DUO SHAO QIAN A                                       
+Eval: I    I   I     I   I  I    I      I   I   I   I    I    S                                       
+
+id: (g0008-g0008_0057)
+Scores: (#C #S #D #I) 0 1 0 6
+REF:  ***** ** ** **** *** **** 光驱图标是什么 
+HYP:  GUANG QU TU BIAO SHI SHEN ME                    
+Eval: I     I  I  I    I   I    S                     
+
+id: (g0008-g0008_0059)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  ** **** *** ** *** **** ** *** *** *** **** **** ** **** ** 大小苏打是什么化学式用什么用区别 
+HYP:  DA XIAO SHU DA SHI SHEN ME HUA XUE SHI YONG SHEN ME YONG QU BIE                                              
+Eval: I  I    I   I  I   I    I  I   I   I   I    I    I  I    I  S                                                
+
+id: (g0008-g0008_0067)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  *** **** *** **** **** *** **** 多囊卵巢能流产吗 
+HYP:  DUO LANG WAN CHAO NENG LIU CHAN MA                       
+Eval: I   I    I   I    I    I   I    S                        
+
+id: (g0008-g0008_0090)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  *** **** **** *** *** **** ** ***** **** ** 怎样删除指定的上网记录 
+HYP:  ZEN YANG SHAN CHU ZHI DING DE SHANG WANG JI LU                                
+Eval: I   I    I    I   I   I    I  I     I    I  S                                 
+
+id: (g0008-g0008_0113)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  *** *** **** ** ** ** **** *** ***** **** *** ** 泡泡堂服务器连接中断怎么办 
+HYP:  PAO PAO TANG FU WU QI LIAN JIE ZHONG DUAN ZEN ME BAN                                     
+Eval: I   I   I    I  I  I  I    I   I     I    I   I  S                                       
+
+id: (g0008-g0008_0133)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  **** **** *** **** *** ** ***** *** ** 电动车电瓶哪种最可靠 
+HYP:  DIAN DONG CHE DIAN PIN NA ZHONG ZUI KE KAO                            
+Eval: I    I    I   I    I   I  I     I   I  S                              
+
+id: (g0008-g0008_0143)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  **** *** *** *** ** ** *** **** ** **** 请问台湾第一化工的网址 
+HYP:  QING WEN TAI WAN DI YI HUA GONG DE WANG ZHI                               
+Eval: I    I   I   I   I  I  I   I    I  I    S                                 
+
+id: (g0008-g0008_0145)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  ***** *** *** *** ** *** *** ** **** ** ** 上海最近的书展在什么地方 
+HYP:  SHANG HAI ZUI JIN DE SHU ZAI LE SHEN ME DI FANG                                 
+Eval: I     I   I   I   I  I   I   I  I    I  I  S                                    
+
+id: (g0008-g0008_0149)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  *** ** ** **** **** ** ** *** *** *** ** ** ***** 告诉我深圳哪里有石头记的专卖 
+HYP:  GAO SU WO SHEN ZHEN NA LI YOU SHI TOU JI DE ZHUAN MAI                                        
+Eval: I   I  I  I    I    I  I  I   I   I   I  I  I     S                                          
+
+id: (g0008-g0008_0154)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  *** **** *** *** *** ** *** ** ** *** **** ** *** *** 北京有制造汽车的吗有什么品牌的 
+HYP:  BEI JING YOU ZHI ZUO QI CHE DE MA YOU SHEN ME PIN PAI DE                                            
+Eval: I   I    I   I   I   I  I   I  I  I   I    I  I   I   S                                             
+
+id: (g0008-g0008_0172)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  **** ***** *** *** *** ** *** *** **** **** ** ** ** 脸上过敏但不知道原因如何预防 
+HYP:  LIAN SHANG GUO MIN GAI BU ZHI DAO YUAN YING RU HE YU FANG                                       
+Eval: I    I     I   I   I   I  I   I   I    I    I  I  I  S                                          
+
+id: (g0008-g0008_0179)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  *** **** ***** ** ** **** ** ***** *** **** ** ** **** 治疗肠易激综合症有什么特效药 
+HYP:  ZHI LIAO ZHANG YI JI ZONG HE ZHENG YOU SHEN ME TE XIAO LU                                         
+Eval: I   I    I     I  I  I    I  I     I   I    I  I  I    S                                          
+
+id: (g0008-g0008_0188)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  **** **** ** **** ** **** ** *** *** ** **** 联通基站的编码是怎么编的 
+HYP:  LIAN TONG JI ZHAN DE BIAN MA SHI ZEN ME BIAN DE                                   
+Eval: I    I    I  I    I  I    I  I   I   I  I    S                                    
+
+id: (g0008-g0008_0190)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  *** **** ** ***** *** ** ** ** *** *** ** **** 北航和中国科技大学哪个更好 
+HYP:  BAI HANG HE ZHONG GUO KE JI DA XUE NEI GE GENG HAO                                     
+Eval: I   I    I  I     I   I  I  I  I   I   I  I    S                                       
+
+id: (g0008-g0008_0193)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  *** **** ** ** ** **** *** *** ** ** ** **** ** *** ** ** 为什么我不能买劲舞衣服快点儿告诉我呀 
+HYP:  WEI SHEN ME WO BU NENG MAI JIN WU YI FU KUAI DE GAO SU WO YA                                                     
+Eval: I   I    I  I  I  I    I   I   I  I  I  I    I  I   I  I  S                                                      
+
+id: (g0008-g0008_0196)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  *** ** *** ** *** ** **** *** *** ** 处女座和哪个星座最合适 
+HYP:  CHU NV ZUO HE NEI GE XING ZUO ZUI HE SHI                               
+Eval: I   I  I   I  I   I  I    I   I   I  S                                 
+
+id: (g0008-g0008_0199)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  *** ** **** *** *** ** *** 怎么删除雅虎推手 
+HYP:  ZEN ME SHAN CHU YAO HU TUI SHOU                     
+Eval: I   I  I    I   I   I  I   S                        
+
+id: (g0008-g0008_0208)
+Scores: (#C #S #D #I) 0 1 0 17
+REF:  *** ** ** ** **** *** *** *** ** ** ** *** ** ***** ** *** ** 在哪可以找到山西医科大学的详细信息啊 
+HYP:  ZAI NA KE YI ZHAO DAO SAN XIN YI KE DA XUE DE XIANG XI XIN XI A                                                      
+Eval: I   I  I  I  I    I   I   I   I  I  I  I   I  I     I  I   I  S                                                      
+
+id: (g0008-g0008_0235)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  ** ** *** **** ***** ** **** ** *** 如何治疗强制性脊柱炎 
+HYP:  RU HE ZHI LIAO QIANG ZI XING JI ZHU YAN                            
+Eval: I  I  I   I    I     I  I    I  I   S                              
+
+id: (g0008-g0008_0243)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  *** **** *** *** *** *** ** **** 怎样阻止弹出的网站 
+HYP:  ZEN YANG ZHU ZHI DAN CHU DE WANG ZHAN                        
+Eval: I   I    I   I   I   I   I  I    S                           
+
+id: (g0008-g0008_0274)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  ** ** *** **** *** **** *** **** ** **** ** **** 如何才能完全卸掉不用的网卡 
+HYP:  RU HE CAI NENG WAN QUAN XIE DIAO BU YONG DE WANG KA                                      
+Eval: I  I  I   I    I   I    I   I    I  I    I  I    S                                       
+
+id: (g0008-g0008_0277)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  ** ** ***** *** **** ** *** 如何成为经济学家 
+HYP:  RU HE CHENG WEI JING JI XUE JIA                      
+Eval: I  I  I     I   I    I  I   S                        
+
+id: (g0008-g0008_0280)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  *** *** ** ***** ** ** ** 有会发光的植物吗 
+HYP:  YOU HUI FA GUANG DE ZI MU MA                       
+Eval: I   I   I  I     I  I  I  S                        
+
+id: (g0008-g0008_0288)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  **** ***** ** ** ** *** *** **** **** ** *** ** ** * **** *** 联想机里的内存条是什么牌子的啊硬盘呢 
+HYP:  LIAN XIANG JI LI DE NEI CUN TIAO SHEN ME PAI ZI DE A YING PAN NE                                                     
+Eval: I    I     I  I  I  I   I   I    I    I  I   I  I  I I    I   S                                                      
+
+id: (g0008-g0008_0292)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  ***** ** *** **** **** ** *** ** *** ** 声卡被禁用了怎么恢复呀 
+HYP:  SHENG KA BEI JING YONG LE ZEN ME HUI FU YA                                
+Eval: I     I  I   I    I    I  I   I  I   I  S                                 
+
+id: (g0008-g0008_0303)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  *** **** ** **** ***** *** ** ** *** *** *** *** 再见阿郎中幼齿的扮演者是谁 
+HYP:  ZAI JIAN AO LANG ZHONG YOU CI DE BAN YAN ZHE SHI SHUI                                    
+Eval: I   I    I  I    I     I   I  I  I   I   I   I   S                                       
+
+id: (g0008-g0008_0312)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  ** *** *** *** *** ** **** ** *** *** ** *** 服饰有哪些知名的高级的品牌 
+HYP:  FU SHI YOU NEI XIE ZI MING DE GAO JIE DE PIN PAI                                     
+Eval: I  I   I   I   I   I  I    I  I   I   I  I   S                                       
+
+id: (g0008-g0008_0330)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  *** ** **** ** **** *** *** ** *** ** *** **** 劲舞团的账号注册还得掏钱吗 
+HYP:  JIN WU TUAN DE ZHAO HOU ZHU CE HAI DE TAO QIAN MA                                      
+Eval: I   I  I    I  I    I   I   I  I   I  I   I    S                                       
+
+id: (g0008-g0008_0342)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  ** ** **** *** *** ***** *** *** *** ** 可以同时报成考和自考吗 
+HYP:  KE YI TONG SHI BAO CHENG KAO HUO ZHI KA MA                                
+Eval: I  I  I    I   I   I     I   I   I   I  S                                 
+
+id: (g0008-g0008_0364)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  ** *** **** ** *** *** *** ** ** *** *** ** ** **** **** ** 一头水牛和一只老虎打架哪个的胜算大些 
+HYP:  YI TOU SHUI NI HUI ZHI LAO HU DA JIA NEI GE DE SHOU CHAN DA XIE                                                    
+Eval: I  I   I    I  I   I   I   I  I  I   I   I  I  I    I    I  S                                                      
+
+id: (g0008-g0008_0380)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  **** *** **** *** *** **** ** *** *** ** 电脑显示屏变绿是怎么了 
+HYP:  DIAN NAO XIAN SHI PIN BIAN LV SHI ZEN ME LE                                
+Eval: I    I   I    I   I   I    I  I   I   I  S                                 
+
+id: (g0008-g0008_0403)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  ** ** *** *** ** **** ** ** **** *** ** ** **** *** **** 哪里有支持顶级域名绑定的免费空间 
+HYP:  NA LI YOU ZHI CI DING JI YU MING BAN LI DE MIAN FEI KONG JIAN                                             
+Eval: I  I  I   I   I  I    I  I  I    I   I  I  I    I   I    S                                                
+
+id: (g0008-g0008_0404)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  ** ** *** ** ** *** **** *** ** *** *** **** 如何查一个学校有无办学条件 
+HYP:  RU HE CHA YI GE XUE XIAO YOU WU BAN XUE TIAO JIAN                                    
+Eval: I  I  I   I  I  I   I    I   I  I   I   I    S                                       
+
+id: (g0008-g0008_0409)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  *** ** ***** **** *** **** **** *** *** ***** *** **** 本科生工作一年后职称是什么 
+HYP:  BEN KE SHENG GONG ZUO YING NIAN HOU ZHI CHENG SHI SHEN ME                                      
+Eval: I   I  I     I    I   I    I    I   I   I     I   I    S                                       
+
+id: (g0008-g0008_0431)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  *** **** ** *** **** *** *** ** ***** *** ** *** ** 为什么铂金戒指比黄金的价格贵 
+HYP:  WEI SHEN ME BEI JING JIE ZHI BI HUANG JIN DE JIA GE GUO                                        
+Eval: I   I    I  I   I    I   I   I  I     I   I  I   I  S                                          
+
+id: (g0008-g0008_0438)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  *** **** *** **** ** ** ****** ** ** ** *** ** 北京海淀区服装批发地在哪里 
+HYP:  BEI JING HAI DIAN QU FU ZHUANG PI FA DI ZAI NA LI                                      
+Eval: I   I    I   I    I  I  I      I  I  I  I   I  S                                       
+
+id: (g0008-g0008_0441)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  ** **** ** *** *** *** ** **** **** ** ** 不乖的狗狗怎么能让它安静 
+HYP:  BU GUAN DE GOU GUO ZEN ME NENG RANG TA AN JING                                 
+Eval: I  I    I  I   I   I   I  I    I    I  I  S                                    
+
+id: (g0008-g0008_0442)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  *** **** ** **** ***** *** *** **** **** ** *** **** *** *** *** ** 为什么网上好多照片我家电脑都没法看 
+HYP:  WEI SHEN ME WANG SHANG HAO DUO ZHAO PIAN WO JIA DIAN NAO DOU MEI FA KAN                                                 
+Eval: I   I    I  I    I     I   I   I    I    I  I   I    I   I   I   I  S                                                   
+
+id: (g0008-g0008_0446)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  *** ** ** *** *** *** *** ** *** **** *** 头发发质太硬怎么才能软化 
+HYP:  TOU FA FA ZHI TAI YIN ZEN ME CAI NENG RAN HUA                                  
+Eval: I   I  I  I   I   I   I   I  I   I    I   S                                    
+
+id: (g0008-g0008_0461)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  **** *** *** ** ***** **** *** **** *** ** *** 减肥药哪种用着效果不错啊 
+HYP:  JIAN FEI YOU NA ZHONG YONG ZUO XIAO GUO BU CUO A                                    
+Eval: I    I   I   I  I     I    I   I    I   I  I   S                                    
+
+id: (g0008-g0008_0465)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  *** **** ** ** *** ** *** **** ** ** *** ** ** ** **** 修颜液与粉底有什么区别可以一起用吗 
+HYP:  XIU YUAN YE YU FEN DI YOU SHEN ME QU BIE KE YI QI YONG MA                                                  
+Eval: I   I    I  I  I   I  I   I    I  I  I   I  I  I  I    S                                                   
+
+id: (g0008-g0008_0466)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  *** *** *** ** *** *** ** **** ** *** *** **** *** **** **** 佳雪花蜜净白洁面乳保湿型多少钱啊 
+HYP:  JIA XUE HUA MI JIN BEI JI MIAN RU BAO SHI XING DUO SHAO QIAN A                                                
+Eval: I   I   I   I  I   I   I  I    I  I   I   I    I   I    I    S                                                
+
+id: (g0008-g0008_0469)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  ** *** ** *** ** *** ** *** *** **** ** *** 我是爱者对被爱者有什么看法 
+HYP:  WO SHI AI ZHE DE BEI AI ZHE YOU SHEN ME KAN FA                                      
+Eval: I  I   I  I   I  I   I  I   I   I    I  I   S                                       
+
+id: (g0008-g0008_0472)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  ** ** ***** **** ** *** ** **** ** *** 破釜沉舟与哪个战役有关 
+HYP:  PO FU CHENG ZHOU YU NEI GE ZHAN YI YOU GUAN                              
+Eval: I  I  I     I    I  I   I  I    I  I   S                                 
+
+id: (g0008-g0008_0503)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  *** *** *** ** ** *** ***** ** *** ****** *** ** *** *** 喝酒后鼻涕会成固化状是咋回事呢 
+HYP:  HUO JIU HOU BI JI HUI CHENG GU HUA ZHUANG SHI ZA HUI SHI NE                                            
+Eval: I   I   I   I  I  I   I     I  I   I      I   I  I   I   S                                             
+
+id: (g0008-g0008_0507)
+Scores: (#C #S #D #I) 0 1 0 5
+REF:  ** ** **** ** ** 冽字什么意思 
+HYP:  LI ZI SHEN ME YI SI                 
+Eval: I  I  I    I  I  S                  
+
+id: (g0008-g0008_0510)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  *** **** *** *** **** ***** *** ** ** ** *** 海伦在黑龙江哪个地理位置 
+HYP:  HAI NENG ZAI HEI LONG JIANG NEI GE DI DE WEI ZHI                                  
+Eval: I   I    I   I   I    I     I   I  I  I  I   S                                    
+
+id: (g0008-g0008_0518)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** **** **** *** *** **** ** *** *** 怎样让作文变得有文采呢 
+HYP:  ZEN YANG RANG ZUO WEN BIAN DE WEN CAI NE                                
+Eval: I   I    I    I   I   I    I  I   I   S                                 
+
+id: (g0008-g0008_0530)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  *** ** *** **** ****** ** **** 给我推荐爽肤水啊 
+HYP:  GEI WO TUI JIAN SHUANG FU SHUI YA                       
+Eval: I   I  I   I    I      I  I    S                        
+
+id: (g0008-g0008_0532)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  **** *** ** **** ** ** *** 唐字字形如何解释 
+HYP:  TANG ZHI ZI XING RU HE JIE SHI                      
+Eval: I    I   I  I    I  I  I   S                        
+
+id: (g0008-g0008_0533)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  *** ***** *** **** ** *** *** *** 学生梳什么头型好看 
+HYP:  XUE SHENG SHU SHEN ME TOU XIN HAO KAN                         
+Eval: I   I     I   I    I  I   I   I   S                           
+
+id: (g0008-g0008_0549)
+Scores: (#C #S #D #I) 0 1 0 17
+REF:  *** **** ** ** ***** *** ** *** ** ****** *** **** ***** *** ***** ** ** 为什么给肿包和刺爱长在脸上背上屁股上 
+HYP:  WEI SHEN ME GE ZHONG BAO HE CHI AI ZHUANG ZAI LIAN SHANG BEI CHANG PI BU SHANG                                                  
+Eval: I   I    I  I  I     I   I  I   I  I      I   I    I     I   I     I  I  S                                                      
+
+id: (g0008-g0008_0550)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  ** *** ***** *** ***** *** ** **** *** ** **** ***** *** ** ** **** 大学生在上学期间到底真正学到了什么 
+HYP:  DA XUE SHENG ZAI SHANG XUE QI JIAN DAO DI ZHEN ZHENG XUE DA LE SHEN ME                                                  
+Eval: I  I   I     I   I     I   I  I    I   I  I    I     I   I  I  I    S                                                   
+
+id: (g0008-g0008_0562)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  **** **** *** ** *** *** **** ***** **** **** *** ** *** ** ** 从民族大学怎样乘公交到达欢乐谷呢 
+HYP:  CONG MING ZHU DA XUE ZEN YANG CHENG GONG JIAO DAO DA HUA LE BU LAI                                              
+Eval: I    I    I   I  I   I   I    I     I    I    I   I  I   I  I  S                                                
+
+id: (g0008-g0008_0566)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  **** *** *** *** *** *** *** **** ** ** ** ** ** 请问街头篮球有什么区和服务器 
+HYP:  QING WEN JIE TOU LAN QIU YOU SHEN ME QU HE FU WU QI                                         
+Eval: I    I   I   I   I   I   I   I    I  I  I  I  I  S                                          
+
+id: (g0008-g0008_0572)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  **** ***** *** ** **** ***** ** *** ** ** ** ** *** **** *** **** 党政干部廉政记分制的具体内容是什么 
+HYP:  DANG ZHENG GAN BU LIAN ZHENG JI FEN ZI DE JU TI NEI RONG SHI SHEN ME                                                  
+Eval: I    I     I   I  I    I     I  I   I  I  I  I  I   I    I   I    S                                                   
+
+id: (g0008-g0008_0602)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  **** **** *** *** ** **** *** 深圳哪些地方好玩 
+HYP:  SHEN ZHEN NEI XIE DI FANG HAO WAN                      
+Eval: I    I    I   I   I  I    I   S                        
+
+id: (g0008-g0008_0604)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  ** ***** **** *** ** ** *** *** *** ***** 四川金堂哪里有买沙参的 
+HYP:  SI CHUAN JING TAO NA LI YOU MAI SHA SHENG DE                                
+Eval: I  I     I    I   I  I  I   I   I   I     S                                 
+
+id: (g0008-g0008_0609)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  ***** **** *** ** *** *** **** ** ** **** 中年人得脑血栓危险吗 
+HYP:  ZHONG NIAN REN DE LAO XUE SUAN WU YI XIAN MA                             
+Eval: I     I    I   I  I   I   I    I  I  I    S                              
+
+id: (g0008-g0008_0616)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  ***** ** ** ** ***** ** *** *** **** ** **** *** *** 神起里的两个人为什么叫豆花啊 
+HYP:  SHENG QI LI DE LIANG GE REN WEI SHEN ME JIAO DOU HUA A                                          
+Eval: I     I  I  I  I     I  I   I   I    I  I    I   I   S                                          
+
+id: (g0008-g0008_0618)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  ***** *** ** *** *** *** *** *** **** 中国的国石国花是什么 
+HYP:  ZHONG GUO DE GUI SHI GUI HUA SHI SHEN ME                             
+Eval: I     I   I  I   I   I   I   I   I    S                              
+
+id: (g0008-g0008_0688)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  *** *** **** *** ** *** *** *** *** **** **** ** ** ** *** ** 用文件加密宝加密文件忘了密码怎么办 
+HYP:  YOU WEN JIAN JIA MI BAO JIA MEI WEN JIAN WANG LE MI MA ZEN ME BAN                                                 
+Eval: I   I   I    I   I  I   I   I   I   I    I    I  I  I  I   I  S                                                   
+
+id: (g0008-g0008_0691)
+Scores: (#C #S #D #I) 0 1 0 6
+REF:  *** *** **** *** *** *** 曹学芹是男是女 
+HYP:  CAO XUE QING SHI NAN SHI NV                    
+Eval: I   I   I    I   I   I   S                     
+
+Speaker sentences   4:  g0051   #utts: 67
+id: (g0051-g0051_0017)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  *** ** **** *** *** *** *** ** *** *** 为何搜索结果尾数都是零 
+HYP:  WEI HE SHOU SUO JIE GOU WEI SU DOU SHI LING                              
+Eval: I   I  I    I   I   I   I   I  I   I   S                                 
+
+id: (g0051-g0051_0018)
+Scores: (#C #S #D #I) 0 1 0 5
+REF:  ** ** ** **** ** 如何磨练毅力 
+HYP:  RU HE MO LIAN YI LI                 
+Eval: I  I  I  I    I  S                  
+
+id: (g0051-g0051_0027)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  *** *** ** **** *** *** ***** **** ** *** **** *** **** 罗丹的雕塑思想者的材料是什么 
+HYP:  LUO DAN DE DIAO SHU SHI XIANG ZHOU DE CHA LIAO SHI SHEN ME                                         
+Eval: I   I   I  I    I   I   I     I    I  I   I    I   I    S                                          
+
+id: (g0051-g0051_0049)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  *** ** *** ** ***** *** *** *** ** ** **** ** *** ** ** ** 探戈有几种最好有其他关于探戈的资料 
+HYP:  KAN GE YOU JI ZHONG ZUI HAO YOU QI TA GUAN YU TAN GE DE ZI LIAO                                                
+Eval: I   I  I   I  I     I   I   I   I  I  I    I  I   I  I  I  S                                                   
+
+id: (g0051-g0051_0051)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  **** *** ** *** *** **** *** *** *** **** *** *** *** *** **** **** 从延吉到太原坐火车要坐多久要不要换车 
+HYP:  CONG YAN JI DAO TAI YUAN ZUO HUO CHE YANG ZUO DUO JIU YAO BIAO HUAN CHE                                                    
+Eval: I    I   I  I   I   I    I   I   I   I    I   I   I   I   I    I    S                                                      
+
+id: (g0051-g0051_0052)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** **** *** **** **** *** ** ** *** 怎样才能删除雅虎助手 
+HYP:  ZEN YANG CAI NENG SHAN CHU YA HU ZHU SHOU                           
+Eval: I   I    I   I    I    I   I  I  I   S                              
+
+id: (g0051-g0051_0056)
+Scores: (#C #S #D #I) 0 1 0 17
+REF:  ** **** ** ** ** *** ** *** **** ** *** ** *** ***** **** **** *** 喜欢一个女孩子为什么非得男生先说出来 
+HYP:  XI HUAN YI GE NV HAI ZI WEI SHEN ME FEI DE NAN SHENG XIAN SHUO CHU LAI                                                    
+Eval: I  I    I  I  I  I   I  I   I    I  I   I  I   I     I    I    I   S                                                      
+
+id: (g0051-g0051_0060)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  *** ** ** *** *** **** ** *** *** ** *** 腰肌劳损有什么好办法治疗 
+HYP:  YAO JI LE CUN YOU SHEN ME HAO BAN FA ZHI LIAO                                 
+Eval: I   I  I  I   I   I    I  I   I   I  I   S                                    
+
+id: (g0051-g0051_0070)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** **** ** ** ** ** *** ** *** 为什么我无法进入贴吧 
+HYP:  WEI SHEN ME WO WU FA JIN RU TIE BA                             
+Eval: I   I    I  I  I  I  I   I  I   S                              
+
+id: (g0051-g0051_0081)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  *** **** ** ***** *** ** **** ** *** ** 为什么正月的正读做一声 
+HYP:  WEI SHEN ME ZHENG YUE DE ZHEN BU ZHU YI SHENG                             
+Eval: I   I    I  I     I   I  I    I  I   I  S                                 
+
+id: (g0051-g0051_0098)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  ** *** ****** *** ** *** ** *** ** *** *** *** ** ** 棋魂中北斗杯比赛开始在第几话 
+HYP:  QI WEN ZHUANG BAI DU BEI BI SAI DE KAI SHI ZAI DI JI HUA                                        
+Eval: I  I   I      I   I  I   I  I   I  I   I   I   I  I  S                                          
+
+id: (g0051-g0051_0101)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  ***** ** ** **** ****** *** ** 声卡驱动装哪个啊 
+HYP:  SHENG KA QU DONG ZHUANG NEI GE A                        
+Eval: I     I  I  I    I      I   I  S                        
+
+id: (g0051-g0051_0110)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  **** *** ** ** ** ** *** ***** *** ** **** **** 现在毕业的大学生怎么找工作 
+HYP:  XIAN ZAI BI YE DE DA XUE SHENG ZEN ME ZHAO GONG ZUO                                     
+Eval: I    I   I  I  I  I  I   I     I   I  I    I    S                                       
+
+id: (g0051-g0051_0111)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  *** ** **** ** *** ** *** *** **** ** *** 注册会计师都考些什么内容 
+HYP:  ZHU CE KUAI JI SHI DE KAO XIE SHEN ME LEI OU                                   
+Eval: I   I  I    I  I   I  I   I   I    I  I   S                                    
+
+id: (g0051-g0051_0115)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  ** ** **** ** *** ** *** ** *** ** *** **** ** **** ** **** 易趣网里卖的东西是不是真的能不能买 
+HYP:  YI QU WANG LI MAI DE GOU XI SHI BU SHI ZHEN DE NENG BU NENG MAI                                                 
+Eval: I  I  I    I  I   I  I   I  I   I  I   I    I  I    I  I    S                                                   
+
+id: (g0051-g0051_0126)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  *** **** *** ** ** ** ***** ** ** *** *** **** ** 冒险岛那里的盛大易宝有什么用 
+HYP:  MAO XIAN DAO NA LI DE SHENG DA YI BAO YOU SHEN ME YONG                                       
+Eval: I   I    I   I  I  I  I     I  I  I   I   I    I  S                                          
+
+id: (g0051-g0051_0128)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  *** **** **** ** *** ** *** *** *** ** *** ** ** ** **** 怎样听历史课都初三了还摸不到方法 
+HYP:  ZEN YANG TING LI SHI KE DOU CHU SAN LE HAN MO BU DE FANG FA                                               
+Eval: I   I    I    I  I   I  I   I   I   I  I   I  I  I  I    S                                                
+
+id: (g0051-g0051_0130)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  ***** ** **** ** *** *** *** ** 桑达手机是国产的吗 
+HYP:  SHANG BA SHOU JI SHI GUO CAI DE MA                          
+Eval: I     I  I    I  I   I   I   I  S                           
+
+id: (g0051-g0051_0144)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  ** ** *** **** ** **** ** *** *** *** **** 爱护眼睛的方法经验有什么 
+HYP:  AI HU YAN JING DE FANG FA JIN YAN YOU SHEN ME                                   
+Eval: I  I  I   I    I  I    I  I   I   I   I    S                                    
+
+id: (g0051-g0051_0152)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  ** **** *** *** *** *** *** **** ** ** ** 苏州最近有没有什么一日游 
+HYP:  SU ZHOU ZUI JIN YOU MEI YOU SHEN ME YI RI YOU                                  
+Eval: I  I    I   I   I   I   I   I    I  I  I  S                                    
+
+id: (g0051-g0051_0157)
+Scores: (#C #S #D #I) 0 1 0 17
+REF:  *** **** ** *** ** **** ** *** ** ** *** ** *** *** *** *** **** 今年的飞行员河北地区录取分数是多少啊 
+HYP:  JIN NIAN DE FEI XI YUAN HE BEI DI QU ZHU QU FEN SHU SHI DUO SHAO A                                                      
+Eval: I   I    I  I   I  I    I  I   I  I  I   I  I   I   I   I   I    S                                                      
+
+id: (g0051-g0051_0167)
+Scores: (#C #S #D #I) 0 1 0 17
+REF:  ** ** ** ** ** ** ** ** ** ** *** *** **** **** **** ** *** 哪里可以把尼罗河女儿这本小说全部看完 
+HYP:  NA LI KE YI BA LI LU HE NV ER ZHE BEN XIAO SHUO QUAN BU KAN WAN                                                    
+Eval: I  I  I  I  I  I  I  I  I  I  I   I   I    I    I    I  I   S                                                      
+
+id: (g0051-g0051_0171)
+Scores: (#C #S #D #I) 0 1 0 17
+REF:  *** **** ** ** ** ** **** ***** *** **** ** *** ** **** ** *** *** 为什么无毒的情况下网页会不停的冒出来 
+HYP:  WEI SHEN ME WO DU DE QING KUANG XIA WANG YE HUI BU TING DE MAO CHU LAI                                                    
+Eval: I   I    I  I  I  I  I    I     I   I    I  I   I  I    I  I   I   S                                                      
+
+id: (g0051-g0051_0177)
+Scores: (#C #S #D #I) 0 1 0 5
+REF:  ** ** *** *** *** 如何对待人生 
+HYP:  RU HE DUI DAI REN SHENG              
+Eval: I  I  I   I   I   S                  
+
+id: (g0051-g0051_0179)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** **** **** ** *** ** *** *** ** 化纤用热稳定剂有毒吗 
+HYP:  HUA QIAN YONG RE BEN DE JIE YOU DU MA                             
+Eval: I   I    I    I  I   I  I   I   I  S                              
+
+id: (g0051-g0051_0192)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  *** **** ** **** ***** ** **** ** *** ** **** 为什么说成也萧何败也萧何 
+HYP:  WEI SHEN ME SHUO CHENG YE XIAO HE BAI YE XIAO HUO                                  
+Eval: I   I    I  I    I     I  I    I  I   I  I    S                                    
+
+id: (g0051-g0051_0222)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  **** *** *** *** *** ** *** *** **** *** **** 秦皇岛有哪个单位招聘会计 
+HYP:  QING WEN DAO YOU NEI GE DAN WEI ZHAO PIN KUAI JI                                   
+Eval: I    I   I   I   I   I  I   I   I    I   I    S                                    
+
+id: (g0051-g0051_0284)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  *** ** *** ***** **** *** **** ***** 为何男生总是说脏话 
+HYP:  WEI HE NAN SHENG ZONG SHI SHUO ZHANG HUA                         
+Eval: I   I  I   I     I    I   I    I     S                           
+
+id: (g0051-g0051_0285)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  **** **** ***** **** ** ** ** ** 聊天中笑哭咋呀咋打呀 
+HYP:  LIAO TIAN ZHONG XIAO KU ZA ZA DA YA                             
+Eval: I    I    I     I    I  I  I  I  S                              
+
+id: (g0051-g0051_0290)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  **** ** ** ***** ** ** *** **** 周笔畅的群是什么 
+HYP:  ZHOU BI ZI CHANG DE QU SHI SHEN ME                       
+Eval: I    I  I  I     I  I  I   I    S                        
+
+id: (g0051-g0051_0292)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  **** *** *** **** ***** *** **** *** 小孩儿太早上幼儿园好吗 
+HYP:  XIAO HAI TAI ZHAO SHANG YAO YUAN HAO MA                                
+Eval: I    I   I   I    I     I   I    I   S                                 
+
+id: (g0051-g0051_0294)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  ** ** *** **** *** **** *** **** *** *** **** ** 笔记本能接防伪控税开票机吗 
+HYP:  BI JI BEN NENG JIE FANG WEI KONG SUI KAI PIAO JI MA                                      
+Eval: I  I  I   I    I   I    I   I    I   I   I    I  S                                       
+
+id: (g0051-g0051_0310)
+Scores: (#C #S #D #I) 0 1 0 6
+REF:  *** ** ** *** *** ** 人死去会到哪里 
+HYP:  REN SI QU HUI DAO NA LI                    
+Eval: I   I  I  I   I   I  S                     
+
+id: (g0051-g0051_0329)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  *** **** *** *** ** ***** *** 怎样在百科中帖图 
+HYP:  ZEN YANG ZAI BAI KE ZHONG TIE TU                       
+Eval: I   I    I   I   I  I     I   S                        
+
+id: (g0051-g0051_0345)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  ***** *** *** ***** ** ** ***** ** ** *** ** ** *** **** 上海卫生许可证如何办理需多少钱 
+HYP:  SHANG HAI WEI SHENG XU KE ZHENG RU HE BAN LI XU DUO SHAO QIAN                                          
+Eval: I     I   I   I     I  I  I     I  I  I   I  I  I   I    S                                             
+
+id: (g0051-g0051_0364)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  *** *** **** *** ** **** *** **** **** *** ** *** 胆子小怎么样才能胆子大些嘞 
+HYP:  DAN ZHI XIAO ZEN ME YANG CAI NENG DANG ZHI DA XIE LEI                                     
+Eval: I   I   I    I   I  I    I   I    I    I   I  I   S                                       
+
+id: (g0051-g0051_0373)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  *** **** ** *** ** *** *** 明年几月几日过年 
+HYP:  LIN NIAN JI YUE JI SHI GUO NIAN                     
+Eval: I   I    I  I   I  I   I   S                        
+
+id: (g0051-g0051_0383)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  *** *** *** *** *** **** ** *** 人最多有多少根头发 
+HYP:  REN ZUI DUO YOU DUO SHAO GE TOU FA                          
+Eval: I   I   I   I   I   I    I  I   S                           
+
+id: (g0051-g0051_0387)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  ** ** *** *** *** ** *** ** *** ** *** **** ** ** 大理三塔是哪三塔坐落在什么地方 
+HYP:  DA LI SAN TAI SHI LA SAN DA ZUO LU ZAI SHEN ME DI FANG                                          
+Eval: I  I  I   I   I   I  I   I  I   I  I   I    I  I  S                                             
+
+id: (g0051-g0051_0393)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  ** *** ** ** **** ***** ** *** *** *** *** ** *** **** ** *** 我是一个内向的男孩该对付任性的妹妹 
+HYP:  WO SHI YI GE NENG XIANG DE NAN HAI GAI DUI FU REN XING DE MEI MEI                                                 
+Eval: I  I   I  I  I    I     I  I   I   I   I   I  I   I    I  I   S                                                   
+
+id: (g0051-g0051_0422)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** ** *** ** *** *** **** ** **** 加历史的要做什么准备 
+HYP:  JIA LI SHI DE YAO ZUO SHEN ME ZHUN BEI                            
+Eval: I   I  I   I  I   I   I    I  I    S                              
+
+id: (g0051-g0051_0439)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  **** *** ** ** ***** **** ** *** *** **** ** *** 现在哪一种方法下载东西最快 
+HYP:  XIAN ZAI NA YI ZHONG FANG FA XIA ZAI DONG XI ZUI KUAI                                    
+Eval: I    I   I  I  I     I    I  I   I   I    I  I   S                                       
+
+id: (g0051-g0051_0443)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** *** *** ** *** **** **** **** **** 桂字加个三点水念什么 
+HYP:  GUI ZHI JIA GE SAN DIAN SHUI NIAN SHEN ME                             
+Eval: I   I   I   I  I   I    I    I    I    S                              
+
+id: (g0051-g0051_0478)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  ** *** *** *** **** **** ** ***** **** *** *** ** **** ** 我左眼下面脸部上面老是不停的跳 
+HYP:  WO ZUO YAN XIA MIAN LIAN BU SHANG MIAN LAO SHI BU TING DE TIAO                                          
+Eval: I  I   I   I   I    I    I  I     I    I   I   I  I    I  S                                             
+
+id: (g0051-g0051_0492)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  *** ** *** **** ** *** **** ** 背部为什么会这么痛 
+HYP:  BAI DU WEI SHEN ME HUI SHEN ME TONG                        
+Eval: I   I  I   I    I  I   I    I  S                           
+
+id: (g0051-g0051_0517)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  ** **** *** *** *** *** **** **** 股票买卖价是怎样定的 
+HYP:  GU PIAO MAI JIA SHI ZEN YANG DING DE                             
+Eval: I  I    I   I   I   I   I    I    S                              
+
+id: (g0051-g0051_0520)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  *** **** **** *** *** *** **** *** *** *** **** *** 石景山有个嘉年华游乐园在哪 
+HYP:  SHI JING SHAN YOU GUO JIA LIAN HUA YOU LAO YUAN ZAI NA                                      
+Eval: I   I    I    I   I   I   I    I   I   I   I    I   S                                       
+
+id: (g0051-g0051_0524)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  ** **** *** *** ***** *** *** **** ***** **** *** **** *** *** **** 机械类在上海北京广东月薪是多少的 
+HYP:  JI XIAN NEI ZAI SHANG HAI BEI JING GUANG DONG YUE JING SHI DUO SHAO DE                                               
+Eval: I  I    I   I   I     I   I   I    I     I    I   I    I   I   I    S                                                
+
+id: (g0051-g0051_0553)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  *** ** ** *** ** ** ** 投河自尽打一地名 
+HYP:  TOU HE ZI JIN DA YI DI MING                     
+Eval: I   I  I  I   I  I  I  S                        
+
+id: (g0051-g0051_0560)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  ****** *** ** *** ** *** ** *** ***** ** ** **** 穿过膝盖的大衣会显的个子矮吗 
+HYP:  CHUANG GUO XI GAI DE DAI YI HUI XIANG DE GE SHAN MA                                         
+Eval: I      I   I  I   I  I   I  I   I     I  I  I    S                                          
+
+id: (g0051-g0051_0562)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  ***** **** ** *** **** ** **** *** *** **** 湘雅医学院的网址是什么 
+HYP:  XIANG YANG YI XUE YUAN DE WANG ZHI SHI SHEN ME                                
+Eval: I     I    I  I   I    I  I    I   I   I    S                                 
+
+id: (g0051-g0051_0584)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  **** **** **** **** ** **** *** ***** **** ** *** *** 听说蜂胶里面有雄性激素是吗 
+HYP:  TING SHUO FENG JIAO LI MIAN YOU XIONG XING JI SHU SHI MA                                      
+Eval: I    I    I    I    I  I    I   I     I    I  I   I   S                                       
+
+id: (g0051-g0051_0604)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  *** **** *** *** *** *** **** *** *** **** 三明格氏栲门票要多少钱 
+HYP:  SAN MING JIE SHI KAO MEN PIAO YAO DUO SHAO QIAN                              
+Eval: I   I    I   I   I   I   I    I   I   I    S                                 
+
+id: (g0051-g0051_0615)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  **** ***** ***** ****** ** **** *** **** *** *** *** *** 经常重装系统对电脑有危害吗 
+HYP:  JING CHANG CHONG ZHUANG XI TONG DUI DIAN NAO YOU WEI HAI MA                                      
+Eval: I    I     I     I      I  I    I   I    I   I   I   I   S                                       
+
+id: (g0051-g0051_0621)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  **** *** ** ** *** *** **** *** *** ** ** 天津哪里有卖电话分离器的 
+HYP:  TIAN JIN NA LI YOU MAI DIAN HUA FEN LI QI DE                                   
+Eval: I    I   I  I  I   I   I    I   I   I  I  S                                    
+
+id: (g0051-g0051_0624)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  *** ***** **** **** ** ** **** ** ** *** *** ** ** **** ** **** 在香港什么地方可以买到低压电器元件 
+HYP:  ZAI XIANG GANG SHEN ME DI FANG KE YI MAI DAO DI YA DIAN QI YUAN JIAN                                                
+Eval: I   I     I    I    I  I  I    I  I  I   I   I  I  I    I  I    S                                                   
+
+id: (g0051-g0051_0650)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  ** ** *** *** ** ** *** **** **** ** *** *** *** 哈尔滨市体育学院什么时候开学 
+HYP:  HA ER BIN SHI TI YU XUE YUAN SHEN ME SHI HOU KAI XUE                                        
+Eval: I  I  I   I   I  I  I   I    I    I  I   I   I   S                                          
+
+id: (g0051-g0051_0651)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  ***** *** **** *** *** ** *** *** **** ** *** ***** **** 中国电信为何禁止手机单项收费 
+HYP:  ZHONG GUO DIAN XIN WEI HE JIN ZHI SHOU JI DAN XIANG SHOU FEI                                        
+Eval: I     I   I    I   I   I  I   I   I    I  I   I     I    S                                          
+
+id: (g0051-g0051_0653)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  *** **** **** *** *** ** ** ** **** ** *** **** ** *** *** 治疗因感冒鼻子不通气有什么好办法 
+HYP:  ZHI LIAO YING GAN MAO BI ZI BU TONG QI YOU SHEN ME HAO BAN FA                                               
+Eval: I   I    I    I   I   I  I  I  I    I  I   I    I  I   I   S                                                
+
+id: (g0051-g0051_0656)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  *** ***** ** **** *** *** *** **** **** *** ** 最强的电脑下载网站怎么找 
+HYP:  ZUI QIANG DE DIAN NAO XIA ZAI WANG ZHAN ZEN ME ZAO                                  
+Eval: I   I     I  I    I   I   I   I    I    I   I  S                                    
+
+id: (g0051-g0051_0658)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  *** **** ** *** *** **** *** ** ** *** 为什么老师总是欺负学生 
+HYP:  WEI SHEN ME LAO SHI ZONG SHI QI FU XUE SHENG                             
+Eval: I   I    I  I   I   I    I   I  I  I   S                                 
+
+id: (g0051-g0051_0662)
+Scores: (#C #S #D #I) 0 1 0 5
+REF:  **** **** ** ** ***** 教龄打一成语 
+HYP:  JIAO LING DA YI CHENG YU                 
+Eval: I    I    I  I  I     S                  
+
+id: (g0051-g0051_0663)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  *** *** **** ** ** **** ** ** *** ** *** *** *** *** ** 在被管制期间先打了人然后又被人砍了 
+HYP:  ZAI BEI GUAN ZI QI JIAN DA LE REN NA HOU YOU BEI REN KA LUO                                                 
+Eval: I   I   I    I  I  I    I  I  I   I  I   I   I   I   I  S                                                   
+
+id: (g0051-g0051_0679)
+Scores: (#C #S #D #I) 0 1 0 5
+REF:  *** *** *** ** ***** 微软游戏种类 
+HYP:  WEI REN YOU XI ZHONG LEI                
+Eval: I   I   I   I  I     S                  
+
+id: (g0051-g0051_0684)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  **** **** ** *** *** *** ** 梦幻西游有开新区吗 
+HYP:  MENG HUAN XI YOU KAI XIN QU MA                          
+Eval: I    I    I  I   I   I   I  S                           
+
+id: (g0051-g0051_0694)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** *** ** *** *** ** *** *** ** 牛仔裤褪色起毛怎么办 
+HYP:  LIU ZAI KU TUI SHE QI MAO ZEN ME BAN                            
+Eval: I   I   I  I   I   I  I   I   I  S                              
+
+id: (g0051-g0051_0700)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  *** **** ****** *** ** **** **** **** **** *** 使用双眼皮胶水能有坏处吗 
+HYP:  SHI YONG SHUANG YAN PI JIAO SHUI NENG HUAI CHU MA                                   
+Eval: I   I    I      I   I  I    I    I    I    I   S                                    
+
+Speaker sentences   5:  g1100   #utts: 64
+id: (g1100-g1100_0023)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  **** *** **** ** ** **** **** ** **** ** 敏感性皮肤用什么面膜好 
+HYP:  MING GAN XING PI FU YONG SHEN ME MIAN MU HAO                               
+Eval: I    I   I    I  I  I    I    I  I    I  S                                 
+
+id: (g1100-g1100_0032)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** **** ** ** ** ****** ** **** **** 为什么我安装不了天网 
+HYP:  WEI SHEN ME WO AN ZHUANG BU LIAO TIAN GUAN                           
+Eval: I   I    I  I  I  I      I  I    I    S                              
+
+id: (g1100-g1100_0037)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  *** ***** ** *** ***** *** ** **** ***** *** ** **** ***** **** **** 初中的学生怎么减重才不影响健康呢 
+HYP:  CHU ZHONG DE XUE SHENG ZEN ME JIAN ZHONG CAI BU YING XIANG JIAN KANG LE                                               
+Eval: I   I     I  I   I     I   I  I    I     I   I  I    I     I    I    S                                                
+
+id: (g1100-g1100_0056)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  ** ** *** ** ** ***** *** ** *** **** **** 兔八哥里那凶恶的狗叫什么 
+HYP:  TU BA GUO LI DA XIONG WEI DE GAO JIAO SHEN ME                                   
+Eval: I  I  I   I  I  I     I   I  I   I    I    S                                    
+
+id: (g1100-g1100_0073)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  **** *** **** *** ** *** ***** **** *** ** ** ** *** ** 电脑显示器有重影感觉模糊怎么办 
+HYP:  DIAN NAO XIAN SHI QI YOU CHONG YING DAN JI MO FU ZEN ME BAN                                           
+Eval: I    I   I    I   I  I   I     I    I   I  I  I  I   I  S                                             
+
+id: (g1100-g1100_0074)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  ** **** *** *** *** *** **** ** ** *** **** *** ** ** 大连市对外开放的图书馆是哪个呀 
+HYP:  DA LIAN SHI DUI WAI KAI FANG DE TU SHU GUAN SHI NA LI A                                             
+Eval: I  I    I   I   I   I   I    I  I  I   I    I   I  I  S                                             
+
+id: (g1100-g1100_0078)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  *** *** ** ** **** **** **** ** *** ** 人民币的角用英语怎么说 
+HYP:  REN MIN BI DE JIAO YONG YING YU ZEN ME SHUO                              
+Eval: I   I   I  I  I    I    I    I  I   I  S                                 
+
+id: (g1100-g1100_0087)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  **** **** ** **** *** *** ** *** *** ** *** **** ***** ***** 刚刚做完人流可是流血很少正常吗 
+HYP:  GANG GANG ZU GUAN REN LIU KE SHI LIU JU HEN SHAO ZHENG CHANG MA                                            
+Eval: I    I    I  I    I   I   I  I   I   I  I   I    I     I     S                                             
+
+id: (g1100-g1100_0088)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  ** ** **** *** ** **** ***** ** **** 秦始皇与吕不韦是什么关系 
+HYP:  RU HE DIAN NAO ZI DONG ZHENG LI YING PAN                                  
+Eval: I  I  I    I   I  I    I     I  I    S                                    
+
+id: (g1100-g1100_0099)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  ** **** *** ** ** ** **** ** *** *** 浦东开发区的面积是多少 
+HYP:  HU DONG KAI FA QU DE MIAN JI SHI DUO SHAO                              
+Eval: I  I    I   I  I  I  I    I  I   I   S                                 
+
+id: (g1100-g1100_0102)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** **** ** ** ***** ** *** *** *** 为什么一丈之内才是夫 
+HYP:  WEI SHEN ME YI ZHANG ZI NEI CAI SHI FU                             
+Eval: I   I    I  I  I     I  I   I   I   S                              
+
+id: (g1100-g1100_0149)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  *** ** ** **** **** ** *** 在熙喜欢什么颜色 
+HYP:  ZAI XI XI HUAN SHEN ME YAN SE                       
+Eval: I   I  I  I    I    I  I   S                        
+
+id: (g1100-g1100_0170)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  *** *** *** *** ** **** ***** ** *** **** ** *** ** *** ** ** 云彩是怎么产生的为什么有时万里无云 
+HYP:  YUN CAI SHI ZEN ME CHAN SHENG DE WEI SHEN ME YOU SI WAN DE WU YUAN                                                
+Eval: I   I   I   I   I  I    I     I  I   I    I  I   I  I   I  I  S                                                   
+
+id: (g1100-g1100_0196)
+Scores: (#C #S #D #I) 0 1 0 6
+REF:  ** ** **** *** *** ***** 可以删除进程吗 
+HYP:  KE YI SHAN CHU JIN CHENG MA                    
+Eval: I  I  I    I   I   I     S                     
+
+id: (g1100-g1100_0213)
+Scores: (#C #S #D #I) 0 1 0 17
+REF:  *** **** ** **** ** ** **** ** *** ** **** ** **** ** ** **** ** 有什么晶露或凝露适合混合性皮肤用的吗 
+HYP:  YOU SHEN ME JING DU HE LING LU SHI HE HUAN HE XING PI FU YONG DE MA                                                     
+Eval: I   I    I  I    I  I  I    I  I   I  I    I  I    I  I  I    I  S                                                      
+
+id: (g1100-g1100_0226)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  ** ** **** **** *** **** **** ** 企业网站背景什么用 
+HYP:  QI YE WANG ZHAN BEI JING SHEN ME YONG                        
+Eval: I  I  I    I    I   I    I    I  S                           
+
+id: (g1100-g1100_0230)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  ** ** *** **** *** *** *** **** *** *** 和女孩儿刚认识怎样约会呢 
+HYP:  HE NV HAI GANG REN SHI ZEN YANG YUE HUI MA                                   
+Eval: I  I  I   I    I   I   I   I    I   I   S                                    
+
+id: (g1100-g1100_0236)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  ***** *** ** **** *** **** *** ** 崇敬的英文用哪个好 
+HYP:  CHONG JIN DE YING WEN YONG NEI GE HAO                         
+Eval: I     I   I  I    I   I    I   I  S                           
+
+id: (g1100-g1100_0243)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  *** ** **** *** *** ***** ** **** **** *** *** 四季青对人身体健康有害吗 
+HYP:  SHI JI QIAO DUI REN SHENG TI JIAN KANG YOU HAI MA                                   
+Eval: I   I  I    I   I   I     I  I    I    I   I   S                                    
+
+id: (g1100-g1100_0250)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  ** *** **** *** **** ** *** ** **** ** 二十岁有什么别的叫法吗 
+HYP:  ER SHI SHUI YOU SHEN ME BAI DE JIAO FA MA                                
+Eval: I  I   I    I   I    I  I   I  I    I  S                                 
+
+id: (g1100-g1100_0304)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** **** *** ** ***** *** ** ** ** 怎样做一张阅读记录卡 
+HYP:  ZEN YANG ZUO YI ZHANG YUE DU JI LU KA                             
+Eval: I   I    I   I  I     I   I  I  I  S                              
+
+id: (g1100-g1100_0317)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  *** *** **** **** *** *** **** *** 有多少钱就是算有钱 
+HYP:  YOU DUO SHAO QIAN JIU SHI SUAN YOU QIAN                        
+Eval: I   I   I    I    I   I   I    I   S                           
+
+id: (g1100-g1100_0344)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  **** *** *** **** ** **** **** ** ** *** ** *** *** **** *** **** 现在有什么软件可以高速下载免费电影 
+HYP:  XIAN ZAI YOU SHEN ME RUAN JIAN KE YI GAO SU XIA ZAI MIAN FEI DIAN YING                                                
+Eval: I    I   I   I    I  I    I    I  I  I   I  I   I   I    I   I    S                                                   
+
+id: (g1100-g1100_0345)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  *** *** ** **** *** *** *** **** ** *** ** **** *** **** 军训期间有没有什么好的防晒方法 
+HYP:  JUN XUN QI JIAN YOU MEI YOU SHEN ME HAO DE FANG SHA FANG FA                                            
+Eval: I   I   I  I    I   I   I   I    I  I   I  I    I   I    S                                             
+
+id: (g1100-g1100_0350)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  ** ** *** *** ** ** ***** ** *** **** **** *** *** 汗毛会越剃越长吗怎样永久除毛 
+HYP:  HA MA HUI YUE TI YE CHANG MA ZEN YANG YONG JIU CHU LAI                                        
+Eval: I  I  I   I   I  I  I     I  I   I    I    I   I   S                                          
+
+id: (g1100-g1100_0361)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  *** ** ** **** ** ** **** ** *** ***** **** ** ***** ***** 出纳和会计的关系非常亲密正常吗 
+HYP:  CHU LA HE KUAI JI DE GUAN XI FEI SHANG QING BI ZHENG CHANG MA                                            
+Eval: I   I  I  I    I  I  I    I  I   I     I    I  I     I     S                                             
+
+id: (g1100-g1100_0367)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  *** **** ** **** ** ** ** **** *** *** *** **** 有什么方法可以免费学美容的 
+HYP:  YOU SHEN ME FANG FA KE YI MIAN FEI XUE MEI RONG DE                                      
+Eval: I   I    I  I    I  I  I  I    I   I   I   I    S                                       
+
+id: (g1100-g1100_0369)
+Scores: (#C #S #D #I) 0 1 0 5
+REF:  **** ** ** **** *** 手机播放死机 
+HYP:  SHOU JI BO FANG SHI JI                 
+Eval: I    I  I  I    I   S                  
+
+id: (g1100-g1100_0401)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  *** *** ** **** ** *** *** **** ** ** **** *** *** *** ** ** 考注册会计师有什么起点要求考哪几门儿 
+HYP:  KAO ZHU CE KUAI JI SHI YOU SHEN ME JI DIAN YAO QIU KAO NA JI MEN                                                    
+Eval: I   I   I  I    I  I   I   I    I  I  I    I   I   I   I  I  S                                                      
+
+id: (g1100-g1100_0406)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  **** ** **** ** **** ** ** ** ** *** ** ** ** **** **** **** 光子嫩肤真的可以把粗大的毛孔变小吗 
+HYP:  WANG ZI NENG FU ZHEN DE KE YI BA CHU DA DE MA FENG BIAN XIAO MA                                                  
+Eval: I    I  I    I  I    I  I  I  I  I   I  I  I  I    I    I    S                                                   
+
+id: (g1100-g1100_0424)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  *** *** *** *** ** **** ** *** ** ** **** 内存感染的病毒该如何清除 
+HYP:  MEI CUN GAI RAN DE BING DU GAI RU HE QING CHU                                  
+Eval: I   I   I   I   I  I    I  I   I  I  I    S                                    
+
+id: (g1100-g1100_0428)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  *** **** *** ***** ** *** ** ** **** *** **** *** ***** **** 治疗视神经引起的偏头痛有良方吗 
+HYP:  ZHI LIAO SHI SHENG JI YIN QI DE BIAN TOU FANG YOU LIANG FANG MA                                            
+Eval: I   I    I   I     I  I   I  I  I    I   I    I   I     I    S                                             
+
+id: (g1100-g1100_0431)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  **** *** ** ** *** ** *** ** *** ** ** ***** ***** 请问我的心理是不是有点不正常啊 
+HYP:  QING WEN WO DE XIN LI SHI BI YOU DE BU ZHENG CHANG A                                             
+Eval: I    I   I  I  I   I  I   I  I   I  I  I     I     S                                             
+
+id: (g1100-g1100_0438)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  ** ** *** *** ***** ** ** *** ** ** ** *** **** ** 日语自考中的基础日语一大纲内容 
+HYP:  RI YU ZHI KAO ZHONG DE JI SHU RI YU JI DAI GANG DE REN                                           
+Eval: I  I  I   I   I     I  I  I   I  I  I  I   I    I  S                                             
+
+id: (g1100-g1100_0443)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  **** ** *** ** *** ** ** *** **** ** 什么是绦纶衣服怎样区分 
+HYP:  SHEN ME SHI DI LUN YI FU ZEN YANG QU FEN                               
+Eval: I    I  I   I  I   I  I  I   I    I  S                                 
+
+id: (g1100-g1100_0448)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  **** ** **** *** *** **** ** **** *** ** *** *** ** *** **** 什么叫抱厦房屋建筑的最好有图纸说明 
+HYP:  SHEN ME JIAO BAO SHA FANG WU JIAN ZHU DE ZUI HAO DU ZHI SHOU MING                                                
+Eval: I    I  I    I   I   I    I  I    I   I  I   I   I  I   I    S                                                   
+
+id: (g1100-g1100_0460)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  **** **** ** ** **** *** *** *** 泉州的租房价格高吗 
+HYP:  QUAN ZHOU DE ZU FENG JIA DAI DAO MA                          
+Eval: I    I    I  I  I    I   I   I   S                           
+
+id: (g1100-g1100_0468)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  *** **** **** *** **** ** *** 看小说有什么好处 
+HYP:  GAN XIAO SHUO YOU SHEN ME HAO CHU                      
+Eval: I   I    I    I   I    I  I   S                        
+
+id: (g1100-g1100_0469)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  ***** *** *** ***** ** ** ** ** 总裁和总经理的区别 
+HYP:  ZHONG ZAI HAO ZHONG JI LI DE QU BIE                         
+Eval: I     I   I   I     I  I  I  I  S                           
+
+id: (g1100-g1100_0487)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  *** ***** ** ** **** *** ** ***** 丁香鱼瑞星怎么升级 
+HYP:  JIN XIANG YU RE XING ZEN ME SHENG JI                          
+Eval: I   I     I  I  I    I   I  I     S                           
+
+id: (g1100-g1100_0492)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  **** ** *** *** ** *** ** ** *** ** **** *** *** **** *** 是不是只要例假一来就确定没有怀孕了 
+HYP:  SHEN BU ZHI YAO LI JIA YI NA JIU QU DING MEI YOU HUAI YUN NE                                                  
+Eval: I    I  I   I   I  I   I  I  I   I  I    I   I   I    I   S                                                   
+
+id: (g1100-g1100_0497)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  ** *** ** ** ** ** *** **** *** *** **** 我们吃的是芹菜的什么 
+HYP:  WO MEN CI DE QI SI SHI QING ZAI YOU SHEN ME                             
+Eval: I  I   I  I  I  I  I   I    I   I   I    S                              
+
+id: (g1100-g1100_0502)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  **** *** *** **** ** **** ** *** ** *** **** 现在有什么新的职业诞生不 
+HYP:  XIAN ZAI YOU SHEN ME QING DE ZHI YE DAN SHEN BU                                   
+Eval: I    I   I   I    I  I    I  I   I  I   I    S                                    
+
+id: (g1100-g1100_0505)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  **** **** **** *** ** *** *** *** *** *** ** *** *** **** 先天性白发有没有最好的解决办法 
+HYP:  XIAN TIAN XING BAI FA YOU MEI YOU ZUI HAO DE JIE JUE WANG ZHAN                                          
+Eval: I    I    I    I   I  I   I   I   I   I   I  I   I   I    S                                             
+
+id: (g1100-g1100_0508)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  ** ** *** **** *** **** *** *** **** 八一游泳池票价多少啊 
+HYP:  DA YI YOU YONG ZHI PIAO JIA DUO SHAO A                              
+Eval: I  I  I   I    I   I    I   I   I    S                              
+
+id: (g1100-g1100_0511)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  ** *** **** **** *** ** *** ** *** **** ** *** 取消农业税了对此有什么看法 
+HYP:  QU XIA NONG YUAN SUI LE DUI ZI YOU SHEN ME KAN FA                                      
+Eval: I  I   I    I    I   I  I   I  I   I    I  I   S                                       
+
+id: (g1100-g1100_0520)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** **** ** *** *** ** ** ** *** 为什么白人的鼻子黑挺 
+HYP:  WEI SHEN ME BAI REN DE BI ZI HEI TING                           
+Eval: I   I    I  I   I   I  I  I  I   S                              
+
+id: (g1100-g1100_0543)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  *** *** **** *** ** *** *** ** *** ** ***** *** ** ***** 在北京怎么获得艺术特长生儿的称号 
+HYP:  ZAI BEI JING ZEN ME HUO ZAI YI SHU CE SHANG CHU DE CHENG HAO                                              
+Eval: I   I   I    I   I  I   I   I  I   I  I     I   I  I     S                                                
+
+id: (g1100-g1100_0544)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  **** ** **** ** ** ** **** *** *** **** ** *** ** 冬天皮肤比较干燥什么牌子好 
+HYP:  DONG FU PIAN PI FU BI JIAO GAN ZAO SHEN ME PAI ZI HAO                                     
+Eval: I    I  I    I  I  I  I    I   I   I    I  I   I  S                                       
+
+id: (g1100-g1100_0561)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  *** *** ** *** ** ***** ** *** ** **** **** **** **** 周润发演的小马哥的电影叫什么 
+HYP:  ZHU REN FA YIN DE XIANG MA GUO DE DIAN YING JIAO SHEN ME                                         
+Eval: I   I   I  I   I  I     I  I   I  I    I    I    I    S                                          
+
+id: (g1100-g1100_0582)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  **** *** **** *** ** *** **** **** *** ** ** ** 从仙林怎么坐公交车去户部街 
+HYP:  CONG XIN MING ZEN ME ZUO GONG JIAO CHE QI FU BU JIAN                                    
+Eval: I    I   I    I   I  I   I    I    I   I  I  I  S                                       
+
+id: (g1100-g1100_0596)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  *** ***** ** *** ** **** **** **** 晚上一般几点睡觉好 
+HYP:  WAN SHANG YI BAN JI DIAN SHUI JIAO HAO                         
+Eval: I   I     I  I   I  I    I    I    S                           
+
+id: (g1100-g1100_0597)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  **** ** ** ** **** ** ** *** ** ** ** *** **** **** 用模拟器玩街机游戏可以插手柄吗 
+HYP:  YONG MO DE XI HUAN JI JI YOU XI KE YI CHA SHOU MING MA                                            
+Eval: I    I  I  I  I    I  I  I   I  I  I  I   I    I    S                                             
+
+id: (g1100-g1100_0607)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  *** *** **** ** *** *** ** ** 人为什么都是自私的 
+HYP:  REN WEI SHEN ME DOU SHI ZI SI DE                          
+Eval: I   I   I    I  I   I   I  I  S                           
+
+id: (g1100-g1100_0617)
+Scores: (#C #S #D #I) 0 1 0 6
+REF:  **** ** *** ***** ** *** 什么是赏析作文 
+HYP:  SHEN ME SHI SHANG XI ZUO WEI                   
+Eval: I    I  I   I     I  I   S                     
+
+id: (g1100-g1100_0620)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  *** ** *** **** ** ** ** *** *** ***** *** **** ** *** ** 考一考用意大利文说圣诞快乐怎么说 
+HYP:  KAO YI TAO YONG YI DA LI WEN SUO SHENG DAN KUAI LE ZEN ME SHUO                                             
+Eval: I   I  I   I    I  I  I  I   I   I     I   I    I  I   I  S                                                
+
+id: (g1100-g1100_0631)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  *** ** *** *** ** *** *** *** ** ***** *** **** 在济南有瑞士军刀的专卖店吗 
+HYP:  ZAI JI NAN YOU RE SHI PIN DAO DE ZHUAN MAI DIAN MA                                      
+Eval: I   I  I   I   I  I   I   I   I  I     I   I    S                                       
+
+id: (g1100-g1100_0642)
+Scores: (#C #S #D #I) 0 1 0 6
+REF:  **** ** *** ** *** **** 电的载体是什么 
+HYP:  DIAN LI ZAI JI SHI SHEN ME                    
+Eval: I    I  I   I  I   I    S                     
+
+id: (g1100-g1100_0648)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  **** ** ** ** ***** *** ***** **** ***** *** ** 注意力不集中精神涣散怎么办 
+HYP:  CHUI DE WU JI ZHONG JIN SHANG HUAN SHANG ZEN ME BAN                                     
+Eval: I    I  I  I  I     I   I     I    I     I   I  S                                       
+
+id: (g1100-g1100_0652)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  *** *** *** ** ** *** **** *** *** ** *** ** *** ** ***** 在泰国哪里才能买到确保无假的黄金 
+HYP:  ZAI TAI GUO NA LI CAI NENG MAI DAO QU BAO WU JIA DE HUANG JIN                                              
+Eval: I   I   I   I  I  I   I    I   I   I  I   I  I   I  I     S                                                
+
+id: (g1100-g1100_0654)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  *** *** **** ** ** ** ***** 明修栈道暗度陈仓 
+HYP:  MEI XIU ZHAN DA AN DU CHENG KA                       
+Eval: I   I   I    I  I  I  I     S                        
+
+id: (g1100-g1100_0675)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  *** **** ****** *** ** ** *** ** **** **** *** ** *** *** **** 在永川配置一台二手电脑大概多少钱 
+HYP:  ZAI YONG CHUANG KOU ZI YI DAI ER SHOU DIAN NAO DA GAI DUO SHAO QIAN                                             
+Eval: I   I    I      I   I  I  I   I  I    I    I   I  I   I   I    S                                                
+
+id: (g1100-g1100_0695)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  *** ** ** *** *** *** ** ** *** ** *** **** **** **** *** 怎么区分荆门的座机和小灵通号码 
+HYP:  ZEN ME QU FEN JIN LUN ER DE ZUO JI HUI XIAO LING DANG HAO MA                                            
+Eval: I   I  I  I   I   I   I  I  I   I  I   I    I    I    I   S                                             
+
+id: (g1100-g1100_0697)
+Scores: (#C #S #D #I) 0 1 0 17
+REF:  ** *** ** *** **** ** ** ** *** *** ** *** **** ** ** *** *** 欧若拉是什么意思潘多拉是什么尼采是谁 
+HYP:  BO ZUO LA SHI SHEN ME YI SI BAN DAO NA SHI SHEN ME LI CAI SHI SHUI                                                   
+Eval: I  I   I  I   I    I  I  I  I   I   I  I   I    I  I  I   I   S                                                      
+
+Speaker sentences   6:  g1103   #utts: 69
+id: (g1103-g1103_0001)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  ** *** **** *** *** **** *** *** ** ** ** *** 你怎样评价三国演义里的曹操 
+HYP:  LI ZEN YANG PIN JIA SHAN GUO YAN YI LI DE CHA CAO                                     
+Eval: I  I   I    I   I   I    I   I   I  I  I  I   S                                       
+
+id: (g1103-g1103_0002)
+Scores: (#C #S #D #I) 0 1 0 6
+REF:  *** *** **** *** *** *** 给猫剪指甲好吗 
+HYP:  GEI MAO JIAN ZHI JIA HAO MA                    
+Eval: I   I   I    I   I   I   S                     
+
+id: (g1103-g1103_0012)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  **** *** *** *** **** ** ** **** ***** *** **** 现在最有前途的编程是什么 
+HYP:  XIAN ZAI ZUI YOU QIAN TU DE BIAN CHENG SHI SHEN ME                                   
+Eval: I    I   I   I   I    I  I  I    I     I   I    S                                    
+
+id: (g1103-g1103_0022)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  ** ***** ** *** ***** *** *** **** ** *** 一场比赛中有多少个足球 
+HYP:  YI CHANG BI SAI ZHONG YOU DUO SHAO GE ZHU QIU                               
+Eval: I  I     I  I   I     I   I   I    I  I   S                                 
+
+id: (g1103-g1103_0031)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  ***** ** ** *** **** ** ** *** ** ** **** *** ** 江苏的铸造企业哪个地方最集中 
+HYP:  JIANG SU DE ZHU ZHOU QI YE NEI GE DI FANG ZUI JI ZHONG                                      
+Eval: I     I  I  I   I    I  I  I   I  I  I    I   I  S                                          
+
+id: (g1103-g1103_0040)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  *** ** **** *** ** ** **** *** ** *** 劲舞团单机补丁在哪儿下啊 
+HYP:  JIN WU TUAN GAN JI BU BING ZAI NA XIA A                                    
+Eval: I   I  I    I   I  I  I    I   I  I   S                                    
+
+id: (g1103-g1103_0053)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  **** **** *** ** *** *** **** *** *** **** 水瓶座的最佳工作是什么 
+HYP:  SHUI PING ZUO DE ZUI JIA GONG ZUO SHI SHEN ME                                
+Eval: I    I    I   I  I   I   I    I   I   I    S                                 
+
+id: (g1103-g1103_0057)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  ** ***** *** ** ** ** *** *** **** *** **** *** *** 哪种牌子的滴眼液消炎效果最好 
+HYP:  NA ZHONG PAI ZI DE BI YAN YAN XIAO YAN XIAO GUO ZUI HAO                                        
+Eval: I  I     I   I  I  I  I   I   I    I   I    I   I   S                                          
+
+id: (g1103-g1103_0078)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  ** *** ***** *** *** *** ** *** ** 历史上有类似的事情吗 
+HYP:  LI SHI SHANG YOU LEI SHI DE SHI QI MA                             
+Eval: I  I   I     I   I   I   I  I   I  S                              
+
+id: (g1103-g1103_0079)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  *** ** *** *** ** *** ** 怎么下载大话西游 
+HYP:  ZEN ME XIA ZAI DA HUA XI YOU                      
+Eval: I   I  I   I   I  I   I  S                        
+
+id: (g1103-g1103_0092)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  **** *** **** ** ** *** *** *** **** *** ** **** ***** 现在什么舞蹈最流行最具观赏性 
+HYP:  XIAN ZAI SHEN ME WU DAO ZUI LIU XING ZUI JU GUAN SHANG XIN                                        
+Eval: I    I   I    I  I  I   I   I   I    I   I  I    I     S                                          
+
+id: (g1103-g1103_0097)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** *** ** *** ** *** ** **** ** 后半夜了我怎么睡不着 
+HYP:  TOU BAN YE LAO WO ZEN ME SHUI BU ZHAO                           
+Eval: I   I   I  I   I  I   I  I    I  S                              
+
+id: (g1103-g1103_0103)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  *** ** *** ** ** ** ** ***** ***** *** ** ** 老婆性趣不大我总想做如何办 
+HYP:  LAO PO XIN QU BU DA WO ZHONG XIANG ZUO RU HE BAN                                     
+Eval: I   I  I   I  I  I  I  I     I     I   I  I  S                                       
+
+id: (g1103-g1103_0106)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  **** *** ** ** *** *** ** ** *** ** ** 天津哪里有设计发型的地方 
+HYP:  TIAN JIN NA LI YOU SHE JI FA XIN DE DI FANG                                 
+Eval: I    I   I  I  I   I   I  I  I   I  I  S                                    
+
+id: (g1103-g1103_0109)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  *** **** *** *** ** ***** ** *** 冒险岛怎么升级帽子 
+HYP:  MAO XIAN DAO ZEN ME SHENG JI MAO ZHI                         
+Eval: I   I    I   I   I  I     I  I   S                           
+
+id: (g1103-g1103_0111)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  *** ** ** ** **** ** **** **** 汉武帝的名字叫什么 
+HYP:  HAN WU DI DE MING ZI JIAO SHEN ME                          
+Eval: I   I  I  I  I    I  I    I    S                           
+
+id: (g1103-g1103_0119)
+Scores: (#C #S #D #I) 0 1 0 6
+REF:  *** *** *** **** *** **** 有哪些免费网游 
+HYP:  YOU NEI XIE MIAN FEI WANG YOU                   
+Eval: I   I   I   I    I   I    S                     
+
+id: (g1103-g1103_0126)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  ***** *** **** *** **** **** ** *** ** *** ** ** *** 相信交友网站的心理分析匹配吗 
+HYP:  XIANG XIN JIAO YOU WANG ZHAN DE XIN LI FEN XI PI PEI MA                                         
+Eval: I     I   I    I   I    I    I  I   I  I   I  I  I   S                                          
+
+id: (g1103-g1103_0138)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  ** *** **** *** ** ** **** *** ** *** 我有手淫的习惯怎么办啊 
+HYP:  WO YOU SHOU YIN DE XI GUAN ZEN ME BAN A                                 
+Eval: I  I   I    I   I  I  I    I   I  I   S                                 
+
+id: (g1103-g1103_0155)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  *** **** ** ** ** *** ** 月经期可以做爱吗 
+HYP:  YUE JING QI KE YI ZUO AI MA                       
+Eval: I   I    I  I  I  I   I  S                        
+
+id: (g1103-g1103_0156)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  **** *** *** **** ** *** ** 惊蜇为什么要吃梨 
+HYP:  JING ZHE WEI SHEN ME YAO CI LI                       
+Eval: I    I   I   I    I  I   I  S                        
+
+id: (g1103-g1103_0183)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  ** ** *** ** *** **** *** ** ** ** **** ** *** **** **** *** 哪里有发掘定陵的纪录片地下宫殿下载 
+HYP:  NA LI YOU FA JUE DING LIN DE JI LU PIAN DI XIA GONG DIAN XIA ZAI                                                 
+Eval: I  I  I   I  I   I    I   I  I  I  I    I  I   I    I    I   S                                                   
+
+id: (g1103-g1103_0201)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  *** **** ** ** *** **** ** *** ** *** *** *** ** *** *** ** 推荐个不要点卡玩的人又多的新游戏啊 
+HYP:  TUI JIAN GE BU YAO DIAN KA WAN DE REN YOU DUO DE XIN YOU XI YA                                                  
+Eval: I   I    I  I  I   I    I  I   I  I   I   I   I  I   I   I  S                                                   
+
+id: (g1103-g1103_0242)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  ** **** **** **** *** *** *** **** ***** **** *** ** 一键还原是否会影响电脑磁盘 
+HYP:  YI JIAN HUAN YUAN SHI FOU HUI YING XIANG DIAN NAO CI PAN                                     
+Eval: I  I    I    I    I   I   I   I    I     I    I   I  S                                       
+
+id: (g1103-g1103_0245)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** ** *** ** ** **** *** ** **** 怎么才可以生活不无聊啊 
+HYP:  ZEN ME CAI KE YI SHEN HUO BU LIAO A                                 
+Eval: I   I  I   I  I  I    I   I  I    S                                 
+
+id: (g1103-g1103_0249)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  **** *** **** **** *** **** *** ** *** ** ** *** **** ** **** 请问网通玩电信的游戏需要什么软件 
+HYP:  QING WEN WANG TONG WAN DIAN XIN DE YOU XI XU YAO SHEN ME RUAN JIAN                                             
+Eval: I    I   I    I    I   I    I   I  I   I  I  I   I    I  I    S                                                
+
+id: (g1103-g1103_0270)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  ** *** ** *** **** *** *** *** ** ** *** 哪有雅思往届考试题库下载 
+HYP:  NA YOU YA SHI WANG JIE KAO SHI JI KU XIA ZAI                                  
+Eval: I  I   I  I   I    I   I   I   I  I  I   S                                    
+
+id: (g1103-g1103_0280)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** ** *** **** ** **** ** *** ** 累了怎样的睡姿最舒服 
+HYP:  NEI LA ZEN YANG DE SHUI ZI ZUI SU FU                             
+Eval: I   I  I   I    I  I    I  I   I  S                              
+
+id: (g1103-g1103_0286)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  **** *** ** ** *** **** *** *** *** ** ** **** ** 电导率的概念单位是如何定义的 
+HYP:  DIAN NAO LV DE GAI NIAN BAN WEI SHI RU HE DING YI DE                                         
+Eval: I    I   I  I  I   I    I   I   I   I  I  I    I  S                                          
+
+id: (g1103-g1103_0298)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** ** ** ** *** **** *** ** ** 真爱一个人就要嫁给他吗 
+HYP:  ZEN AI YI GE REN JIAO JIA GE TA MA                                
+Eval: I   I  I  I  I   I    I   I  I  S                                 
+
+id: (g1103-g1103_0301)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  *** **** *** ***** *** **** ** ** 四年之殇是什么意思 
+HYP:  SHI NIAN ZHI XIANG SHI SHEN ME YI SI                          
+Eval: I   I    I   I     I   I    I  I  S                           
+
+id: (g1103-g1103_0316)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  *** *** **** *** **** **** *** **** ** ** *** **** ** **** 坐在电脑面前最能保护眼睛的方法 
+HYP:  ZUO ZAI DIAN NAO MIAN QIAN ZUI NENG BA HU YAN JING DE FANG FA                                            
+Eval: I   I   I    I   I    I    I   I    I  I  I   I    I  I    S                                             
+
+id: (g1103-g1103_0325)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** ** ** **** ** *** *** **** **** 给我提供一些言情小说 
+HYP:  GEI WO TI GONG YI XIE YAN QING XIAO SHU                            
+Eval: I   I  I  I    I  I   I   I    I    S                              
+
+id: (g1103-g1103_0327)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  *** **** ** ** ** **** *** *** *** ** ** ** 为什么业务员老是做不起业绩 
+HYP:  WEI SHEN ME YE WU YUAN LAO SHI ZUO BU QI YE JI                                      
+Eval: I   I    I  I  I  I    I   I   I   I  I  I  S                                       
+
+id: (g1103-g1103_0347)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  ** ** *** *** *** *** *** **** **** **** **** ** **** **** **** 如何制作配乐诗朗诵用什么软件较好 
+HYP:  RU HE ZHI ZUO PEI YUE SHI LANG SONG YONG SHEN ME RUAN JIAN JIAO HAO                                              
+Eval: I  I  I   I   I   I   I   I    I    I    I    I  I    I    I    S                                                
+
+id: (g1103-g1103_0357)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  **** **** **** *** *** **** *** ** ** *** 沈阳现在游泳在哪里好啊 
+HYP:  SHEN YANG XIAN ZAI YOU YONG ZAI NA LI HAO A                                 
+Eval: I    I    I    I   I   I    I   I  I  I   S                                 
+
+id: (g1103-g1103_0386)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  ** ** *** *** ** *** ** *** **** ** *** ** ** 哪里有卖欧莱雅丝泉系列发膜的 
+HYP:  NA LI YOU MAI OU LAI YA SHI QUAN XI LIE FA MO DE                                         
+Eval: I  I  I   I   I  I   I  I   I    I  I   I  I  S                                          
+
+id: (g1103-g1103_0405)
+Scores: (#C #S #D #I) 0 1 0 6
+REF:  **** *** ** ** *** ** 电脑卡了怎么办 
+HYP:  DIAN NAO KA LE ZEN ME BAN                   
+Eval: I    I   I  I  I   I  S                     
+
+id: (g1103-g1103_0410)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  *** *** *** **** *** ** **** **** * ** **** ** ** *** 有没有交友的网站啊提供一个好吗 
+HYP:  YOU MEI YOU JIAO YOU DE WANG ZHAN A TI GONG YI GE HAO MA                                            
+Eval: I   I   I   I    I   I  I    I    I I  I    I  I  I   S                                             
+
+id: (g1103-g1103_0415)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  ** ** *** *** ***** ***** ** *** *** *** *** 哪里有新成长的烦恼下载呢 
+HYP:  NA LI YOU XIN CHENG ZHANG DE FAN NAO XIA ZAI NE                                   
+Eval: I  I  I   I   I     I     I  I   I   I   I   S                                    
+
+id: (g1103-g1103_0417)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  *** *** *** *** **** *** *** ** *** *** *** 左眼被球砸到为何会右脑疼 
+HYP:  ZUO YAN BEI QIU ZHAN DAO WEI HE HUI YOU LAO TENG                                 
+Eval: I   I   I   I   I    I   I   I  I   I   I   S                                    
+
+id: (g1103-g1103_0426)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  **** *** *** *** ** ** *** *** **** *** ** ***** *** 申咏浩是哪部韩国电视剧中主角 
+HYP:  SHEN YOU HAO SHI NA BU HAN GUO DIAN SHI JU ZHONG ZHU JU                                         
+Eval: I    I   I   I   I  I  I   I   I    I   I  I     I   S                                          
+
+id: (g1103-g1103_0434)
+Scores: (#C #S #D #I) 0 1 0 17
+REF:  *** ** *** *** ** **** ** ***** *** *** ***** *** ** **** ** ** *** 哪个国家的什么城市被称为奥林匹克之都 
+HYP:  NEI GE GUO JIA DE SHEN ME CHENG SHI BEI CHENG WEI AO LING PI KE ZHI DU                                                     
+Eval: I   I  I   I   I  I    I  I     I   I   I     I   I  I    I  I  I   S                                                      
+
+id: (g1103-g1103_0437)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  **** *** ** ** *** ** ***** **** ** ** ** ** **** ** ** ** 现在的女孩子穿什么衣服比较可爱点啊 
+HYP:  XIAN ZAI DE NV HAI ZI CHUAN SHEN ME YI FU BI JIAO KE AI DE A                                                   
+Eval: I    I   I  I  I   I  I     I    I  I  I  I  I    I  I  I  S                                                   
+
+id: (g1103-g1103_0455)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  *** ** *** ** *** *** ***** ** *** **** ** **** ** **** *** *** 人固有一死或重于泰山或轻于鸿毛解释 
+HYP:  REN GU YOU YI SHI HUO ZHONG DE TAI SHAN HE QING YU HONG MAO JIE SHI                                                 
+Eval: I   I  I   I  I   I   I     I  I   I    I  I    I  I    I   I   S                                                   
+
+id: (g1103-g1103_0476)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  *** ** ***** *** ** ** **** 劲舞帐号如何申请 
+HYP:  JIN WU ZHANG HAO RU HE SHEN QING                     
+Eval: I   I  I     I   I  I  I    S                        
+
+id: (g1103-g1103_0482)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  ** *** ***** **** **** ** *** **** ** **** *** *** *** 一般证券从业人员的工资是多少 
+HYP:  YI BAN ZHENG JUAN CONG YE REN YUAN DE GONG ZHI SHI DUO SHAO                                       
+Eval: I  I   I     I    I    I  I   I    I  I    I   I   I   S                                          
+
+id: (g1103-g1103_0491)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  *** ** ** ** ** ** *** **** 泰戈尔的诗集有什么 
+HYP:  TAI GE ER DE SI JI YOU SHEN ME                          
+Eval: I   I  I  I  I  I  I   I    S                           
+
+id: (g1103-g1103_0494)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** ** *** **** *** ** *** ** ** 怎么隐藏任务栏的图标 
+HYP:  ZEN ME YIN CANG REN WU LAN DE TU BIAO                           
+Eval: I   I  I   I    I   I  I   I  I  S                              
+
+id: (g1103-g1103_0495)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  ** ***** ***** **** ** *** *** ***** 一张靓照哪有这专辑 
+HYP:  YI ZHANG LIANG ZHAO NA YOU ZHE ZHUAN JI                          
+Eval: I  I     I     I    I  I   I   I     S                           
+
+id: (g1103-g1103_0515)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  *** ** **** *** *** ** ** **** **** ** **** *** ** ** 怎么能在百度的空间里添加歌曲啊 
+HYP:  ZEN ME NENG ZAI BAI DU DE KONG JIAN LI TIAN JIA GE QU A                                             
+Eval: I   I  I    I   I   I  I  I    I    I  I    I   I  I  S                                             
+
+id: (g1103-g1103_0518)
+Scores: (#C #S #D #I) 0 1 0 6
+REF:  **** ** *** *** ** *** 什么是百度贴吧 
+HYP:  SHEN ME SHI BAI DU TIE BA                    
+Eval: I    I  I   I   I  I   S                     
+
+id: (g1103-g1103_0520)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  **** ** **** *** ** *** **** 什么电话卡最便宜 
+HYP:  SHEN ME DIAN HUA KA ZUI PIAN YI                       
+Eval: I    I  I    I   I  I   I    S                        
+
+id: (g1103-g1103_0522)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  *** *** **** ** *** *** *** 猫为什么要捉老鼠 
+HYP:  MAO WEI SHEN ME YAO ZHU LAO SHU                      
+Eval: I   I   I    I  I   I   I   S                        
+
+id: (g1103-g1103_0530)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  **** *** ** ** *** ** *** *** 虹鳟鱼的价格是多少 
+HYP:  HONG JUN YU DE JIA GE SHI DUO SHAO                        
+Eval: I    I   I  I  I   I  I   I   S                           
+
+id: (g1103-g1103_0547)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  *** ** *** *** *** ** *** **** *** *** ** *** *** ** 找蝴蝶飞飞和火影忍者的下载地址 
+HYP:  ZAO HU DIE FEI FEI HE HUO YING REN ZHE DE XIA ZAI DI ZHI                                           
+Eval: I   I  I   I   I   I  I   I    I   I   I  I   I   I  S                                             
+
+id: (g1103-g1103_0587)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  *** **** ***** *** ***** **** ** ** **** ** ** *** *** ** *** *** 有工商行政管理系统的个人述职报告吗 
+HYP:  YOU GONG SHANG XIN ZHANG GUAN LI XI TONG DE GE REN SHU ZI BAO GAO MA                                                  
+Eval: I   I    I     I   I     I    I  I  I    I  I  I   I   I  I   I   S                                                   
+
+id: (g1103-g1103_0626)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  *** **** ** ***** **** **** ** *** ** ** *** *** *** 怎样把蟑螂从耳朵里引诱出来呢 
+HYP:  ZEN YANG BA ZHANG LANG CONG ER DUO LI YI YOU CHU LAI NE                                         
+Eval: I   I    I  I     I    I    I  I   I  I  I   I   I   S                                          
+
+id: (g1103-g1103_0641)
+Scores: (#C #S #D #I) 0 1 0 17
+REF:  *** ** *** ** ** ***** ** **** ** ***** ** *** ** *** ** **** **** 国际贸易和商务管理专业哪个就业前景好 
+HYP:  GUO JI MAO YI HE SHANG WU GUAN LI ZHUAN YE NEI GE JIU YE QIAN JING HAO                                                    
+Eval: I   I  I   I  I  I     I  I    I  I     I  I   I  I   I  I    I    S                                                      
+
+id: (g1103-g1103_0643)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  **** ** **** *** *** *** ***** ** ** ** *** *** *** 公务员考试新疆录取的时候黑吗 
+HYP:  GONG WU YUAN KAO SHI XIN JIANG LU QU DE SHI HOU HUI MA                                         
+Eval: I    I  I    I   I   I   I     I  I  I  I   I   I   S                                          
+
+id: (g1103-g1103_0648)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  **** *** **** ** *** ** **** **** *** ** ** ** ** **** 现在什么杀毒软件好而且可以免费 
+HYP:  XIAN ZAI SHEN ME SHA DU RUAN JIAN HAO ER QI KE YI MIAN FEI                                           
+Eval: I    I   I    I  I   I  I    I    I   I  I  I  I  I    S                                             
+
+id: (g1103-g1103_0649)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  ** ** *** **** ** *** *** *** **** ** **** 笔记本屏幕老闪是什么原因 
+HYP:  BI JI BEN PING MU LAO SAN SHI SHEN ME YUAN YIN                                  
+Eval: I  I  I   I    I  I   I   I   I    I  I    S                                    
+
+id: (g1103-g1103_0653)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  *** **** *** **** ** **** ** *** *** **** ** *** *** *** 南通直通徐州的火车什么时候开通 
+HYP:  NAN TONG ZHI TONG XU ZHOU DE HUO CHE SHEN ME SHI HOU KAI TONG                                          
+Eval: I   I    I   I    I  I    I  I   I   I    I  I   I   I   S                                             
+
+id: (g1103-g1103_0657)
+Scores: (#C #S #D #I) 0 1 0 6
+REF:  **** **** ** *** ** ** 电动阀怎么安装 
+HYP:  DIAN DONG FA ZEN ME AN ZHUANG                
+Eval: I    I    I  I   I  I  S                     
+
+id: (g1103-g1103_0661)
+Scores: (#C #S #D #I) 0 1 0 17
+REF:  ** **** *** **** ** *** *** ***** ** ** *** *** *** ***** **** *** *** 欧盟是什么时候成立的有哪些成员国组成 
+HYP:  OU MENG SHI SHEN ME SHI HOU CHENG LI DE YOU NEI XIE CHENG YUAN GUO ZHU CHENG                                                  
+Eval: I  I    I   I    I  I   I   I     I  I  I   I   I   I     I    I   I   S                                                      
+
+id: (g1103-g1103_0666)
+Scores: (#C #S #D #I) 0 1 0 6
+REF:  ** **** ** *** *** ** 发烧不退怎么办 
+HYP:  FA SHAO BU TUI ZEN ME BAN                   
+Eval: I  I    I  I   I   I  S                     
+
+id: (g1103-g1103_0677)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** **** **** *** ** **** ***** **** **** 怎样申办旅店相关手续 
+HYP:  ZEN YANG SHEN BAN LV DIAN XIANG GUAN SHOU XU                             
+Eval: I   I    I    I   I  I    I     I    I    S                              
+
+id: (g1103-g1103_0682)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  *** ** **** **** ** *** ***** *** **** ***** ** 太极拳真的是张三丰创的吗 
+HYP:  TAI JI QUAN ZHEN DE SHI ZHANG SAN FENG CHANG DE MA                                   
+Eval: I   I  I    I    I  I   I     I   I    I     I  S                                    
+
+id: (g1103-g1103_0683)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  *** ** ** ** ** ** *** ** ** ** **** ** *** 怎么扩大可以映射的计算机数量 
+HYP:  ZEN ME KA DA KE YI YIN SE DE JI SUAN JI SHU LIANG                                      
+Eval: I   I  I  I  I  I  I   I  I  I  I    I  I   S                                          
+
+Speaker sentences   7:  g1105   #utts: 54
+id: (g1105-g1105_0003)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  ** *** ***** **** *** *** **** ** *** *** ***** 大学生参军有什么优惠政策 
+HYP:  DA XUE SHENG CHEN JUN YOU SHEN ME YOU HUI ZHENG CHOU                                 
+Eval: I  I   I     I    I   I   I    I  I   I   I     S                                    
+
+id: (g1105-g1105_0014)
+Scores: (#C #S #D #I) 0 1 0 5
+REF:  **** *** ** ** **** 硬盘如何跳线 
+HYP:  YING PAN RU HE TIAO XIAN               
+Eval: I    I   I  I  I    S                  
+
+id: (g1105-g1105_0042)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  ** **** **** ***** *** **** ** ** *** **** **** *** 我姓曾想改名字麻烦帮忙想想 
+HYP:  WO XING ZHEN XIANG GAI MING ZI MA FAN BANG MANG XIA XIANG                                   
+Eval: I  I    I    I     I   I    I  I  I   I    I    I   S                                       
+
+id: (g1105-g1105_0063)
+Scores: (#C #S #D #I) 0 1 0 17
+REF:  *** **** *** ** ** **** *** ** **** *** ****** *** ** *** **** **** **** 怎样使皮肤变白不用化妆品和药方便快捷 
+HYP:  ZEN YANG SHI PI FU BIAN BAI BU YONG HUA ZHUANG PIN HE YAO FANG BIAN KUAI JIE                                                    
+Eval: I   I    I   I  I  I    I   I  I    I   I      I   I  I   I    I    I    S                                                      
+
+id: (g1105-g1105_0066)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  *** ** ** *** **** *** ****** *** *** ** *** ** 罗纳耳朵现在状态好吗亨利呢 
+HYP:  LUO NA ER DUO XIAN ZAI ZHUANG DAI HAO MA HEN DE NE                                      
+Eval: I   I  I  I   I    I   I      I   I   I  I   I  S                                       
+
+id: (g1105-g1105_0068)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  ** ** **** ** *** ** ** ** ** *** **** *** 如何选择适合自己的函授学校 
+HYP:  RU HE XUAN ZE SHI GE ZI JI DE HAN SHOU XUE XIAO                                    
+Eval: I  I  I    I  I   I  I  I  I  I   I    I   S                                       
+
+id: (g1105-g1105_0072)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  *** ***** ** *** ** ** *** *** **** **** ** *** *** **** *** **** 反转剧为了她主要讲什么有内容介绍吗 
+HYP:  FAN ZHUAN JU WEI DE KA ZHU YAO JIAO SHEN ME YOU LEI RONG JIE SHAO MA                                                  
+Eval: I   I     I  I   I  I  I   I   I    I    I  I   I   I    I   I    S                                                   
+
+id: (g1105-g1105_0078)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  ** **** ** ** **** *** ** *** **** **** *** 去年的铂金价格多少现在呢 
+HYP:  QU TIAN DE BO JING JIA GE DUO SHAO XIAN ZAI DE                                   
+Eval: I  I    I  I  I    I   I  I   I    I    I   S                                    
+
+id: (g1105-g1105_0164)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  *** *** ** ** *** ** *** **** 混油底漆怎么怎样刷 
+HYP:  HUI YOU DE QI ZEN ME ZHE YANG SHUA                        
+Eval: I   I   I  I  I   I  I   I    S                           
+
+id: (g1105-g1105_0183)
+Scores: (#C #S #D #I) 0 1 0 6
+REF:  **** ** *** *** **** ****** 什么是暴走状态 
+HYP:  SHEN ME SHI BAO ZHOU ZHUANG TAI                   
+Eval: I    I  I   I   I    I      S                     
+
+id: (g1105-g1105_0189)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  *** **** ** *** *** **** ** *** **** ** ** ** *** *** 北京舞蹈学院附近有房子可以租住吗 
+HYP:  BEI JING WU DAO XUE YUAN HU JIN FANG ZI KE YI ZHU ZUO MA                                               
+Eval: I   I    I  I   I   I    I  I   I    I  I  I  I   I   S                                                
+
+id: (g1105-g1105_0197)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  *** **** *** *** *** ***** ** ** *** *** ** 北京有哪些正规的培训机构 
+HYP:  BEI JING YOU NEI XIE ZHENG GU DE PEI XUN JI GE                                   
+Eval: I   I    I   I   I   I     I  I  I   I   I  S                                    
+
+id: (g1105-g1105_0208)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  **** ** *** **** ***** **** ** *** 什么才算成功的男人 
+HYP:  SHEN ME CAI SUAN CHENG GONG DE NAN REN                         
+Eval: I    I  I   I    I     I    I  I   S                           
+
+id: (g1105-g1105_0214)
+Scores: (#C #S #D #I) 0 1 0 17
+REF:  *** ***** *** *** ** **** ** *** ***** ** *** *** ** *** **** **** ** 在香港买的手机能像大陆行货使用简体吗 
+HYP:  ZAI XIANG GAO MAI DE SHOU JI BEI XIANG DA LUN HAN HE SHI YONG JIAN TI MA                                                     
+Eval: I   I     I   I   I  I    I  I   I     I  I   I   I  I   I    I    I  S                                                      
+
+id: (g1105-g1105_0217)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  ** **** **** *** **** ** ***** **** *** **** *** ** *** **** 目前青岛家庭上网包年最低多少钱 
+HYP:  MU QIAN QING DAO JIAO DI SHANG WANG BAO LIAN ZUI DI DUO SHAO QIAN                                          
+Eval: I  I    I    I   I    I  I     I    I   I    I   I  I   I    S                                             
+
+id: (g1105-g1105_0218)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  *** ** *** *** **** *** ** **** ** *** **** *** 主机开着显示器关闭这样好吗 
+HYP:  ZHU JI KAI CHE XIAN SHI JI GUAN BI ZEN YANG HAO MA                                      
+Eval: I   I  I   I   I    I   I  I    I  I   I    I   S                                       
+
+id: (g1105-g1105_0220)
+Scores: (#C #S #D #I) 0 1 0 6
+REF:  *** ** *** ** **** **** 为何白了少年头 
+HYP:  WEI HE BAN LE SHAO NIAN TOU                   
+Eval: I   I  I   I  I    I    S                     
+
+id: (g1105-g1105_0230)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  *** **** ** **** **** ** *** *** ** **** ** **** 为什么金山破解版的精灵病毒 
+HYP:  WEI SHEN ME JING SHEN PO JIE BAN DE JING LI BING DU                                      
+Eval: I   I    I  I    I    I  I   I   I  I    I  I    S                                       
+
+id: (g1105-g1105_0234)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** **** ** ** *** ***** *** *** *** 甘草可以治嗓子嘶哑吗 
+HYP:  DAN CHAO KE YI ZHI SHANG ZHI SHI YAO MA                             
+Eval: I   I    I  I  I   I     I   I   I   S                              
+
+id: (g1105-g1105_0263)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  ** ***** **** ** *** *** ** *** **** ** 我想养一只狗狗推荐一下 
+HYP:  WO XIANG YANG YI ZHI GOU GE TUI JIAN YI XIA                               
+Eval: I  I     I    I  I   I   I  I   I    I  S                                 
+
+id: (g1105-g1105_0268)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** *** ** ** *** ** *** **** *** 厦门哪里有卖小苏打 
+HYP:  XIA MEN NA LI YOU YU MAI XIAO CHU DA                          
+Eval: I   I   I  I  I   I  I   I    I   S                           
+
+id: (g1105-g1105_0274)
+Scores: (#C #S #D #I) 0 1 0 17
+REF:  *** *** ** ** *** *** **** ** *** ** *** *** **** ** ** *** *** 咬舌自尽会死亡割断舌头为什么不会死亡 
+HYP:  YAO SHI ZI JI HUI SHI WANG GE GAN CI DOU WEI SHEN ME BU HUI SHI WANG                                                   
+Eval: I   I   I  I  I   I   I    I  I   I  I   I   I    I  I  I   I   S                                                      
+
+id: (g1105-g1105_0285)
+Scores: (#C #S #D #I) 0 1 0 5
+REF:  **** *** *** *** ** 樟脑丸有毒吗 
+HYP:  ZHAO DAO WAN YOU DU MA                 
+Eval: I    I   I   I   I  S                  
+
+id: (g1105-g1105_0287)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  ***** *** *** *** ** *** *** *** ** *** *** *** 中美篮球对抗赛什么时候开始 
+HYP:  ZHONG MEI LAN QIU DE DAO SAI ZEN ME SHI HOU KAI SHI                                     
+Eval: I     I   I   I   I  I   I   I   I  I   I   I   S                                       
+
+id: (g1105-g1105_0301)
+Scores: (#C #S #D #I) 0 1 0 6
+REF:  *** **** ** **** *** *** 为什么电脑黑屏 
+HYP:  WEI SHEN ME DIAN NAO HEI PING                  
+Eval: I   I    I  I    I   I   S                     
+
+id: (g1105-g1105_0314)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  **** **** *** **** *** *** **** ** ** ** ** *** *** *** ** 沈阳运动男孩儿店的具体位子在哪儿 
+HYP:  SHEN YANG YUN DONG DAO HAN DIAN DE JU TI YI WEI ZHI ZAI NA ER                                               
+Eval: I    I    I   I    I   I   I    I  I  I  I  I   I   I   I  S                                                
+
+id: (g1105-g1105_0334)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  *** ** ** *** **** ** *** 怎么提高英语口语 
+HYP:  ZEN ME TI GAO YING YU KOU YU                       
+Eval: I   I  I  I   I    I  I   S                        
+
+id: (g1105-g1105_0376)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  ** ***** *** *** ** *** *** ** ** ** ** ***** 我想购买基金告诉我具体程序 
+HYP:  WO XIANG GOU MAI JI JIN GAO SU WO JU TI CHENG XU                                      
+Eval: I  I     I   I   I  I   I   I  I  I  I  I     S                                       
+
+id: (g1105-g1105_0384)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  ***** **** **** *** **** ** *** *** ** **** ** *** **** 程控电流源的国内外发展趋势是什么 
+HYP:  CHENG GONG DIAN NAO YUAN DE GUO NEI FA ZHAN QU SHI SHEN ME                                               
+Eval: I     I    I    I   I    I  I   I   I  I    I  I   I    S                                                
+
+id: (g1105-g1105_0385)
+Scores: (#C #S #D #I) 0 1 0 6
+REF:  **** *** *** *** ** *** 正数是怎么来的 
+HYP:  ZHEN SHU SHI ZEN ME LAI DE                    
+Eval: I    I   I   I   I  I   S                     
+
+id: (g1105-g1105_0387)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  ** **** ** *** *** ** *** ** *** *** **** 医用护颈套的价格是多少呀 
+HYP:  YI YONG HU JIN TAO DE JIA GE SHI DUO SHAO YA                                   
+Eval: I  I    I  I   I   I  I   I  I   I   I    S                                    
+
+id: (g1105-g1105_0389)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  **** **** ***** *** *** *** *** **** 塑钢窗屋内返水为什么 
+HYP:  WANG GANG CHUAN LOU FAN XUE WEI SHEN ME                             
+Eval: I    I    I     I   I   I   I   I    S                              
+
+id: (g1105-g1105_0393)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  ** ***** **** ** *** ** ** **** *** *** **** *** ** *** *** 机关洞内那个地图没有铜锤和金刚人 
+HYP:  JI GUANG DONG DE NEI GE DI TONG MEI YOU TONG CHE HE JIN GAO REN                                              
+Eval: I  I     I    I  I   I  I  I    I   I   I    I   I  I   I   S                                                
+
+id: (g1105-g1105_0402)
+Scores: (#C #S #D #I) 0 1 0 17
+REF:  ***** *** ** *** *** ** *** *** **** ** *** **** **** ** *** *** *** 准备和人合伙办学什么分红方式最合理 
+HYP:  ZHONG BEI HE REN HOU HE BAN XUE SHEN ME FEN FENG FANG HU SHI ZUI HUN LI                                                  
+Eval: I     I   I  I   I   I  I   I   I    I  I   I    I    I  I   I   I   S                                                   
+
+id: (g1105-g1105_0409)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  ** *** *** ** ** *** ** ** ** 无尾半礼服是几粒扣的 
+HYP:  WU WEI BAN LI FU SHI JI LI KE DE                             
+Eval: I  I   I   I  I  I   I  I  I  S                              
+
+id: (g1105-g1105_0410)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  *** *** ** *** *** *** *** **** 最好的回奶药是什么 
+HYP:  ZUI HAO DE HUI LAN YAO SHI SHEN ME                          
+Eval: I   I   I  I   I   I   I   I    S                           
+
+id: (g1105-g1105_0413)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  **** *** *** *** *** ** *** *** *** **** ** ***** **** 请问考研报名要出示什么证件吗 
+HYP:  QING WEN KAO YAN BAO YU YAO CHU SHI SHEN ME ZHENG JIAN MA                                         
+Eval: I    I   I   I   I   I  I   I   I   I    I  I     I    S                                          
+
+id: (g1105-g1105_0415)
+Scores: (#C #S #D #I) 0 1 0 6
+REF:  *** *** ***** ** *** ** 后门程序怎么删 
+HYP:  HAO MEN CHENG XU ZEN ME SHAN                  
+Eval: I   I   I     I  I   I  S                     
+
+id: (g1105-g1105_0440)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** *** ** ** *** ** ***** *** ** 柳州的浪漫一生在哪里 
+HYP:  LIU ZHU DE NA MAI YI SHENG ZAI NA LI                             
+Eval: I   I   I  I  I   I  I     I   I  S                              
+
+id: (g1105-g1105_0446)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  *** **** ** ** ** **** *** *** *** ** **** ** ** **** 为什么我的电脑老数据断而掉线 
+HYP:  WEI SHEN ME WO DE DIAN NAO LAO SHU JU DUAN AN ER DIAO XIAN                                       
+Eval: I   I    I  I  I  I    I   I   I   I  I    I  I  I    S                                          
+
+id: (g1105-g1105_0449)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  ** **** ** *** *** *** *** ** *** 儿童一岁多适合补钙吗 
+HYP:  ER TONG YI SUI DUO SHI HOU BU GAI BA                             
+Eval: I  I    I  I   I   I   I   I  I   S                              
+
+id: (g1105-g1105_0451)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  **** ** **** ** ** *** *** **** *** 什么样子的人最受欢迎 
+HYP:  SHEN ME YANG ZI DE REN ZUI SHOU FAN YI                             
+Eval: I    I  I    I  I  I   I   I    I   S                              
+
+id: (g1105-g1105_0458)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  ** ** **** *** *** *** *** **** *** **** *** **** ** 哪里能下载北京奥运北京这首歌啊 
+HYP:  NA LI NENG XIA ZAI BEI DAO YING BEI JING ZHE SHOU GE A                                             
+Eval: I  I  I    I   I   I   I   I    I   I    I   I    I  S                                             
+
+id: (g1105-g1105_0469)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  ***** ***** **** ** *** *** ** *** **** ** *** *** ** 正常关机后开机为什么还要自检 
+HYP:  ZHENG CHANG GUAN JI HOU KAI JI WEI SHEN ME HAI YAO ZI JIAN                                       
+Eval: I     I     I    I  I   I   I  I   I    I  I   I   I  S                                          
+
+id: (g1105-g1105_0482)
+Scores: (#C #S #D #I) 0 1 0 6
+REF:  *** *** **** *** *** ** 人最快能跑几米 
+HYP:  REN ZUI KUAI REN PAO JI MING                  
+Eval: I   I   I    I   I   I  S                     
+
+id: (g1105-g1105_0496)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** **** ** ** ** *** ** ** **** 支援西部大开发的条件 
+HYP:  ZEN YANG XI BU DA KAI FA DE TIAO JIAN                           
+Eval: I   I    I  I  I  I   I  I  I    S                              
+
+id: (g1105-g1105_0501)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  ** *** ** *** ***** *** *** **** ** *** 大三的学生做些什么好呢 
+HYP:  DA SAN DE XUE SHENG ZUO XUE SHEN ME HAO NE                                
+Eval: I  I   I  I   I     I   I   I    I  I   S                                 
+
+id: (g1105-g1105_0534)
+Scores: (#C #S #D #I) 0 1 0 6
+REF:  *** ** ** *** **** *** 怎么把文件加密 
+HYP:  ZEN ME BA WEN JIAN JIA MI                    
+Eval: I   I  I  I   I    I   S                     
+
+id: (g1105-g1105_0543)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  *** **** ** *** *** *** ** *** *** ** ** ** ** *** *** 为什么汉堡这么狠心把巴巴蕾茨卖掉 
+HYP:  WEI SHEN ME HAN BAO ZEN ME HEN XIN MA BA BA NE CHI MAI DIAO                                             
+Eval: I   I    I  I   I   I   I  I   I   I  I  I  I  I   I   S                                                
+
+id: (g1105-g1105_0589)
+Scores: (#C #S #D #I) 0 1 0 5
+REF:  *** ** ** *** *** 维吾尔族喝酒吗 
+HYP:  WEI ER ZU HUO JIU MA                    
+Eval: I   I  I  I   I   S                     
+
+id: (g1105-g1105_0629)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  **** ** ***** *** *** *** ** *** ** *** **** ** **** ** 怪事想问一下到底怎么回事关于手机的 
+HYP:  GUAN SI XIANG WEN XIA DAO DI ZEN ME SHI GUAN YU SHOU JI DE                                                  
+Eval: I    I  I     I   I   I   I  I   I  I   I    I  I    I  S                                                   
+
+id: (g1105-g1105_0635)
+Scores: (#C #S #D #I) 0 1 0 17
+REF:  *** *** *** ** ** ** *** *** ***** ** ** *** ** *** **** ** ** 对外汉语资格考试中级和高级有什么区别 
+HYP:  DUI WAI HAN YU ZI GE KAO SHI ZHONG JI HE BAO JI YOU SHEN ME QU BIE                                                    
+Eval: I   I   I   I  I  I  I   I   I     I  I  I   I  I   I    I  I  S                                                      
+
+id: (g1105-g1105_0675)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  *** **** ** ** *** *** ** 南京马家街在哪里 
+HYP:  NAN JING MA YA JIE ZAI NA LI                       
+Eval: I   I    I  I  I   I   I  S                        
+
+id: (g1105-g1105_0679)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  ***** ** **** *** *** *** *** 朱自清有哪些作品 
+HYP:  ZHONG ZI QING YOU NEI XIE ZUO PIN                      
+Eval: I     I  I    I   I   I   I   S                        
+
+Speaker sentences   8:  g1106   #utts: 69
+id: (g1106-g1106_0015)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  *** **** ** ***** *** **** *** ** ***** *** ***** *** 为什么将孙绍祖说成是中山狼 
+HYP:  WEI SHEN ME JIANG SUN SHAO ZHU SU CHENG SHI ZHONG SHA MA                                      
+Eval: I   I    I  I     I   I    I   I  I     I   I     I   S                                       
+
+id: (g1106-g1106_0025)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  ***** ** *** *** *** *** **** *** 程序员儿考试费用多少 
+HYP:  CHENG XU YAO KAO SHI FEI YONG DUO SHAO                           
+Eval: I     I  I   I   I   I   I    I   S                              
+
+id: (g1106-g1106_0028)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  *** *** **** *** *** ** ** 清太宗是怎么死的 
+HYP:  QIN TAI ZONG SHI ZEN ME SI DE                       
+Eval: I   I   I    I   I   I  I  S                        
+
+id: (g1106-g1106_0032)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  **** *** *** *** ***** *** *** *** *** **** 电脑没有声音是因为什么 
+HYP:  DIAN NAO MEI YOU SHENG YIN SHI YIN WEI SHEN ME                                
+Eval: I    I   I   I   I     I   I   I   I   I    S                                 
+
+id: (g1106-g1106_0042)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  **** **** *** **** *** **** *** *** ** **** ** *** ***** ***** *** 睡眠过少时献血会对身体造成伤害吗 
+HYP:  SHUI MIAN DUO SHAO SHI XIAN XUE HUI DE SHEN TI ZAO CHENG SHANG HAI MA                                               
+Eval: I    I    I   I    I   I    I   I   I  I    I  I   I     I     I   S                                                
+
+id: (g1106-g1106_0052)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  *** ** **** **** *** ** ** *** *** *** *** ** *** ** ** *** 有的网站禁止复制这个问题该如何解决 
+HYP:  YOU DE WANG ZHAN JIN CI FU ZHI ZHE GAO WEN TI GAI RU HE JIE JUE                                                 
+Eval: I   I  I    I    I   I  I  I   I   I   I   I  I   I  I  I   S                                                   
+
+id: (g1106-g1106_0107)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** ** ** ** **** *** *** ** **** 怎么可以让刘海儿变直 
+HYP:  ZEN ME KE YI RANG LIU HAI ER DIAN ZI                             
+Eval: I   I  I  I  I    I   I   I  I    S                              
+
+id: (g1106-g1106_0116)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** **** *** ***** *** ***** ** *** ** 太原市中考成绩怎么查 
+HYP:  TAI YUAN SHI ZHONG KAO CHENG JI ZEN ME CHA                            
+Eval: I   I    I   I     I   I     I  I   I  S                              
+
+id: (g1106-g1106_0127)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  *** **** *** *** ** ** *** *** ** *** ** *** *** ** 老公玩游戏的时候我会郁闷怎么办 
+HYP:  LAO GONG WAN YOU XI DE SHI HOU WO HUI YU MAN ZEN ME BAN                                           
+Eval: I   I    I   I   I  I  I   I   I  I   I  I   I   I  S                                             
+
+id: (g1106-g1106_0135)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  *** **** *** ***** **** *** *** ** **** **** *** **** ** ** ** 在电脑中我们所说的超频是什么意思啊 
+HYP:  ZAI DIAN NAO ZHONG WANG SUO SHU DE CHAO PIAN SHI SHEN ME YI SI A                                                   
+Eval: I   I    I   I     I    I   I   I  I    I    I   I    I  I  I  S                                                   
+
+id: (g1106-g1106_0140)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  ** *** ** ** ** *** **** *** ** 大学体育不过关怎么办 
+HYP:  DA XUE TI YU BU GUO GUAN ZEN ME BAN                            
+Eval: I  I   I  I  I  I   I    I   I  S                              
+
+id: (g1106-g1106_0148)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  **** ** ** *** **** ** *** ** ** ** ** ** ** *** 经济法为什么是一个独立的部门儿法 
+HYP:  JING JI FA WEI SHEN ME SHI YI GE DU LI DE BU MEN FA                                               
+Eval: I    I  I  I   I    I  I   I  I  I  I  I  I  I   S                                                
+
+id: (g1106-g1106_0169)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  ** ***** **** *** ** ** **** *** ** *** 我想添加一个网络打印机 
+HYP:  WO XIANG TIAN JIA YI GE WANG LUO DA YIN JI                                
+Eval: I  I     I    I   I  I  I    I   I  I   S                                 
+
+id: (g1106-g1106_0172)
+Scores: (#C #S #D #I) 0 1 0 17
+REF:  **** **** ** ** **** **** *** *** ** *** ** **** **** **** **** ***** *** 秦观的鹊桥仙是根据哪个民间小说创作的 
+HYP:  QING GUAN LI QU QIAO XIAN SHI GEN JU NEI GE MING JIAN XIAO SHUO CHANG ZUO DE                                                     
+Eval: I    I    I  I  I    I    I   I   I  I   I  I    I    I    I    I     I   S                                                      
+
+id: (g1106-g1106_0184)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  *** ** ** ** **** *** **** ** *** **** ** ** ** *** ***** ** 人体荷尔蒙是什么是身体哪部位分泌的 
+HYP:  REN TI HE ER MENG SHI SHEN ME SHI SHEN TI NA BU FEN SHENG LI DE                                                  
+Eval: I   I  I  I  I    I   I    I  I   I    I  I  I  I   I     I  S                                                   
+
+id: (g1106-g1106_0189)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  **** **** *** *** **** *** ** *** *** *** ***** **** ** *** *** 整天坐坐硬凳好还是有软垫的凳子好 
+HYP:  ZHEN TIAN ZUO ZUO YING BEN KA HAI SHI YOU ZHUAN DIAN DE FEN ZHI HAO                                              
+Eval: I    I    I   I   I    I   I  I   I   I   I     I    I  I   I   S                                                
+
+id: (g1106-g1106_0198)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  ** ** **** *** **** *** **** ** *** 如何辨别山楂卷的优劣 
+HYP:  RU HE BIAN BIE SHAN ZAI JUAN DE YOU LV                             
+Eval: I  I  I    I   I    I   I    I  I   S                              
+
+id: (g1106-g1106_0216)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  *** **** ** **** *** *** *** *** *** ***** ** 为什么咸蛋在煮时蛋黄不散 
+HYP:  WEI SHEN ME XIAN DAN ZAI ZHU SHI DAN HUANG BU SHAN                                 
+Eval: I   I    I  I    I   I   I   I   I   I     I  S                                    
+
+id: (g1106-g1106_0252)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  ** *** **** *** *** **** ** 多吃水果有什么好 
+HYP:  BO CHI SHUI GUO YOU SHEN ME HAO                      
+Eval: I  I   I    I   I   I    I  S                        
+
+id: (g1106-g1106_0284)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  *** **** ** ** ** **** ***** **** **** *** *** 为什么李王张等姓作为姓 
+HYP:  WEI SHEN ME DI YI WANG ZHANG DENG XING ZUO WEI XI                                
+Eval: I   I    I  I  I  I    I     I    I    I   I   S                                 
+
+id: (g1106-g1106_0288)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** **** ** *** ***** **** **** *** *** 为什么越想放手心越疼 
+HYP:  WEI SHEN ME YUE XIANG FANG SHOU XIN YUE TENG                           
+Eval: I   I    I  I   I     I    I    I   I   S                              
+
+id: (g1106-g1106_0293)
+Scores: (#C #S #D #I) 0 1 0 17
+REF:  **** *** **** ** *** **** **** *** ** ***** ***** **** ** **** ** *** **** 方志敏烈士生前在狱中曾用米汤内含淀粉 
+HYP:  FANG ZHI MING LI SHI SHEN QIAN ZAI YU ZHONG CHENG YONG LI TANG RE HAN DIAN FAN                                                    
+Eval: I    I   I    I  I   I    I    I   I  I     I     I    I  I    I  I   I    S                                                      
+
+id: (g1106-g1106_0296)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  *** ** ***** **** ** *** *** *** *** ** ** *** *** ***** ** **** 结合生命科学知识论如何保持身体健康 
+HYP:  JIE HE SHENG MING KE XUE ZHI SHI LUN RU HE BAO CHI SHENG TI JIAN KANG                                                
+Eval: I   I  I     I    I  I   I   I   I   I  I  I   I   I     I  I    S                                                   
+
+id: (g1106-g1106_0297)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  **** *** *** ***** *** ** *** *** ** **** ** *** **** *** *** 请问市中心哪有卖一品乐休闲食品的啊 
+HYP:  QING WEN SHI ZHONG XIN NA YOU MAI YI PING LE XIU XIAN SHI PIN DAO                                                 
+Eval: I    I   I   I     I   I  I   I   I  I    I  I   I    I   I   S                                                   
+
+id: (g1106-g1106_0300)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  ** ***** **** *** ***** ***** ** *** **** ** *** ** *** *** **** ** 女生肩膀上两个透明的带子是做什么的啊 
+HYP:  LV SHENG JIAN BAN SHANG LIANG GE TOU MING DE BAI SE SHI ZUO SHEN ME DE                                                     
+Eval: I  I     I    I   I     I     I  I   I    I  I   I  I   I   I    I  S                                                      
+
+id: (g1106-g1106_0301)
+Scores: (#C #S #D #I) 0 1 0 6
+REF:  *** *** **** ** ** *** 多吃巧克力好不好 
+HYP:  DUO ZHI QIAO KE DE HAO MA                       
+Eval: I   I   I    I  I  I   S                        
+
+id: (g1106-g1106_0305)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  **** ***** **** *** ***** ** ** *** ***** **** ** *** *** 从广州到江苏的邮政快递要多久 
+HYP:  CONG GUANG ZHOU DAO JIANG SU DE YOU ZHENG KUAI DE YAO DUO JIU                                        
+Eval: I    I     I    I   I     I  I  I   I     I    I  I   I   S                                          
+
+id: (g1106-g1106_0314)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  ** ** *** *** **** **** ** ** *** *** *** **** ***** ** 法律对制造病毒的人是怎样惩罚的 
+HYP:  FA LV DUI ZHI ZHAO BING DU DE REN SHI ZEN YANG CHENG FA DE                                            
+Eval: I  I  I   I   I    I    I  I  I   I   I   I    I     I  S                                             
+
+id: (g1106-g1106_0315)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  *** **** ** ****** ** ** ** ** ** *** *** *** ** 多变的双子女我如何偷走她的心 
+HYP:  DUO BIAN LI SHUANG ZI LV WO RU HE TOU ZHU KAI DE XIN                                        
+Eval: I   I    I  I      I  I  I  I  I  I   I   I   I  S                                          
+
+id: (g1106-g1106_0316)
+Scores: (#C #S #D #I) 0 1 0 17
+REF:  *** **** ** *** *** *** *** ***** **** ** *** *** *** ** ** ** **** 为什么这次海南中招的化学试题那么简单 
+HYP:  WEI SHEN ME ZHE SHI HAI NAN ZHONG ZHAO DE HUA XUE SHI TI NA ME JIAN NE                                                     
+Eval: I   I    I  I   I   I   I   I     I    I  I   I   I   I  I  I  I    S                                                      
+
+id: (g1106-g1106_0338)
+Scores: (#C #S #D #I) 0 1 0 5
+REF:  ** ** *** **** ** 哪里有单车卖 
+HYP:  NA LI YOU GANG CE MAI                
+Eval: I  I  I   I    I  S                  
+
+id: (g1106-g1106_0340)
+Scores: (#C #S #D #I) 0 1 0 6
+REF:  ** ** *** *** ** *** 哪里有射击游戏 
+HYP:  NA LI YOU SHE JI YOU XIE                   
+Eval: I  I  I   I   I  I   S                     
+
+id: (g1106-g1106_0346)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  **** *** *** ** **** **** *** *** ** 刚满月的小笨狗怎么养 
+HYP:  GANG MAI YUE DE XIAO BANG GAO ZEN ME YANG                           
+Eval: I    I   I   I  I    I    I   I   I  S                              
+
+id: (g1106-g1106_0349)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  ***** *** *** **** ** **** *** *** *** **** 中药所说的当子门是什么 
+HYP:  ZHONG YAO SHU SHUO DE DANG ZHI MEN SHI SHEN ME                                
+Eval: I     I   I   I    I  I    I   I   I   I    S                                 
+
+id: (g1106-g1106_0357)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  *** ** ** **** *** *** **** ** *** *** 人打哈欠时为什么会流泪 
+HYP:  REN DA HA QIAN SHI WEI SHEN ME HUI LIU LEI                               
+Eval: I   I  I  I    I   I   I    I  I   I   S                                 
+
+id: (g1106-g1106_0367)
+Scores: (#C #S #D #I) 0 1 0 10
+REF:  *** ** *** **** ** *** ** ** ** *** 毛衣缩水了怎么可以恢复 
+HYP:  MAO YI SUO SHUI LE ZEN ME KE YI HUI FU                                
+Eval: I   I  I   I    I  I   I  I  I  I   S                                 
+
+id: (g1106-g1106_0391)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  ***** **** **** **** ***** ** *** *** ** ** *** **** ** 光纤通信专业出来可以干什么呢 
+HYP:  GUANG QUAN TONG XING ZHUAN YE CHU LAI KE YI GAN SHEN ME NE                                         
+Eval: I     I    I    I    I     I  I   I   I  I  I   I    I  S                                          
+
+id: (g1106-g1106_0401)
+Scores: (#C #S #D #I) 0 1 0 17
+REF:  *** **** ** ** *** ** **** **** ** *** *** ** ** **** *** *** **** 为什么我放的电影的外挂字幕全都是乱码 
+HYP:  WEI SHEN ME WO FAN DE DIAN YING DE WAI GUA ZI MU QUAN DOU SHI LUAN MA                                                     
+Eval: I   I    I  I  I   I  I    I    I  I   I   I  I  I    I   I   I    S                                                      
+
+id: (g1106-g1106_0406)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  *** *** **** ** ** ** ** *** *** ** *** ** ** ** 在贵阳那里可以有学民谣吉他地方 
+HYP:  ZAI GUI YANG NA LI KE YI YOU XUE MI YOU JI TA DI FANG                                          
+Eval: I   I   I    I  I  I  I  I   I   I  I   I  I  I  S                                             
+
+id: (g1106-g1106_0446)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** **** **** ** *** ** *** ***** ***** 月经什么颜色是正常的 
+HYP:  YUE JING SHEN ME YAN SE SHI ZHENG CHANG DE                             
+Eval: I   I    I    I  I   I  I   I     I     S                              
+
+id: (g1106-g1106_0459)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  *** **** *** **** *** ** ** **** *** ** **** **** ** ***** 怎样才能使我的电脑一网线连两机 
+HYP:  ZEN YANG CAI NENG SHI WO DE DIAN NAO YI WANG XIAN LI LIANG JI                                            
+Eval: I   I    I   I    I   I  I  I    I   I  I    I    I  I     S                                             
+
+id: (g1106-g1106_0460)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  **** *** ** ** **** *** ** *** *** *** **** 从河南安阳怎么坐车到滕州 
+HYP:  CONG HUO LE AN YANG ZEN ME ZUO CHE DAO TENG ZHOU                                 
+Eval: I    I   I  I  I    I   I  I   I   I   I    S                                    
+
+id: (g1106-g1106_0469)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  *** **** *** *** *** *** ***** ** **** ** *** * *** 北京有哪些高中比较不错啊谢谢 
+HYP:  BEI JING YOU NEI XIE GAO ZHONG BI JIAO BU CHU A XIE XI                                         
+Eval: I   I    I   I   I   I   I     I  I    I  I   I I   S                                          
+
+id: (g1106-g1106_0475)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  *** **** ** **** *** ** **** ** **** *** *** **** ** ** **** 万千瓦小时和千瓦小时之间如何换算 
+HYP:  WAN QIAN WA XIAO SHI HE QIAN WA XIAO SHI ZHI JIAN RU HE GUAN SHUI                                             
+Eval: I   I    I  I    I   I  I    I  I    I   I   I    I  I  I    S                                                
+
+id: (g1106-g1106_0478)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  **** *** ** **** ** ** ** **** **** *** **** ** ** 东南亚风格具体表现在什么地方 
+HYP:  DONG MAN YA FENG GE JU TI BIAO XIAN ZAI SHEN ME DI FANG                                       
+Eval: I    I   I  I    I  I  I  I    I    I   I    I  I  S                                          
+
+id: (g1106-g1106_0496)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  ** ** ** **** ***** *** ** **** *** **** ** **** **** *** **** 机器自动重新启动黑屏和电源有关吗 
+HYP:  JI QI ZI DONG CHONG XIN QI DONG HEI PING HE DIAN YUAN YOU GUAN MA                                               
+Eval: I  I  I  I    I     I   I  I    I   I    I  I    I    I   I    S                                                
+
+id: (g1106-g1106_0511)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  *** **** ** ** ** *** *** 时间的速度是多少 
+HYP:  SHI JIAN DE SU DU SHI DUO SHAO                     
+Eval: I   I    I  I  I  I   I   S                        
+
+id: (g1106-g1106_0512)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  *** **** ** ** *** ***** **** *** ***** ** ** ** *** *** 在成都哪所重点高中的艺体班儿最好 
+HYP:  ZAI CHEN DU NA SUO ZHONG DIAN GAO ZHONG DE YI TI BAN ZUI HAO                                              
+Eval: I   I    I  I  I   I     I    I   I     I  I  I  I   I   S                                                
+
+id: (g1106-g1106_0513)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  ** ** **** *** *** *** *** ** *** *** ** *** 如何鉴别橄榄油的真伪和好坏 
+HYP:  RU HE JIAN BIE GAN LAN YOU LI ZEN WEI HE HAO HUAI                                    
+Eval: I  I  I    I   I   I   I   I  I   I   I  I   S                                       
+
+id: (g1106-g1106_0518)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  *** ** *** *** **** *** *** ** ** 怎么知道小孩是自己的 
+HYP:  ZEN ME ZHI DAO XIAO HAI SHI ZI JI DE                             
+Eval: I   I  I   I   I    I   I   I  I  S                              
+
+id: (g1106-g1106_0529)
+Scores: (#C #S #D #I) 0 1 0 12
+REF:  *** ** *** ** *** **** ***** ** **** *** **** **** 为何看不到网上的免费电影 
+HYP:  WEI HE KAN BU DAO WANG SHANG DE MIAN FEI DIAN YING ER                                   
+Eval: I   I  I   I  I   I    I     I  I    I   I    I    S                                    
+
+id: (g1106-g1106_0536)
+Scores: (#C #S #D #I) 0 1 0 17
+REF:  *** **** ** ** **** *** *** *** **** ***** *** *** **** ** **** ** *** 北京哪里能买到海淀正规指定的教书科啊 
+HYP:  BEI JING NA LI NENG MAI DAO HAI DIAN ZHENG GUI ZHI DIAN DE JIAO KE SHU A                                                      
+Eval: I   I    I  I  I    I   I   I   I    I     I   I   I    I  I    I  I   S                                                      
+
+id: (g1106-g1106_0539)
+Scores: (#C #S #D #I) 0 1 0 14
+REF:  *** ** ** ** *** **** ** *** **** ** *** ** ** **** 做物理题有什么诀窍麻烦具体点 
+HYP:  ZUO WU LI TI YOU SHEN ME JUE QIAO MA FAN JU TI DIAN ER                                         
+Eval: I   I  I  I  I   I    I  I   I    I  I   I  I  I    S                                          
+
+id: (g1106-g1106_0549)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  **** **** *** *** ** ** *** ** *** *** *** *** **** 东莞到宁都哪有汽车坐要多少钱 
+HYP:  DONG GUAN DAO LIN BU NA YOU QI CHE ZUO YAO DUO SHAO QIAN                                       
+Eval: I    I    I   I   I  I  I   I  I   I   I   I   I    S                                          
+
+id: (g1106-g1106_0552)
+Scores: (#C #S #D #I) 0 1 0 8
+REF:  ** ** *** *** **** ** ** **** 爱与恨之间如何换算 
+HYP:  AI YU HEN ZHI DIAN RU HE HUAN SUAN                        
+Eval: I  I  I   I   I    I  I  I    S                           
+
+id: (g1106-g1106_0555)
+Scores: (#C #S #D #I) 0 1 0 7
+REF:  **** *** *** ** *** **** *** 周杰伦的资料有吗 
+HYP:  ZHOU JIE LUN DE ZHI LIAO YOU MA                       
+Eval: I    I   I   I  I   I    I   S                        
+
+id: (g1106-g1106_0566)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  *** ***** *** *** **** ** ***** ** ** ** ***** **** *** 在商丘做什么生意可以赚钱迅速 
+HYP:  ZAI SHANG QIU ZUO SHEN ME SHENG YI KE YI ZHUAN QIAN XUN SHU                                        
+Eval: I   I     I   I   I    I  I     I  I  I  I     I    I   S                                          
+
+id: (g1106-g1106_0571)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  ** ** *** ** *** ***** *** ***** ** **** ** 垃圾是世界上最脏的东西吗 
+HYP:  LA JI SHI SI JIE SHANG ZUI ZHANG BU DONG XI MA                                   
+Eval: I  I  I   I  I   I     I   I     I  I    I  S                                    
+
+id: (g1106-g1106_0577)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  **** *** *** *** *** ** ** **** **** *** ** 能解释一下百慕大三角之谜吗 
+HYP:  NENG JIE SHI XIA BEI MO DA SHAN JIAO ZHI MI MA                                      
+Eval: I    I   I   I   I   I  I  I    I    I   I  S                                       
+
+id: (g1106-g1106_0590)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  *** ** *** *** ** ** **** ** *** **** **** ** *** *** **** *** 百度知道里的用户头衔升级要多少分啊 
+HYP:  BAI DU ZHI DAO LI DE YONG FU TOU XIAN SHEN TI YAO DUO SHAO FEN YA                                                  
+Eval: I   I  I   I   I  I  I    I  I   I    I    I  I   I   I    I   S                                                   
+
+id: (g1106-g1106_0593)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  *** ** ** *** **** ***** *** *** ** **** *** *** **** 咽部滤泡增生是否一定要做手术 
+HYP:  YAN BU NV PAO ZHEN SHENG SHI FOU YI DING YAO ZUO SHOU SHU                                        
+Eval: I   I  I  I   I    I     I   I   I  I    I   I   I    S                                          
+
+id: (g1106-g1106_0596)
+Scores: (#C #S #D #I) 0 1 0 13
+REF:  *** **** **** ****** ** ** *** ** ** *** *** *** **** 在沈阳装一副假牙大概要多少钱 
+HYP:  ZAI SHEN YANG ZHUANG YI FU JIA YA DA GAI YAO DUO SHAO QIAN                                       
+Eval: I   I    I    I      I  I  I   I  I  I   I   I   I    S                                          
+
+id: (g1106-g1106_0600)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  ** ** **** ** *** ** ** ** *** 如何管理好自己的帖吧 
+HYP:  RU HE GUAN LI HAO ZI JI DE TIE BA                             
+Eval: I  I  I    I  I   I  I  I  I   S                              
+
+id: (g1106-g1106_0621)
+Scores: (#C #S #D #I) 0 1 0 11
+REF:  ** ** *** ** **** *** ** **** ** *** *** 笔记本儿电脑的电压是多少 
+HYP:  BI JI BEN ER DIAN NAO DE DIAN YA SHI DUO SHAO                                 
+Eval: I  I  I   I  I    I   I  I    I  I   I   S                                    
+
+id: (g1106-g1106_0659)
+Scores: (#C #S #D #I) 0 1 0 15
+REF:  ***** ***** ** ** ***** *** *** **** *** *** **** ** ***** ** *** 中专毕业生求职工作好找吗详细介绍 
+HYP:  ZHONG ZHUAN BI YE SHENG QIU ZHI GONG ZUO HAO ZHAO MA XIANG XI JIE SHAO                                             
+Eval: I     I     I  I  I     I   I   I    I   I   I    I  I     I  I   S                                                
+
+id: (g1106-g1106_0691)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  ** ***** *** ** ** *** *** ** ** 医生说的脱水怎么定义 
+HYP:  YI SHENG SUO DE TU SHE ZEN ME DI YI                             
+Eval: I  I     I   I  I  I   I   I  I  S                              
+
+id: (g1106-g1106_0693)
+Scores: (#C #S #D #I) 0 1 0 16
+REF:  ** ** *** ** *** ***** ** *** ****** ** **** **** ** **** ** **** 七月初六出生的姓庄的千金起什么名字 
+HYP:  QI YU CHU LU CHU SHENG DE XIN ZHUANG DE QIAN JING QI SHEN ME MING ZI                                                  
+Eval: I  I  I   I  I   I     I  I   I      I  I    I    I  I    I  I    S                                                   
+
+id: (g1106-g1106_0696)
+Scores: (#C #S #D #I) 0 1 0 17
+REF:  ***** *** ** *** ** *** ** ***** **** ** *** ** ** ** ** *** *** 上海杜莎夫人蜡像馆的主题曲哪里有下载 
+HYP:  SHANG HAI DU SHA FU REN NA XIANG GUAN DE ZHU TI QU NA LI YOU XIA ZAI                                                    
+Eval: I     I   I  I   I  I   I  I     I    I  I   I  I  I  I  I   I   S                                                      
+
+id: (g1106-g1106_0700)
+Scores: (#C #S #D #I) 0 1 0 9
+REF:  ** **** **** **** *** **** **** *** *** 大连东软学校电话多少 
+HYP:  DA LIAN DONG GUAN XUE XIAO DIAN HUA DUO SHAO                           
+Eval: I  I    I    I    I   I    I    I   I   S                              
+
+

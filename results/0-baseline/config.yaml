@@ -1,9 +1,9 @@
-config: conf/sc_c5_1a.yaml
+config: conf/0_baseline.yaml
 print_config: false
 log_level: INFO
 dry_run: false
 iterator_type: sequence
-output_dir: exp/asr_sc_c5_1a_raw_sc_bpe3000
+output_dir: exp/asr_0_baseline_raw_sc_bpe3000_sp
 ngpu: 1
 seed: 0
 num_workers: 1
@@ -37,7 +37,7 @@ best_model_criterion:
 -   - valid
     - acc
     - max
-keep_nbest_models: 6
+keep_nbest_models: 10
 nbest_averaging_interval: 0
 grad_clip: 3
 grad_clip_type: 2.0
@@ -67,11 +67,11 @@ valid_batch_size: null
 batch_bins: 10000000
 valid_batch_bins: null
 train_shape_file:
-- exp/asr_stats_raw_sc_bpe3000/train/speech_shape
-- exp/asr_stats_raw_sc_bpe3000/train/text_shape.bpe
+- exp/asr_stats_raw_sc_bpe3000_sp/train/speech_shape
+- exp/asr_stats_raw_sc_bpe3000_sp/train/text_shape.bpe
 valid_shape_file:
-- exp/asr_stats_raw_sc_bpe3000/valid/speech_shape
-- exp/asr_stats_raw_sc_bpe3000/valid/text_shape.bpe
+- exp/asr_stats_raw_sc_bpe3000_sp/valid/speech_shape
+- exp/asr_stats_raw_sc_bpe3000_sp/valid/text_shape.bpe
 batch_type: numel
 valid_batch_type: null
 fold_length:
@@ -84,10 +84,10 @@ chunk_length: 500
 chunk_shift_ratio: 0.5
 num_cache_chunks: 1024
 train_data_path_and_name_and_type:
--   - dump/raw/train_sc/wav.scp
+-   - dump/raw/train_sc_sp/wav.scp
     - speech
     - sound
--   - dump/raw/train_sc/text
+-   - dump/raw/train_sc_sp/text
     - text
     - text
 valid_data_path_and_name_and_type:
@@ -3152,7 +3152,7 @@ specaug_conf:
     num_time_mask: 2
 normalize: global_mvn
 normalize_conf:
-    stats_file: exp/asr_stats_raw_sc_bpe3000/train/feats_stats.npz
+    stats_file: exp/asr_stats_raw_sc_bpe3000_sp/train/feats_stats.npz
 model: espnet
 model_conf:
     ctc_weight: 0.3
@@ -3166,8 +3166,8 @@ encoder_conf:
     num_blocks: 6
     linear_units: 1024
     dropout_rate: 0.3
-    output_size: 128
-    attention_heads: 2
+    output_size: 256
+    attention_heads: 4
     attention_dropout_rate: 0.0
     pos_enc_layer_type: rel_pos
     selfattention_layer_type: rel_selfattn
@@ -3180,7 +3180,7 @@ postencoder_conf: {}
 decoder: transformer
 decoder_conf:
     input_layer: embed
-    num_blocks: 6
+    num_blocks: 4
     linear_units: 1024
     dropout_rate: 0.3
 required:
