@@ -23,10 +23,15 @@ First pretrain the asr model with Mandarin for 50 epochs (the same neural networ
 |dataset|Snt|Wrd|Corr|Sub|Del|Ins|Err|S.Err|
 |---|---|---|---|---|---|---|---|---|
 <<<<<<< HEAD
+<<<<<<< HEAD
 |with_lm_false/dev_sc|583|583|1.4|98.6|0.0|0.3|99.0|98.6|
 |with_lm_true/dev_sc|583|583|0.2|99.8|0.0|0.0|99.8|99.8|
 |with_lm_false/test_sc|586|586|1.4|98.6|0.0|0.7|99.3|98.6|
 |with_lm_true/test_sc|586|586|0.3|99.7|0.0|0.2|99.8|99.7|
+=======
+|inference_lm_lm_train_sc_bpe4200_valid.loss.ave_asr_model_valid.acc.ave/dev_sc|583|583|0.2|99.8|0.0|0.0|99.8|99.8|
+|inference_lm_lm_train_sc_bpe4200_valid.loss.ave_asr_model_valid.acc.ave/test_sc|586|586|0.3|99.7|0.0|0.2|99.8|99.7|
+>>>>>>> abb4459e3a8d8170acc96145450ed29f61da4f0f
 =======
 |inference_lm_lm_train_sc_bpe4200_valid.loss.ave_asr_model_valid.acc.ave/dev_sc|583|583|0.2|99.8|0.0|0.0|99.8|99.8|
 |inference_lm_lm_train_sc_bpe4200_valid.loss.ave_asr_model_valid.acc.ave/test_sc|586|586|0.3|99.7|0.0|0.2|99.8|99.7|
@@ -37,10 +42,15 @@ First pretrain the asr model with Mandarin for 50 epochs (the same neural networ
 |dataset|Snt|Wrd|Corr|Sub|Del|Ins|Err|S.Err|
 |---|---|---|---|---|---|---|---|---|
 <<<<<<< HEAD
+<<<<<<< HEAD
 |with_lm_false/dev_sc|583|7210|55.0|30.4|14.6|3.3|48.4|98.6|
 |with_lm_true/dev_sc|583|7210|41.3|24.8|33.9|1.6|60.2|99.8|
 |with_lm_false/test_sc|586|6991|55.5|30.2|14.3|3.1|47.5|98.6|
 |with_lm_true/test_sc|586|6991|42.1|24.8|33.1|1.6|59.5|99.7|
+=======
+|inference_lm_lm_train_sc_bpe4200_valid.loss.ave_asr_model_valid.acc.ave/dev_sc|583|7210|41.3|24.8|33.9|1.6|60.2|99.8|
+|inference_lm_lm_train_sc_bpe4200_valid.loss.ave_asr_model_valid.acc.ave/test_sc|586|6991|42.1|24.8|33.1|1.6|59.5|99.7|
+>>>>>>> abb4459e3a8d8170acc96145450ed29f61da4f0f
 =======
 |inference_lm_lm_train_sc_bpe4200_valid.loss.ave_asr_model_valid.acc.ave/dev_sc|583|7210|41.3|24.8|33.9|1.6|60.2|99.8|
 |inference_lm_lm_train_sc_bpe4200_valid.loss.ave_asr_model_valid.acc.ave/test_sc|586|6991|42.1|24.8|33.1|1.6|59.5|99.7|
@@ -51,11 +61,16 @@ First pretrain the asr model with Mandarin for 50 epochs (the same neural networ
 |dataset|Snt|Wrd|Corr|Sub|Del|Ins|Err|S.Err|
 |---|---|---|---|---|---|---|---|---|
 <<<<<<< HEAD
+<<<<<<< HEAD
 |
 |with_lm_false/dev_sc|583|5270|42.7|39.0|18.3|3.5|60.8|98.6|
 |with_lm_true/dev_sc|583|5270|32.6|33.3|34.1|1.9|69.3|99.8|
 |with_lm_false/test_sc|586|5158|43.8|37.9|18.3|3.1|59.3|98.6|
 |with_lm_true/test_sc|586|5158|33.4|32.2|34.4|1.8|68.4|99.7|
+=======
+|inference_lm_lm_train_sc_bpe4200_valid.loss.ave_asr_model_valid.acc.ave/dev_sc|583|5270|32.6|33.3|34.1|1.9|69.3|99.8|
+|inference_lm_lm_train_sc_bpe4200_valid.loss.ave_asr_model_valid.acc.ave/test_sc|586|5158|33.4|32.2|34.4|1.8|68.4|99.7|
+>>>>>>> abb4459e3a8d8170acc96145450ed29f61da4f0f
 =======
 |inference_lm_lm_train_sc_bpe4200_valid.loss.ave_asr_model_valid.acc.ave/dev_sc|583|5270|32.6|33.3|34.1|1.9|69.3|99.8|
 |inference_lm_lm_train_sc_bpe4200_valid.loss.ave_asr_model_valid.acc.ave/test_sc|586|5158|33.4|32.2|34.4|1.8|68.4|99.7|
@@ -80,10 +95,15 @@ First pretrain the asr model with Mandarin for 50 epochs (the same neural networ
 |dataset|Snt|Wrd|Corr|Sub|Del|Ins|Err|S.Err|
 |---|---|---|---|---|---|---|---|---|
 <<<<<<< HEAD
+<<<<<<< HEAD
 |with_lm_false/dev_sc|583|583|1.4|98.6|0.0|0.3|99.0|98.6|
 |with_lm_true/dev_sc|583|583|0.2|99.8|0.0|0.0|99.8|99.8|
 |with_lm_false/test_sc|586|586|1.4|98.6|0.0|0.7|99.3|98.6|
 |with_lm_true/test_sc|586|586|0.3|99.7|0.0|0.2|99.8|99.7|
+=======
+|inference_asr_model_valid.acc.ave/dev_sc|583|583|1.4|98.6|0.0|0.3|99.0|98.6|
+|inference_asr_model_valid.acc.ave/test_sc|586|586|1.4|98.6|0.0|0.7|99.3|98.6|
+>>>>>>> abb4459e3a8d8170acc96145450ed29f61da4f0f
 =======
 |inference_asr_model_valid.acc.ave/dev_sc|583|583|1.4|98.6|0.0|0.3|99.0|98.6|
 |inference_asr_model_valid.acc.ave/test_sc|586|586|1.4|98.6|0.0|0.7|99.3|98.6|
@@ -94,10 +114,15 @@ First pretrain the asr model with Mandarin for 50 epochs (the same neural networ
 |dataset|Snt|Wrd|Corr|Sub|Del|Ins|Err|S.Err|
 |---|---|---|---|---|---|---|---|---|
 <<<<<<< HEAD
+<<<<<<< HEAD
 |with_lm_false/dev_sc|583|7210|55.0|30.4|14.6|3.3|48.4|98.6|
 |with_lm_true/dev_sc|583|7210|41.3|24.8|33.9|1.6|60.2|99.8|
 |with_lm_false/test_sc|586|6991|55.5|30.2|14.3|3.1|47.5|98.6|
 |with_lm_true/test_sc|586|6991|42.1|24.8|33.1|1.6|59.5|99.7|
+=======
+|inference_asr_model_valid.acc.ave/dev_sc|583|7210|55.0|30.4|14.6|3.3|48.4|98.6|
+|inference_asr_model_valid.acc.ave/test_sc|586|6991|55.5|30.2|14.3|3.1|47.5|98.6|
+>>>>>>> abb4459e3a8d8170acc96145450ed29f61da4f0f
 =======
 |inference_asr_model_valid.acc.ave/dev_sc|583|7210|55.0|30.4|14.6|3.3|48.4|98.6|
 |inference_asr_model_valid.acc.ave/test_sc|586|6991|55.5|30.2|14.3|3.1|47.5|98.6|
@@ -108,10 +133,15 @@ First pretrain the asr model with Mandarin for 50 epochs (the same neural networ
 |dataset|Snt|Wrd|Corr|Sub|Del|Ins|Err|S.Err|
 |---|---|---|---|---|---|---|---|---|
 <<<<<<< HEAD
+<<<<<<< HEAD
 |with_lm_false/dev_sc|583|5270|42.7|39.0|18.3|3.5|60.8|98.6|
 |with_lm_true/dev_sc|583|5270|32.6|33.3|34.1|1.9|69.3|99.8|
 |with_lm_false/test_sc|586|5158|43.8|37.9|18.3|3.1|59.3|98.6|
 |with_lm_true/test_sc|586|5158|33.4|32.2|34.4|1.8|68.4|99.7|
+=======
+|inference_asr_model_valid.acc.ave/dev_sc|583|5270|42.7|39.0|18.3|3.5|60.8|98.6|
+|inference_asr_model_valid.acc.ave/test_sc|586|5158|43.8|37.9|18.3|3.1|59.3|98.6|
+>>>>>>> abb4459e3a8d8170acc96145450ed29f61da4f0f
 =======
 |inference_asr_model_valid.acc.ave/dev_sc|583|5270|42.7|39.0|18.3|3.5|60.8|98.6|
 |inference_asr_model_valid.acc.ave/test_sc|586|5158|43.8|37.9|18.3|3.1|59.3|98.6|
