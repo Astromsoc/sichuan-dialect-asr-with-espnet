@@ -2,7 +2,7 @@
 For Assignment #3, End-to-End Automatic Speech Recognition in 11-737: Multilingual Natural Language Processing, S22 @ CMU.
 
 
-Team Members: Siyu Chen, Zhiruo Wang
+Team Members: Siyu Chen @Astromsoc, Zhiruo Wang@zorazrw
 
 
 ## Experiment Overview
