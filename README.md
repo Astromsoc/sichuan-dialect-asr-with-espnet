@@ -28,7 +28,7 @@ Team Members: Siyu Chen @Astromsoc, Zhiruo Wang @zorazrw
 For Experiment 0, 1 and 3, since they all output sequences of Chinese characters, we measure with CER (Character Error Rate). For Experiment 2, since it outputs sequences of Hanyu Pinyin with white spaces as the separator in-between, we refere to WER (Word Error Rate) as the criterion for model performance.
 
 | Setup | Metrics | Split - dev/test| Improvement |
-| :-------- | :---: | :------: | :------: | :---: |
+| :--- | :--- | :--- | :--- |
 | 0-Baseline w/ LM | CER | 77.2 / 76.0 |  --- |
 | 0-Baseline w/o LM | CER | 76.2 / 75.9 |  --- |
 | 1-withSSLR w/ LM | CER | 39.5 / 41.0 |  48.8 / 46.1 |
